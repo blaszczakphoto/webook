@@ -1,38 +1,41 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
+ruby "1.9.3"
 
 
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+gem 'rails-i18n'
+gem 'pry'
+gem 'nokogiri'
+gem 'pismo'
+#gem 'rack-cache', :require => 'rack/cache'
+#gem 'dragonfly', '~>0.9.15'
+#gem 'rmagick'
+#gem 'jquery-ui-rails'
+# gem 'jquery-rails'
+#gem "twitter-bootstrap-rails", :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+group :production do
+ gem "pg"
+ gem 'newrelic_rpm'
 end
 
-gem 'jquery-rails'
+group :development, :test do
+  gem 'sqlite3'
+end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+group :test do
+  gem "capybara"
+  gem 'capybara-webkit', git: 'git://github.com/thoughtbot/capybara-webkit.git'
+  gem "launchy"
+  gem "selenium-webdriver"
+  gem 'single_test'
+end
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+group :assets do
+  gem 'therubyracer', :platforms => :ruby
+end
 
-# Deploy with Capistrano
-# gem 'capistrano'
 
-# To use debugger
-# gem 'debugger'
