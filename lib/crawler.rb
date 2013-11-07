@@ -10,9 +10,10 @@ class Crawler
   end
 
   def run
-    while not @collected_urls.empty? do
-      @current_doc = Nokogiri::HTML(open(@current_url))
-      subpage = Subpage.create_from_url(@current_url, @page)
+    until @collected_urls.empty? do
+      html = open(@current_url).read.force_encoding("utf-8")
+      @current_doc = Nokogiri::HTML(html)
+      Subpage.create_from_url(@current_url, @page, html)
       collect_urls
       set_current_url
     end
@@ -28,7 +29,7 @@ class Crawler
   def collect_urls
     @current_doc.css("a").each do |url|
       href = url['href']
-      #p href
+      next if href.nil?
       if @page.url_in_base?(href) and not @page.url_stored?(href)
         @collected_urls.push(href)
       end
