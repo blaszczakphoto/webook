@@ -16,7 +16,7 @@ class Subpage < ActiveRecord::Base
   end
 
   def parse_content!(html)
-    pismo_doc = Pismo::Document.new(html)
+    pismo_doc = Pismo::Document.new(html, :all_images => true)
     self.content = pismo_doc.html_body
 
     self.save
@@ -25,12 +25,13 @@ class Subpage < ActiveRecord::Base
   def parse_title!(html)
     @nokogiri_doc = Nokogiri::HTML(html)
     self.title = @nokogiri_doc.at_css("title").content
-    content_pos = content_pos(html)
+    content_pos = position_in_html(html)
     min_distance = 0
     @nokogiri_doc.css("h1").each do |title|
       title = title.content
-      title_pos = html.index(title)
+      title_pos = position_in_html(title) #TODO if html tags in not working
       
+      binding.pry if title_pos.nil?
       if title_pos < content_pos && title_pos > min_distance
         
         min_distance = title_pos
@@ -42,14 +43,15 @@ class Subpage < ActiveRecord::Base
   end
 
   private
-  def content_pos(html)
+  def position_in_html(html)
+
     i = 200
     pure_content = ActionController::Base.helpers.strip_tags(content).strip
     loop do 
       truncated_content = pure_content.slice(0, i)
       pos = html.index(truncated_content)       
       return pos unless pos.nil?
-      i -= 20
+      i -= 10
     end
   end
 

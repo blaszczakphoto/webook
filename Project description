@@ -2,11 +2,19 @@ Application converts whole websites to ebook.
 
 BLOG
 -It gets an url of a blog home page
--check kind of website
 -Crawl and parse it to get every single uniq url within a url 
 -Parse every single subpage to get a title, date, content with pics and create object from page
   check if html, 
+- check if it is article or just list of articles(for duplicate content in page. delete page which has more duplicates. If it has only one leave both) 
+- remove repeating content (probably some fb and others stuff)
 - Sort objects by date
-- check for duplicate content in page. delete page which has more duplicates. If it has only one leave both
 - create one html doc
 - save the doc as a ebook
+
+IDEAS:
+- create a cover based on keywords and screen of website
+- create table of contents basen on titles of chapters
+
+
+TODO
+user interface twitter bootstrap
