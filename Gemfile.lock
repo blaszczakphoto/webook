@@ -50,6 +50,13 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     chronic (0.10.2)
     coderay (1.0.9)
+    columnize (0.3.6)
+    debugger (1.6.2)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.3)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     erubis (2.7.0)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
@@ -112,6 +119,7 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
+    ruby-filemagic (0.4.2)
     ruby-readability (0.5.7)
       guess_html_encoding (>= 0.0.4)
       nokogiri (>= 1.4.2)
@@ -151,6 +159,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   capybara-webkit!
+  debugger
   launchy
   newrelic_rpm
   nokogiri
@@ -159,6 +168,7 @@ DEPENDENCIES
   pry
   rails (= 3.2.14)
   rails-i18n
+  ruby-filemagic
   ruby-readability
   selenium-webdriver
   single_test

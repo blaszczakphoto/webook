@@ -10,7 +10,7 @@ class SubpageTest < ActiveSupport::TestCase
   end
 
   test "it has closest title just above content" do
-    assert_equal "The first entry!", Subpage.where(url: "http://localhost:3000/example/").first.title
+    assert_equal "Pierwszy wpis!", Subpage.where(url: "http://localhost:3000/example/").first.title
     assert_equal "First wpis!", Subpage.where(url: "http://localhost:3000/example/1.html").first.title
     assert_equal "Pierwszy wpis!", Subpage.where(url: "http://localhost:3000/example/2.html").first.title
   end
@@ -22,18 +22,21 @@ class SubpageTest < ActiveSupport::TestCase
   end
 
   test "include whole content" do
-    assert Subpage.where(url: "http://localhost:3000/example/").first.content.include?("Dogs barking, children squealing")
     assert Subpage.where(url: "http://localhost:3000/example/wiki.html").first.content.include?("zachowanie mające na celu wzbudzenie")
     assert Subpage.where(url: "http://localhost:3000/example/wiki.html").first.content.include?("Pojęcie seksu jest wieloznaczne, a jego znaczenie zmieniało")
     assert Subpage.where(url: "http://localhost:3000/example/wiki.html").first.content.include?("Badaniem zjawisk związanych z seksualnością człowieka zajmuje się")
   end
 
-  test "include sub headers" do
-    assert Subpage.where(url: "http://localhost:3000/example/wiki.html").first.content.include?("Kwestie terminologiczno-pojęciowe")
+  test "inlcude images" do
+    assert Subpage.where(url: "http://localhost:3000/example/1.html").first.content.include?("<img src=")
   end
 
-  test "inlcude images" do
-    assert Subpage.where(url: "http://localhost:3000/example/").first.content.include?("Dogs barking, children squealing")
+  test "pages which are not html are not valid" do
+    assert Subpage.where(url: "http://localhost:3000/example/img.jpg").first.valid_page == false
+  end
+
+  test "pages which are not found are stored but not valid" do
+    assert Subpage.where(url: "http://localhost:3000/example/dupamaryni.html").first.valid_page == false
   end
     
 end

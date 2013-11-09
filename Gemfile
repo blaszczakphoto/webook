@@ -9,6 +9,8 @@ gem 'pry'
 gem 'nokogiri'
 gem 'pismo'
 gem "ruby-readability", :require => 'readability'
+gem "ruby-filemagic"
+gem 'debugger'
 #gem 'rack-cache', :require => 'rack/cache'
 #gem 'dragonfly', '~>0.9.15'
 #gem 'rmagick'
@@ -28,6 +30,7 @@ end
 
 group :test do
   gem "capybara"
+
   gem 'capybara-webkit', git: 'git://github.com/thoughtbot/capybara-webkit.git'
   gem "launchy"
   gem "selenium-webdriver"
