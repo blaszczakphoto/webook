@@ -2,10 +2,14 @@ require 'pismo'
 require 'open-uri'
 require 'net/http'
 require 'debugger'
+require 'sanitize'
+
 
 class Subpage < ActiveRecord::Base
   belongs_to :page
-  attr_accessible :title, :url, :datetime, :content, :valid_page, :page
+  has_many :similar_subpages, :class_name => 'Subpage'
+  accepts_nested_attributes_for :similar_subpages
+  attr_accessible :title, :url, :datetime, :content, :valid_page, :page, :similar_subpages
   attr_accessor :html
   after_create :valid_page!
   scope :valid_pages, -> { where(valid_page: true) }
@@ -20,11 +24,31 @@ class Subpage < ActiveRecord::Base
       subpage.title = subpage.parse_header
       subpage.save
     end
+
   end
 
   def parse_content
     pismo_doc = Pismo::Document.new(self.html, :all_images => true)
     pismo_doc.html_body
+  end
+
+  def self.remove_duplicates!
+    valid_pages = scoped.valid_pages
+    valid_pages.each do |subpage|
+      #debugger
+      cleaned_subpage = clean_content(subpage.content)
+      valid_pages.where("id != ?", subpage.id).each do |iterated_subpage|
+        if clean_content(iterated_subpage.content).include?(cleaned_subpage)
+          subpage.update_attributes(valid_page: false)
+          break
+        end
+      end     
+    end
+  end
+
+  # Clean html tags
+  def self.clean_content(content)
+    Sanitize.clean(content).gsub("\n","").strip[10..-10]
   end
 
   def parse_header
@@ -41,40 +65,40 @@ class Subpage < ActiveRecord::Base
     best_match_header(headers)
   end
 
-  private
   def best_match_header(headers)
     return default_header if headers.empty?
     
-    header_further, header_closer = headers.uniq.last(2)
-
+    header_closer, header_further = headers.uniq.last(2).reverse
+    debugger if header_closer.nil?
     if (not header_further) ||
       (header_further && 
-      header_value(header_closer) <= header_value(header_further) && 
-      in_min_distance?(header_closer[:pos], header_further[:pos]))
+        header_value(header_closer) <= header_value(header_further) && 
+        in_min_distance?(header_closer[:pos], header_further[:pos]))
       return header_closer[:title].content
     else
       return header_further[:title].content
     end
   end
 
-  private
   def header_value(header)
     matches = /h(?<number>\d)/.match(header[:title].name)
     return matches[1].to_i if matches     
     return 10 unless matches
   end
 
-  private
   def default_header
-    @nokogiri_doc.at_css("title").content
+    begin
+      header = @nokogiri_doc.at_css("title").content
+    rescue
+      header = ""
+    end
+    return header
   end
 
-  private
   def in_min_distance?(pos1, pos2)
     pos1 - pos2 < 100
   end
 
-  private
   def position_in_html(content)
     i = 200
     pure_content = ActionController::Base.helpers.strip_tags(content).strip
@@ -100,5 +124,7 @@ class Subpage < ActiveRecord::Base
     end   
     self.save
   end
+
+
 
 end

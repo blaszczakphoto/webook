@@ -1,6 +1,6 @@
 class Page < ActiveRecord::Base
 	attr_accessible :base_url, :subpages
-	has_many :subpages
+	has_many :subpages, dependent: :destroy
 
 	def url_in_base?(url)
 		url.include? base_url

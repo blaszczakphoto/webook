@@ -38,5 +38,14 @@ class SubpageTest < ActiveSupport::TestCase
   test "pages which are not found are stored but not valid" do
     assert Subpage.where(url: "http://localhost:3000/example/dupamaryni.html").first.valid_page == false
   end
-    
+   
+  test "set as invalid pages with content which is duplicate of another article" do
+    assert Subpage.where(url: "http://localhost:3000/example/").first.valid_page == false
+  end
+     
+
+
+   
+
+
 end
