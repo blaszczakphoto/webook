@@ -11,19 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131109085444) do
-
-  create_table "books", :force => true do |t|
-    t.text     "content"
-    t.integer  "page_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20131115082826) do
 
   create_table "pages", :force => true do |t|
     t.string   "base_url"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "similar_subpages", :force => true do |t|
+    t.integer "subpage_id"
+    t.integer "similar_subpage_id"
   end
 
   create_table "subpages", :force => true do |t|
@@ -35,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20131109085444) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.boolean  "valid_page"
+    t.string   "html"
   end
 
 end
