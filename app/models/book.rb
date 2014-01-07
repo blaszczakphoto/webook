@@ -1,30 +1,18 @@
-class Book < ActiveRecord::Base
-  attr_accessible :content, :page
-  has_one :page
+class Book
+  include ActiveModel::Conversion
+  include ActiveModel::Serialization
+  extend ActiveModel::Naming
 
-  def self.create_from_page(page)
-    book = Book.new
-    book.page = page
-    book.content = create_layout(book.page.subpages)
-    book.save
-    book
-  end
+  attr_accessor :content, :website
 
-  def self.create_layout(subpages)
-    content = ""
-    subpages.each do |subpage|
-      #binding.pry
-      content += "<h2>#{subpage.title}</h2>"
-      content += subpage.content
-      content += "</br></br></br>"
+  def initialize(attributes = {})
+    attributes.each do |name, value|
+      send("#{name}=", value)
     end
-    content
+  end  
+
+  def chapters
+    website.subpages
   end
-
-  def to_html
-    self.content
-  end
-
-
 
 end

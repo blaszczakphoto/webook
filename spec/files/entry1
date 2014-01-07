@@ -1,0 +1,1919 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,f="chrome",g="jstiming",k="tick";(function(){function d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void 0==c)try{b.console.timeStamp("CSI/"+a)}catch(h){}};this[k]("start",null,a)}var a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[g].srt=h-c)}if(a){var e=b[g].load;0<c&&h>=c&&(e[k]("_wtsrt",void 0,c),e[k]("wtsrt_","_wtsrt",h),e[k]("tbsd_","wtsrt_"))}try{a=null,
+b[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[k]("_tbnd",void 0,b[f].csi().startE),e[k]("tbnd_","_tbnd",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[k]("_tbnd",void 0,b.external.startE),e[k]("tbnd_","_tbnd",c))),a&&(b[g].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[g].load[k]("aft")};var l=!1;function m(){l||(l=!0,b[g].load[k]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",m,!1):b.attachEvent("onscroll",m);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://www.adomokos.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Climb That Mountain - Atom" href="http://www.adomokos.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Climb That Mountain - RSS" href="http://www.adomokos.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Climb That Mountain - Atom" href="http://www.blogger.com/feeds/5573355675806579511/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="Climb That Mountain - Atom" href="http://www.adomokos.com/feeds/2266381772896876727/comments/default" />
+<link rel="image_src" href="http://3.bp.blogspot.com/-sH78ybrc9Iw/TaetEKtpZwI/AAAAAAAABjk/Z1qDnzXB0b8/s72-c/joe_tweet.jpg" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Climb That Mountain: Running Rails Rspec Tests - Without Rails</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/3189209027-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='//www.blogger.com/dyn-css/authorization.css?targetBlogID=5573355675806579511&zx=56d88a3d-277a-4f76-94c0-05b86e5e6e13' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima
+Date:     26 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+body {
+background:#ffffff;
+margin:0;
+color:#333333;
+font:x-small Georgia Serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+text-align: center;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#999999;
+text-decoration:none;
+}
+a:hover {
+color:#cc6600;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+/* Header
+-----------------------------------------------
+*/
+#header-wrapper {
+width:790px;
+margin:0 auto 10px;
+border:1px solid #cccccc;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 5px;
+border: 1px solid #cccccc;
+text-align: center;
+color:#666666;
+}
+#header h1 {
+margin:5px 5px 0;
+padding:15px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font: normal normal 200% Georgia, Serif;
+}
+#header a {
+color:#666666;
+text-decoration:none;
+}
+#header a:hover {
+color:#666666;
+}
+#header .description {
+margin:0 5px 5px;
+padding:0 20px 15px;
+max-width:700px;
+text-transform:uppercase;
+letter-spacing:.2em;
+line-height: 1.4em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+}
+#header img {
+margin-left: auto;
+margin-right: auto;
+}
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+width: 790px;
+margin:0 auto;
+padding:10px;
+text-align:left;
+font: normal normal 12px Verdana, Geneva, sans-serif;;
+}
+#main-wrapper {
+width: 560px;
+float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+padding-right: 10px;
+}
+#sidebar-wrapper {
+width: 220px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#999999;
+}
+/* Posts
+-----------------------------------------------
+*/
+h2.date-header {
+margin:1.5em 0 .5em;
+}
+.post {
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em;
+}
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 4px;
+font-size:140%;
+font-weight:normal;
+line-height:1.4em;
+color:#cc6600;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+display:block;
+text-decoration:none;
+color:#cc6600;
+font-weight:normal;
+}
+.post h3 strong, .post h3 a:hover {
+color:#333333;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+margin: .75em 0;
+color:#999999;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+line-height: 1.4em;
+}
+.comment-link {
+margin-left:.6em;
+}
+.post img, table.tr-caption-container {
+padding:4px;
+border:1px solid #cccccc;
+}
+.tr-caption-container img {
+border: none;
+padding: 0;
+}
+.post blockquote {
+margin:1em 20px;
+}
+.post blockquote p {
+margin:.75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin:1em 0;
+font-weight: bold;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color: #999999;
+}
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #666666;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:15px;
+text-indent:-15px;
+line-height:1.5em;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #cccccc;
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:790px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+/* AD added - hide the Blogger NavBar */
+#navbar {
+display: none;
+}
+.section-title {
+font-weight: 500;
+color: #cc6600;
+}
+hr.section-separator {
+border: 0;
+height: 1px;
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+--></style>
+<script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: '//www.blogger.com/navbar.g?targetBlogID\0755573355675806579511\46blogName\75Climb+That+Mountain\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://www.adomokos.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.adomokos.com/\46targetPostID\0752266381772896876727\46blogPostOrPageUrl\75http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html\46vt\75-6886170771125230301',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://www.adomokos.com/' style='display: block'>
+<img alt='Climb That Mountain' height='88px; ' id='Header1_headerimg' src='http://4.bp.blogspot.com/-7vrL3ndkybk/TxxkiA5t0fI/AAAAAAAACQg/sd6J3qFIB0U/s1600/mountains_inner_with_text.jpg' style='display: block' width='778px; '/>
+</a>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+        <div class="date-outer">
+      
+<h2 class='date-header'><span>Friday, April 15, 2011</span></h2>
+
+        <div class="date-posts">
+      
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template'>
+<a name='2266381772896876727'></a>
+<h3 class='post-title entry-title'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html'>Running Rails Rspec Tests - Without Rails</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content'>
+I opened up my twitter client this afternoon and I saw "54 Messages, 28 Mentions". I tell you honestly, the first thought I had was: my twitter account had been hacked. Then I started to comb through the messages and I found out what happened. It all started with a tweet from <a href="http://blog.densitypop.com/" target="_blank">Joe Fiorini</a>.<br/><br/>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-sH78ybrc9Iw/TaetEKtpZwI/AAAAAAAABjk/Z1qDnzXB0b8/s1600/joe_tweet.jpg" imageanchor="1" style="margin-left:1em; margin-right:1em"><img border="0" height="64" width="400" src="http://3.bp.blogspot.com/-sH78ybrc9Iw/TaetEKtpZwI/AAAAAAAABjk/Z1qDnzXB0b8/s400/joe_tweet.jpg" /></a></div>
+<br/>
+We both worked together on a large Rails application. The application was a little light on tests, so I asked the other developers why they are not writing more specs? The answer was all too familiar: "it just takes forever to run them". Yup, Rails had to load up, schema needed to be verified, the entire universe had to be included and 30 seconds later our specs were executed.
+<br/><br/>
+We started creating POROs - Plain Old Ruby Objects - as pure services and put their RSpec tests into APP_ROOT/spec/units directory. Our goal was to keep the execution time under or around 2 seconds. Sure, it's easy when you don't have to load Rails controllers or active record models. But what happens when you have to?<br/>This post will explain that.
+<br/><br/>
+The controller I used for this example is simple:
+<pre class="ruby" name="code">class TracksController < ApplicationController
+  def index
+    signed_in_user
+  end
+
+  def new
+    @track = Track.new
+  end
+
+  def create
+    feed = params[:track]["feed"]
+    @track = TrackParserService.parse(feed)
+
+    unless @track.valid?
+      render :action => 'new'
+      return
+    end
+
+    @track.save_with_user!(signed_in_user)
+
+    render :action => 'index'
+  end
+
+  def destroy
+    Track.find(params[:id]).destroy
+
+    @user = User.first
+    render :action => 'index'
+  end
+
+  private
+
+  def signed_in_user
+    # No authentication yet
+    @user ||= User.first
+  end
+end
+</pre>
+The first controller action I wanted to test was "index".
+<br/><br/>
+I created the directory structure APP_ROOT/spec/units/controllers and saved my file in this directory under the name tracks_controller_spec.rb.
+<br/><br/>
+I started out with this code:
+<pre class="ruby" name="code">APP_ROOT = File.expand_path(File.join(File.dirname(__FILE__), "..", "..", ".."))
+$: << File.join(APP_ROOT, "app/controllers")
+
+require 'tracks_controller'
+
+describe TracksController do
+  
+end
+</pre>
+You could move the first two lines into a spec_helper, I wanted to keep it here for clarity.
+<br/><br/>
+I received the following error:<br/>
+<div style="color: #c00">
+`const_missing': uninitialized constant Object::ApplicationController (NameError)</div>
+<br/>
+No worries: TracksController inherits from ApplicationController, it's part of my app, I just had to require it.
+<pre class="ruby" name="code">require 'application_controller'
+</pre>
+And the error:<br/>
+<div style="color: #c00">
+`const_missing': uninitialized constant Object::ActionController (NameError)</div>
+<br/>
+This was the point where I had to require Rails.
+<br/><br/>
+Instead of doing that, I just defined the class myself so the controller was aware of it. I also needed to declare the class method "protect_from_forgery", but I left the implementation blank. Please note that the class declaration is above the require statements.<br/>Here is the entire spec after my changes:
+<pre class="ruby" name="code">APP_ROOT = File.expand_path(File.join(File.dirname(__FILE__), "..", "..", ".."))
+$: << File.join(APP_ROOT, "app/controllers")
+
+# A test double for ActionController::Base
+module ActionController
+  class Base
+    def self.protect_from_forgery; end
+  end
+end
+
+require 'application_controller'
+require 'tracks_controller'
+
+describe TracksController do
+  
+end
+</pre>
+Running the spec:
+<br/><br/>
+
+Finished in 0.00003 seconds
+<div style="color: #090">
+0 examples, 0 failures</div>
+<br/>
+The first test just ensures that the User active record model will load the first user if the @user instance is nil.
+<pre class="ruby" name="code">describe TracksController do
+  let(:controller) { TracksController.new }
+
+  specify "index action returns the signed_in_user" do
+    # setup
+    user = stub
+    User.stub(:first).and_return user
+
+    # execute action under test
+    returned_user = controller.index
+
+    # verify
+    returned_user.should == user
+    controller.instance_variable_get(:@user).should == user
+  end
+end
+</pre>
+The test is straightforward. User model is returning a stub - I don't really care what that returned object is, I just check if they're the same object. In the verification part I made sure that the instance variable was set properly. Great that your can check an un-exposed field on a object with a little bit of metaprogramming?
+<br/><br/>
+I executed the spec and received the following error:
+<br/><br/>
+
+Failures:
+<br/><br/>
+&nbsp;&nbsp;1) TracksController index action returns the signed_in_user
+<div style="color: #C00">
+&nbsp;&nbsp;&nbsp;&nbsp;Failure/Error: User.stub(:first).and_return user
+&nbsp;&nbsp;&nbsp;&nbsp;NameError:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uninitialized constant RSpec::Core::ExampleGroup::Nested_1::User</div><br/>
+Well, I need to require the User model to fix this error. Or do I? I am not using any functionality of the User class - whatever I am using is stubbed out. I just defined the class without any implementation.<br/><br/>
+This line was added to the spec right above the describe block.
+<pre class="ruby" name="code">class User; end
+</pre>
+I execute the test and it's all green.
+<br/><br/>
+TracksController<br/>
+&nbsp;&nbsp;<span style="color: #090">index action returns the signed in user</span>
+<br/><br/>
+
+Finished in 0.00079 seconds
+<span style="color: #090">1 example, 0 failures</span>
+1.26s user 0.28s system 99% cpu <span style="font-weight: bold;">1.546 total</span>
+<br/><br/>
+1.5 seconds is not all that bad to run a controller action test.
+<br/><br/>
+Let me describe how I tested the "create" action.<br/>
+Take a look at the controller code above and review what it does. The @track instance is constructed by the TrackParserService class' parse method. Then active record validates it and if the model is invalid the controller's "new" action is rendered.
+<br/><br/>
+Here is the spec for that:
+<pre class="ruby" name="code">context "when the model is not valid" do
+  it "renders action => 'new'" do
+    # define a method for params - TracksController is unaware of it
+    controller.class.send(:define_method, :params) do
+      {:track => "feed"}
+    end
+
+    track = stub(:valid? => false)
+    TrackParserService.stub(:parse).and_return(track)
+
+    render_hash = {}
+    # hang on to the input hash the render method is invoked with
+    # I'll use it to very that the render argument is correct
+    controller.class.send(:define_method, :render) do |hash_argument|
+      render_hash = hash_argument
+    end
+
+    controller.create
+
+    # verify the render was called with the right hash
+    render_hash.should == { :action => 'new' }
+  end
+end
+</pre>
+I used Ruby's metaprogramming again to set up the params hash. It really doesn't matter what's in it, since I stub out the TrackParserService. The method "render" comes from Rails, I had to define that as well. Please note that I record what the render method was invoked with, this way I can verify that the input hash was correct.<br/>
+I also had to define - with no implementation - the Track and TrackParserService classes.
+<br/><br/>
+When I executed the specs, all of them passed:
+<br/><br/>
+TracksController<br/>
+<span style="color: #090">&nbsp;&nbsp;index action returns the signed in user</span><br/>
+<span style="color: #090">&nbsp;&nbsp;new action returns an instance of Track</span><br/>
+&nbsp;&nbsp;when the model is not valid<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #090">renders action => 'new'</span>
+<br/><br/>
+Finished in 0.00203 seconds<br/>
+<span style="color: #090">3 examples, 0 failures</span><br/>
+bundle exec rspec spec/units/controllers/tracks_controller_spec.rb -fd  1.32s user 0.29s system 99% cpu <span style="font-weight: bold;">1.614 total</span>
+<br/><br/>
+You can review the entire example in this <a href="https://gist.github.com/921111" target="_blank">gist</a>.
+<br/><br/>
+This code is rough. I just used it to show you how we try to keep our test execution fast. I acknowledge that I am doing some very dangerous stubbing here. However, I have the higher level cucumber tests to protect me against unexpected errors.
+<br/><br/>
+I can't tell you what it means to run all of my 150+ specs within 2 seconds. I think it's a little bit of an extra work, but it's well worth the effort!
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn'>Attila Domokos</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html' rel='bookmark' title='permanent link'><abbr class='published' title='2011-04-15T09:18:00-04:00'>9:18 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-744774450'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5573355675806579511&postID=2266381772896876727&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>24 comments:</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c7344739015440156381'>
+<a name='c7344739015440156381'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06863615802688642075" rel="nofollow" onclick="" class="avatar-hovercard" id="av-0-06863615802688642075"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_dYi-rTxxT2o/SZdFSvZ_00I/AAAAAAAACEE/HFO7JEd5blM/S45/3187276048_580e77883b-1.jpg" title="Corey Haines">
+
+<noscript><img src="http://3.bp.blogspot.com/_dYi-rTxxT2o/SZdFSvZ_00I/AAAAAAAACEE/HFO7JEd5blM/S45/3187276048_580e77883b-1.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06863615802688642075' rel='nofollow'>Corey Haines</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7344739015440156381'>
+<p>
+Good post. i prefer to just draw most of my stuff out of the controller. However, this is similar to what I&#39;m doing with my other stuff.<br /><br />I&#39;d highly recommend getting rid of the bundle exec and just running rspec. This will cut out about 1.5s of time. You&#39;ll drop to sub-second!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302874100562#c7344739015440156381' title='comment permalink'>
+April 15, 2011 at 9:28 AM
+</a>
+<span class='item-control blog-admin pid-605472048'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=7344739015440156381' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c425244817889099536'>
+<a name='c425244817889099536'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-425244817889099536'>
+<p>
+Great idea with bundle exec, I&#39;ll give that a try. Thanks!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302874261561#c425244817889099536' title='comment permalink'>
+April 15, 2011 at 9:31 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=425244817889099536' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1108664140241485716'>
+<a name='c1108664140241485716'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/04988908140962422361" rel="nofollow" onclick="" class="avatar-hovercard" id="av-2-04988908140962422361"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Steven Harman">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/04988908140962422361' rel='nofollow'>Steven Harman</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1108664140241485716'>
+<p>
+Hmm... it seems like there is an interaction-test approach, w/many of the implementation details of the controller duplicated in the specs. I realize you often don&#39;t care about the exact implementation, because you have integration tests elsewhere and/or trust the framework to do its job, but doesn&#39;t it make for brittle tests?<br /><br />Dunno, maybe not - it just triggered my Spidey sense as I&#39;ve seen similar approaches before (in other languages &amp; frameworks, granted) and the result was brittle and unclear tests.<br /><br />@Corey,<br />as you draw things out of the controller, what do you do about the model - in particular, ActiveRecord models, where I presume a good deal of behavior would otherwise naturally live? (this is your semi-weekly reminder about that blog post you were going to write :P)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302879328049#c1108664140241485716' title='comment permalink'>
+April 15, 2011 at 10:55 AM
+</a>
+<span class='item-control blog-admin pid-708353765'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1108664140241485716' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8190505485489994604'>
+<a name='c8190505485489994604'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06863615802688642075" rel="nofollow" onclick="" class="avatar-hovercard" id="av-3-06863615802688642075"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_dYi-rTxxT2o/SZdFSvZ_00I/AAAAAAAACEE/HFO7JEd5blM/S45/3187276048_580e77883b-1.jpg" title="Corey Haines">
+
+<noscript><img src="http://3.bp.blogspot.com/_dYi-rTxxT2o/SZdFSvZ_00I/AAAAAAAACEE/HFO7JEd5blM/S45/3187276048_580e77883b-1.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06863615802688642075' rel='nofollow'>Corey Haines</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8190505485489994604'>
+<p>
+Steven,<br /><br />I pull the behavior out of my models into other objects that wrap the models. I prefer to make the AR objects simple wrappers around the db-access stuff in AR.<br /><br />I have a fairly strict rule that controller actions cannot use AR finders or, in fact, interact with AR at all. AR should be accessed within api methods inside your model, not from the outside.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302880085636#c8190505485489994604' title='comment permalink'>
+April 15, 2011 at 11:08 AM
+</a>
+<span class='item-control blog-admin pid-605472048'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=8190505485489994604' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c2461567896680536115'>
+<a name='c2461567896680536115'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-4-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2461567896680536115'>
+<p>
+Steven,<br /><br />I&#39;d like to emphasize that this is just a rough prototype demonstrating that controller testing can be done without Rails. I&#39;d have helpers to verify renders, set up params, etc. My goal would be to create Rspec matchers and macros for these tests so they read well and are not brittle. I wanted to describe how I got started with writing controller specs without Rails.<br /><br />I&#39;d also like to point out the role of the TrackParserService. We all have seen many Rails controllers where the parsing logic is in the controller action. I moved that logic into the service and I am stubbing it out. In this case the controller is orchestrating the moving pieces and I am just verifying that. Imagine what the spec would be like if it had the parsing code in the action.<br /><br />Active Record is responsible for validation, association and CRUD operation only in this tiny app. All other logic is in little service classes, like the TrackParserService.<br /><br />But I am doing something similar to what Corey is describing in our big Rails app. Wrapping active record models and hiding them from the rest of the application logic. This abstraction just makes testing a heck of a lot easier.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302881466182#c2461567896680536115' title='comment permalink'>
+April 15, 2011 at 11:31 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=2461567896680536115' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6329792870605606004'>
+<a name='c6329792870605606004'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/04988908140962422361" rel="nofollow" onclick="" class="avatar-hovercard" id="av-5-04988908140962422361"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://1.bp.blogspot.com/-X-YxHzj5uVE/TahcshFol_I/AAAAAAAAATg/dSiQk0AcEzw/s45/wall-bw.png" title="Steven Harman">
+
+<noscript><img src="http://1.bp.blogspot.com/-X-YxHzj5uVE/TahcshFol_I/AAAAAAAAATg/dSiQk0AcEzw/s45/wall-bw.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/04988908140962422361' rel='nofollow'>Steven Harman</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6329792870605606004'>
+<p>
+Corey and Adomokos,<br />Awesome, and thanks!<br /><br />Wrapping the real model, from a domain perspective, around an AR Model (which is just an API to persistence, basic validation, etc) makes sense to me.<br /><br />Now, if only we could clean up the ambiguity around some of the language - like &quot;model&quot; - to make it easier to discuss these ideas w/o having to qualify everything. meh... I guess that&#39;s where a simple Gist comes in.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302882098320#c6329792870605606004' title='comment permalink'>
+April 15, 2011 at 11:41 AM
+</a>
+<span class='item-control blog-admin pid-708353765'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=6329792870605606004' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1165404590799476893'>
+<a name='c1165404590799476893'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/13359065765276977720" rel="nofollow" onclick="" class="avatar-hovercard" id="av-6-13359065765276977720"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Scott Walker">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/13359065765276977720' rel='nofollow'>Scott Walker</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1165404590799476893'>
+<p>
+Was thinking about this some this morning and wondering if another valid approach would be to pull out all interesting model functionality into a module that was included into the model? Then for testing you could just include the module into a stub object that subbed whatever methods from the AR model your module depended on...<br /><br />Haven&#39;t put any code to this approach, but seemed reasonable at first blush. Thoughts?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1302923698132#c1165404590799476893' title='comment permalink'>
+April 15, 2011 at 11:14 PM
+</a>
+<span class='item-control blog-admin pid-666995765'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1165404590799476893' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8674914238133038270'>
+<a name='c8674914238133038270'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/06741642450577678085" rel="nofollow" onclick="" class="avatar-hovercard" id="av-7-06741642450577678085"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Joakim">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/06741642450577678085' rel='nofollow'>Joakim</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8674914238133038270'>
+<p>
+Most files in lib/ should be safe to test without loading rails or mocking anything. Tried a few in our project just now. You might need to load activesupport in some cases.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1303588065211#c8674914238133038270' title='comment permalink'>
+April 23, 2011 at 3:47 PM
+</a>
+<span class='item-control blog-admin pid-1071344960'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=8674914238133038270' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2250710137378713115'>
+<a name='c2250710137378713115'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/04487344955229981294" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8-04487344955229981294"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="E.T">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/04487344955229981294' rel='nofollow'>E.T</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2250710137378713115'>
+<p>
+What I do to speed up the tests:<br /><br />1. use Spork (much start-up time reduced)<br />2. stub heavy parts (Paperclip, for example)<br />3. stub models in controller tests<br /><br />By doing these, the most time-consuming parts are the model tests (in which I don&#39;t want to use any stubbing). <br /><br />And it takes about 10 seconds (much slower than yours!) to run all tests (over 200).<br /><br />Now I&#39;m thinking about whether I can make Spork and Hydra work together, which may speed up tests further.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1304385797872#c2250710137378713115' title='comment permalink'>
+May 2, 2011 at 9:23 PM
+</a>
+<span class='item-control blog-admin pid-1103839473'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=2250710137378713115' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c8059722071948115990'>
+<a name='c8059722071948115990'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-9-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8059722071948115990'>
+<p>
+E.T.: I just ran my specs: 204 examples, 0 failures in 0.797 seconds.<br /><br />I don&#39;t test ActiveRecord models at all in these fast running tests - I leave that to the Automated Acceptance Tests with cucumber. I stub out all Rails for my controllers tests, but these controllers are light, writing tests without Rails is very easy for me.<br /><br />Most of the application logic is in Rails independent service and model classes just like the TrackParser class used in the example.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1304387823605#c8059722071948115990' title='comment permalink'>
+May 2, 2011 at 9:57 PM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=8059722071948115990' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7985293325098789782'>
+<a name='c7985293325098789782'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/05586336616961885931" rel="nofollow" onclick="" class="avatar-hovercard" id="av-10-05586336616961885931"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Rob Zolkos">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/05586336616961885931' rel='nofollow'>Rob Zolkos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7985293325098789782'>
+<p>
+Awesome post. Thanks for this. One question - how do I handle a before_filter in the controller? I have a variable being set in a before_filter for the index action. How would I put that in the faux controller in the spec?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1311156212333#c7985293325098789782' title='comment permalink'>
+July 20, 2011 at 6:03 AM
+</a>
+<span class='item-control blog-admin pid-216310585'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=7985293325098789782' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c5089690652239235144'>
+<a name='c5089690652239235144'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-11-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5089690652239235144'>
+<p>
+Rob,<br><br />somebody has already asked about testing before_filters. I only have a screen shot and not a gist, but here it goes:<br><br /><a href="http://twitpic.com/4y5p16" rel="nofollow">http://twitpic.com/4y5p16</a><br /><br><br />Let me know if you have any questions.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1311167784631#c5089690652239235144' title='comment permalink'>
+July 20, 2011 at 9:16 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=5089690652239235144' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1007659495803858394'>
+<a name='c1007659495803858394'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/05586336616961885931" rel="nofollow" onclick="" class="avatar-hovercard" id="av-12-05586336616961885931"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Rob Zolkos">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/05586336616961885931' rel='nofollow'>Rob Zolkos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1007659495803858394'>
+<p>
+Thanks for the reply @adomokos.  That pic helped in understanding how to test that certain before filters are run.  What I am after, is (using your controller example) how to test if @user is set in the index action, if it is set in a before_filter.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1311256235898#c1007659495803858394' title='comment permalink'>
+July 21, 2011 at 9:50 AM
+</a>
+<span class='item-control blog-admin pid-216310585'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1007659495803858394' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c7565323640843572702'>
+<a name='c7565323640843572702'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-13-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7565323640843572702'>
+<p>
+This might go a little bit too deep - some people might not like it - but you could do this in rspec:<br /><br />controller.instance_variable_set(:@user, Object.new)<br /><br />This code sets the private field - @user - to Object.new.<br />Since you&#39;re testing the index action, you should not call the method defined in the before_filter.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1311256823796#c7565323640843572702' title='comment permalink'>
+July 21, 2011 at 10:00 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=7565323640843572702' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7358262228315883583'>
+<a name='c7358262228315883583'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/16213943899864372362" rel="nofollow" onclick="" class="avatar-hovercard" id="av-14-16213943899864372362"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://1.bp.blogspot.com/_YOCjV0L1hHM/TQCkEqtkfEI/AAAAAAAAAM0/d8OyB4nmBj0/S45/WebSite.jpg" title="J. B. Rainsberger">
+
+<noscript><img src="http://1.bp.blogspot.com/_YOCjV0L1hHM/TQCkEqtkfEI/AAAAAAAAAM0/d8OyB4nmBj0/S45/WebSite.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/16213943899864372362' rel='nofollow'>J. B. Rainsberger</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7358262228315883583'>
+<p>
+Well, it looks like the Rails/TDD community is finally moving in the direction I expected, but only about five years later. When I took my first steps in Rails, I tried to do what I did in Java: write everything in plain classes, then wire framework extension points to each other and have them delegate everything non-platformy to my plain objects. I wondered why people didn&#39;t do that back then; I guess it took this long for test suite execution to become a bottleneck for a critical mass of people.<br /><br />So I was ahead of my time, then. Good to know. :)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1314823339967#c7358262228315883583' title='comment permalink'>
+August 31, 2011 at 4:42 PM
+</a>
+<span class='item-control blog-admin pid-673658104'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=7358262228315883583' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1579249864905760135'>
+<a name='c1579249864905760135'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/08602063083939292247" rel="nofollow" onclick="" class="avatar-hovercard" id="av-15-08602063083939292247"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Evan Light">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/08602063083939292247' rel='nofollow'>Evan Light</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1579249864905760135'>
+<p>
+JB: I can only presume that others, including myself, haven&#39;t been doing it because not only has test exec time not been as poor until now but also that added decoupling increases developer cognitive load when considering the whole app.<br /><br />I, too, found this pattern ironic. Coming from Java years ago, it uses AR much like DAOs: as just another layer for accessing the database rather than a place to put application logic.<br /><br />It feels like a more mature way to write apps, yes. However, I feel it is important to recognize that the immaturity, by way of its (perhaps former) simplicity is part of what made it great.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1314827809368#c1579249864905760135' title='comment permalink'>
+August 31, 2011 at 5:56 PM
+</a>
+<span class='item-control blog-admin pid-1393261292'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1579249864905760135' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2614240163092215803'>
+<a name='c2614240163092215803'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/03402602391708279988" rel="nofollow" onclick="" class="avatar-hovercard" id="av-16-03402602391708279988"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Michael Guterl">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/03402602391708279988' rel='nofollow'>Michael Guterl</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2614240163092215803'>
+<p>
+Thanks for sharing your insight into this matter.  You mention in the comments that you don&#39;t test ActiveRecord in your fast tests, but you rely on acceptance tests.  What is your typical ratio between acceptance tests and unit tests on one of these projects?<br /><br />You mention spec/units, do you still keep a spec/models directory and if so, do you hit the database in those specs?  I guess I&#39;m looking for a high-level spec folder structure to use as a guideline.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1314832381203#c2614240163092215803' title='comment permalink'>
+August 31, 2011 at 7:13 PM
+</a>
+<span class='item-control blog-admin pid-1512851743'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=2614240163092215803' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c303607597307265830'>
+<a name='c303607597307265830'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-17-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-303607597307265830'>
+<p>
+I have a new blog post on how we are abstracting away from Rails controllers and Active Record models. It pertains to this topic, you might want to check it out: <br /><br /><a href="http://www.adomokos.com/2011/09/get-out-of-my-controller-and-from.html" rel="nofollow">Get out of my Controllers! And from Active Record, too!</a>
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1315426374822#c303607597307265830' title='comment permalink'>
+September 7, 2011 at 4:12 PM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=303607597307265830' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2230986557847175918'>
+<a name='c2230986557847175918'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/18417829128593838828" rel="nofollow" onclick="" class="avatar-hovercard" id="av-18-18417829128593838828"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Senthil">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/18417829128593838828' rel='nofollow'>Senthil</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2230986557847175918'>
+<p>
+Great post adomokos, been doing model tests without Rails the past couple days and been working how to do controller ones. This post def. helped.<br /><br />But, I&#39;ve noticed my Rails models are now, nothing but holder for bunch of include and key (using mongomapper).<br /><br />Do you simply accept your app code will live in lib/ from now on, or create an empty ActiveRecord::Base/MongoMapper::Document module in your tests and stub out AR/MM methods like create!, save! etc.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1317372038237#c2230986557847175918' title='comment permalink'>
+September 30, 2011 at 4:40 AM
+</a>
+<span class='item-control blog-admin pid-1096418770'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=2230986557847175918' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c2556382349003910103'>
+<a name='c2556382349003910103'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-19-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" title="adomokos">
+
+<noscript><img src="http://2.bp.blogspot.com/_8Lbw_GBR3W4/S5Btekx1HZI/AAAAAAAABC4/w5e0Gjhb7LM/S45/adomokos.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>adomokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2556382349003910103'>
+<p>
+@Senthil: I have a different folder structure, but yes, most of the application logic lives outside of the controller and AR - in my case.<br><br>Yes, I create empty classes in my tests - check out this <a href="http://www.adomokos.com/2011/09/get-out-of-my-controller-and-from.html" rel="nofollow">newer blog post</a>, it might be helpful.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1317563128437#c2556382349003910103' title='comment permalink'>
+October 2, 2011 at 9:45 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=2556382349003910103' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1574193441484006753'>
+<a name='c1574193441484006753'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/01863353047661764810" rel="nofollow" onclick="" class="avatar-hovercard" id="av-20-01863353047661764810"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Glenn Roberts">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/01863353047661764810' rel='nofollow'>Glenn Roberts</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1574193441484006753'>
+<p>
+Great stuff Attila. I like your approach<br /><br />Gave it a go myself, and for the trivial cases, it works rather nicely, and of course, super fast.<br /><br />However I got caught shaving a yak when trying to stub out the controller respond_to() so I could test my flashes/redirects properly.<br /><br />Any advice/gists for that problem?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1331926031336#c1574193441484006753' title='comment permalink'>
+March 16, 2012 at 3:27 PM
+</a>
+<span class='item-control blog-admin pid-166650868'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1574193441484006753' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c3508989686732163147'>
+<a name='c3508989686732163147'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-21-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/-jaczN8TKB6U/TtJnf3024CI/AAAAAAAAB7I/rWrrFfXNaU0/s45/adomokos_bw.png" title="Attila Domokos">
+
+<noscript><img src="http://2.bp.blogspot.com/-jaczN8TKB6U/TtJnf3024CI/AAAAAAAAB7I/rWrrFfXNaU0/s45/adomokos_bw.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>Attila Domokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3508989686732163147'>
+<p>
+@Glenn Roberts: I&#39;ve been moving most of the logic from controllers and AR into service objects and modules. This way the controller and active record classes are fairly light, there is not much to test there for me any more. It&#39;s only &quot;glue code&quot; that connects the request to services.<br /><br />Whatever is needed the acceptance tests will most likely cover them. <br /><br />Sorry, I have no gist or advice for the problem you are describing, but a bit of stubbing and/or Ruby metaprogramming trick would do it I am sure.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1332427565858#c3508989686732163147' title='comment permalink'>
+March 22, 2012 at 10:46 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=3508989686732163147' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1040007075632754'>
+<a name='c1040007075632754'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/18327677236500144678" rel="nofollow" onclick="" class="avatar-hovercard" id="av-22-18327677236500144678"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_mRDbVVbVJnk/SpQ93V4wGbI/AAAAAAAAAIU/uGpkepd3a-g/S45/Photo%2B22.jpg" title="Ryan Castillo">
+
+<noscript><img src="http://4.bp.blogspot.com/_mRDbVVbVJnk/SpQ93V4wGbI/AAAAAAAAAIU/uGpkepd3a-g/S45/Photo%2B22.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/18327677236500144678' rel='nofollow'>Ryan Castillo</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1040007075632754'>
+<p>
+Thanks for sharing! Now that you extract service objects do you even unit test the extremely skinny controllers anymore?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1343955414230#c1040007075632754' title='comment permalink'>
+August 2, 2012 at 8:56 PM
+</a>
+<span class='item-control blog-admin pid-201823406'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=1040007075632754' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c5826599854787183460'>
+<a name='c5826599854787183460'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09067995287578229487" rel="nofollow" onclick="" class="avatar-hovercard" id="av-23-09067995287578229487"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/-jaczN8TKB6U/TtJnf3024CI/AAAAAAAAB7I/rWrrFfXNaU0/s45/adomokos_bw.png" title="Attila Domokos">
+
+<noscript><img src="http://2.bp.blogspot.com/-jaczN8TKB6U/TtJnf3024CI/AAAAAAAAB7I/rWrrFfXNaU0/s45/adomokos_bw.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09067995287578229487' rel='nofollow'>Attila Domokos</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5826599854787183460'>
+<p>
+@Ryan Castillo: I do very little - if any - unit tests for the controllers. Most of my business logic is in Rails independent service objects and I use cucumber to do acceptance testing.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html?showComment=1344261238055#c5826599854787183460' title='comment permalink'>
+August 6, 2012 at 9:53 AM
+</a>
+<span class='item-control blog-admin pid-744774450'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=5573355675806579511&postID=5826599854787183460' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<h4 id='comment-post-message'>Post a Comment</h4>
+<p>
+</p>
+<a href='//www.blogger.com/comment-iframe.g?blogID=5573355675806579511&postID=2266381772896876727' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3121195295-comment_from_post_iframe.js"></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('//www.blogger.com/rpc_relay.html', '15343584775870216708');
+    </script>
+</div>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+
+      </div></div>
+    
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://www.adomokos.com/2011/06/spec-it-or-not.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.adomokos.com/2011/04/rapid-feedback.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://www.adomokos.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.adomokos.com/feeds/2266381772896876727/comments/default' target='_blank' type='application/atom+xml'>Post Comments (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget Profile' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='http://www.blogger.com/profile/09067995287578229487'><img alt='My Photo' class='profile-img' height='79' src='http://4.bp.blogspot.com/-jSMgYgaIqF8/TtJneb7-ZyI/AAAAAAAAB6k/U9Hd923CNvM/s220/adomokos_bw.png' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='http://www.blogger.com/profile/09067995287578229487' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Attila Domokos
+</a>
+</dt>
+</dl>
+<a class='profile-link' href='http://www.blogger.com/profile/09067995287578229487' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5573355675806579511&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<a class="twitter-timeline"  href="https://twitter.com/adomokos"  data-widget-id="403265350780739585">Tweets by @adomokos</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5573355675806579511&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div class='ltr' id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/search?updated-min=2013-01-01T00:00:00-05:00&amp;updated-max=2014-01-01T00:00:00-05:00&amp;max-results=9'>2013</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2013_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/search?updated-min=2012-01-01T00:00:00-05:00&amp;updated-max=2013-01-01T00:00:00-05:00&amp;max-results=12'>2012</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2012_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/search?updated-min=2011-01-01T00:00:00-05:00&amp;updated-max=2012-01-01T00:00:00-05:00&amp;max-results=7'>2011</a>
+<span class='post-count' dir='ltr'>(7)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html'>Running Rails Rspec Tests - Without Rails</a></li>
+<li><a href='http://www.adomokos.com/2011/04/rapid-feedback.html'>Rapid Feedback</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2011_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/search?updated-min=2010-01-01T00:00:00-05:00&amp;updated-max=2011-01-01T00:00:00-05:00&amp;max-results=11'>2010</a>
+<span class='post-count' dir='ltr'>(11)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle'>
+<span class='zippy'></span>
+</a>
+<a class='post-count-link' href='http://www.adomokos.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5573355675806579511&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' id='Followers1'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/5573355675806579511/posts/default/2266381772896876727";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/5573355675806579511/2266381772896876727/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 2266381772896876727
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/5573355675806579511/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/5573355675806579511/comments/default";
+          
+          holder.currentBlogUrl = "http://www.adomokos.com/";
+          holder.currentBlogId = "5573355675806579511";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1mtw6saxwz7gs" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['TITLE'] = "Followers";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#666666";
+    skin['ENDCAP_LINK_COLOR'] = "#5588aa";
+    skin['ALTERNATE_BG_COLOR'] = "transparent";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#5588aa";
+    skin['CONTENT_TEXT_COLOR'] = "#666666";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#5588aa";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999";
+    skin['CONTENT_HEADLINE_COLOR'] = "#cc6600";
+    skin['FONT_FACE'] = "normal normal 12px Verdana, Geneva, sans-serif;";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1mtw6saxwz7gs",
+     height: 260,
+     
+     
+     
+     site: "15343584775870216708",
+     
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5573355675806579511&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<!-- AD Added Start -->
+<link href='http://www.iridge.com/SyntaxHighlighter/Styles/SyntaxHighlighter.css' rel='stylesheet' type='text/css'/>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shCore.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushCpp.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushCSharp.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushCss.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushJava.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushJScript.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushSql.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushXml.js' type='text/javascript'></script>
+<script src='http://www.iridge.com/SyntaxHighlighter/Scripts/shBrushRuby.js' type='text/javascript'></script>
+<script class='javascript'>
+//<![CDATA[
+  function FindTagsByName(container, name, Tag)
+  {
+      var elements = document.getElementsByTagName(Tag);
+      for (var i = 0; i < elements.length; i++)
+      {
+          if (elements[i].getAttribute("name") == name)
+          {
+              container.push(elements[i]);
+          }
+      }
+  }
+  var elements = [];
+  FindTagsByName(elements, "code", "pre");
+  FindTagsByName(elements, "code", "textarea");
+
+for(var i=0; i < elements.length; i++) {
+if(elements[i].nodeName.toUpperCase() == "TEXTAREA") {
+ var childNode = elements[i].childNodes[0];
+ var newNode = document.createTextNode(childNode.nodeValue.replace(/<br\s*\/?>/gi,'\n'));
+ elements[i].replaceChild(newNode, childNode);
+
+}
+else if(elements[i].nodeName.toUpperCase() == "PRE") {
+ brs = elements[i].getElementsByTagName("br");
+ for(var j = 0, brLength = brs.length; j < brLength; j++) {
+  var newNode = document.createTextNode("\n");
+  elements[i].replaceChild(newNode, brs[0]);
+ }
+}
+}
+//clipboard does not work well, no line breaks
+// dp.SyntaxHighlighter.ClipboardSwf =
+//"http://[YOUR HOST]/clipboard.swf";
+dp.SyntaxHighlighter.HighlightAll("code");
+//]]>
+</script>
+<!-- Google Analytics -->
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try {
+var pageTracker = _gat._getTracker("UA-15087975-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- AD added end -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/645744161-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '5573355675806579511';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5573355675806579511','//www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html','5573355675806579511');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5573355675806579511', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Climb That Mountain', 'pageType': 'item', 'url': 'http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html', 'canonicalUrl': 'http://www.adomokos.com/2011/04/running-rails-rspec-tests-without-rails.html', 'canonicalHomepageUrl': 'http://www.adomokos.com/', 'homepageUrl': 'http://www.adomokos.com/', 'blogspotFaviconUrl': 'http://www.adomokos.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Running Rails Rspec Tests - Without Rails', 'pageTitle': 'Climb That Mountain: Running Rails Rspec Tests - Without Rails', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Climb That Mountain - Atom\42 href\75\42http://www.adomokos.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Climb That Mountain - RSS\42 href\75\42http://www.adomokos.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Climb That Mountain - Atom\42 href\75\42http://www.blogger.com/feeds/5573355675806579511/posts/default\42 /\76\n\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Climb That Mountain - Atom\42 href\75\42http://www.adomokos.com/feeds/2266381772896876727/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl': 'http://3.bp.blogspot.com/-sH78ybrc9Iw/TaetEKtpZwI/AAAAAAAABjk/Z1qDnzXB0b8/s72-c/joe_tweet.jpg', 'imageSrcTag': '\74link rel\75\42image_src\42 href\75\42http://3.bp.blogspot.com/-sH78ybrc9Iw/TaetEKtpZwI/AAAAAAAABjk/Z1qDnzXB0b8/s72-c/joe_tweet.jpg\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,f\75\42chrome\42,g\75\42jstiming\42,k\75\42tick\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){var e\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[e,d];if(void 0\75\75c)try{b.console.timeStamp(\42CSI/\42+a)}catch(h){}};this[k](\42start\42,null,a)}var a;b.performance\46\46(a\75b.performance.timing);var n\75a?new d(a.responseStart):new d;b.jstiming\75{Timer:d,load:n};if(a){var c\75a.navigationStart,h\75a.responseStart;0\74c\46\46h\76\75c\46\46(b[g].srt\75h-c)}if(a){var e\75b[g].load;0\74c\46\46h\76\75c\46\46(e[k](\42_wtsrt\42,void 0,c),e[k](\42wtsrt_\42,\42_wtsrt\42,h),e[k](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,\nb[f]\46\46b[f].csi\46\46(a\75Math.floor(b[f].csi().pageT),e\46\0460\74c\46\46(e[k](\42_tbnd\42,void 0,b[f].csi().startE),e[k](\42tbnd_\42,\42_tbnd\42,c))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,e\46\0460\74c\46\46(e[k](\42_tbnd\42,void 0,b.external.startE),e[k](\42tbnd_\42,\42_tbnd\42,c))),a\46\46(b[g].pt\75a)}catch(p){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[g].load[k](\42aft\42)};var l\75!1;function m(){l||(l\75!0,b[g].load[k](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,m,!1):b.attachEvent(\42onscroll\42,m);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/d6f37bb30c327165', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'testHtml5CssSrc': 'https://www.blogger.com/static/v1/widgets/2412321170-css_bundle_html5.css', 'sf': 'n', 'tf': ''}}, {'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor': '#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont': 'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif', 'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff', 'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 12px Verdana, Geneva, sans-serif;', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor': '#999999'}, 'override': '/* AD added - hide the Blogger NavBar */\n#navbar {\n  display: none;\n}\n.section-title {\n  font-weight: 500;\n  color: #cc6600;\n}\nhr.section-separator {\n    border: 0;\n    height: 1px;\n    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); \n    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); \n    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); \n    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); \n}\n\n'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1890062674-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/4138445517-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://www.adomokos.com/', 'title': 'Home', 'isCurrentPage': false}, {'href': 'http://www.adomokos.com/p/resume.html', 'title': 'Resume', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+</html>

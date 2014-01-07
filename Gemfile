@@ -10,7 +10,10 @@ gem 'nokogiri'
 gem 'pismo'
 gem "ruby-readability", :require => 'readability'
 gem "ruby-filemagic"
-gem 'debugger'
+
+gem 'sanitize'
+
+
 #gem 'rack-cache', :require => 'rack/cache'
 #gem 'dragonfly', '~>0.9.15'
 #gem 'rmagick'
@@ -26,11 +29,13 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'debugger'
+  gem 'rspec-rails', '~> 3.0.0.beta'
 end
 
 group :test do
   gem "capybara"
-
+  gem 'ruby-prof'
   gem 'capybara-webkit', git: 'git://github.com/thoughtbot/capybara-webkit.git'
   gem "launchy"
   gem "selenium-webdriver"

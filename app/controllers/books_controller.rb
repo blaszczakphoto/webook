@@ -1,21 +1,17 @@
-require 'crawler'
+# encoding: utf-8
 
 class BooksController < ApplicationController
 
 
-  def index
-    #url = "http://localhost:3000/example/"
-    Page.all.each {|a| a.destroy}
-    Subpage.all.each {|a| a.destroy}
+	def index
+		urls = [
+			
+			"http://zkobietamudotwarzy.blogspot.com.es/2012/11/piepszona-pewnosc-siebie.html"
 
-    url = "http://www.chrissupertramp.pl/"
-    crawler = Crawler.new(url)
-    crawler.run
-
-    @page = crawler.page
-    
-    render template: "books/standard_book", :layout => false
-  end
-
+		]
+		book = BookCreator.create(urls)
+		@subpages = DuplicateRemover.remove(book.website.subpages)
+		render template: "books/standard_book.html", :layout => false
+	end
 
 end

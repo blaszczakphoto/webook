@@ -1,4 +1,4 @@
-class Page < ActiveRecord::Base
+class Website < ActiveRecord::Base
 	attr_accessible :base_url, :subpages
 	has_many :subpages, dependent: :destroy
 

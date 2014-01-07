@@ -4,10 +4,13 @@
    <title>Some title</title>
 </head>
 <body>
-   <% @page.subpages.each do |subpage| %>
+   <% @subpages.each do |subpage| %>
       <h2><%= subpage.title%></h2>
       <%= raw subpage.content%>
       </br></br>
    <% end %>
+
+
+
  </body>
 </html>
