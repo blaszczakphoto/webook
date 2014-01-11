@@ -1,19 +1,25 @@
 require "parser_helper"
 require "debugger"
 require "nokogiri"
-
+require "content_cleaner"
 
 class DuplicateRemover
 
 	def self.remove(subpages)
 		@subpages = subpages
+		counter_total = @subpages.count
+		counter_current = 0
 		subpages.each do |subpage|
-			subpages_without_current(subpages, subpage).each do |iterated_subpage|
+			puts "*"*5 + "usuwanie...  " + counter_total.to_s + " / " + counter_current.to_s + "*"*5
+			counter_current += 1
+			subpages_without_current(subpage).each do |iterated_subpage|
 				if !iterated_subpage.valid_page
-					@subpages.delete(iterated_subpage)
+					set_duplicate(iterated_subpage)
+					# @subpages.delete(iterated_subpage)
 				elsif !subpage.valid_page
-					@subpages.delete(subpage)
-				elsif is_duplicate?(subpage, iterated_subpage)
+					set_duplicate(subpage)
+					# @subpages.delete(subpage)
+				elsif is_duplicate?(subpage.content, iterated_subpage.content)
 					duplicate = most_headers(subpage, iterated_subpage) || most_links(subpage, iterated_subpage)
 					set_duplicate(duplicate)
 				end
@@ -21,9 +27,12 @@ class DuplicateRemover
 		end
 	end
 
+
 	def self.set_duplicate(subpage)
-		subpage.update_attributes(valid_page: false)
-		@subpages.delete(subpage)
+		if subpage && Subpage.exists?(subpage) 
+			subpage.update_attributes(valid_page: false)
+			@subpages.delete(subpage)
+		end
 	end
 
 	def self.sorted_by_similarities(subpages)
@@ -32,7 +41,7 @@ class DuplicateRemover
 
 	def self.most_headers(subpage1, subpage2)
 		headers1, headers2 = count_headers(subpage1.html), count_headers(subpage2.html)
-		false if headers1 == headers2
+		return false if headers1 == headers2
 		if headers1 > headers2
 			return subpage1
 		else
@@ -42,7 +51,7 @@ class DuplicateRemover
 
 	def self.most_links(subpage1, subpage2)
 		links1, links2 = count_links(subpage1.html), count_links(subpage2.html)
-		false if links1 == links2
+		return false if links1 == links2
 		if links1 > links2
 			return subpage1
 		else
@@ -50,25 +59,29 @@ class DuplicateRemover
 		end
 	end
 
-	def self.subpages_without_current(subpages, subpage)
-		subpages_without_current = subpages.clone
+	def self.subpages_without_current(subpage)
+		subpages_without_current = @subpages.clone
 		subpages_without_current.delete(subpage)
 		subpages_without_current
 	end
 
 	def self.is_duplicate?(subpage, iterated_subpage)
-		subpage, iterated_subpage = subpage.clean_content, iterated_subpage.clean_content
-		maxlen = subpage.length
-		maxlen.downto(0) do |len|
-			next unless len % 30 == 0
-			0.upto(maxlen - len) do |start|
-				next unless start % 30 == 0
-        break if (len - start) < 100 # Common part must be longer than 100 chars
-        return true if iterated_subpage.include?(subpage[start,len])
-      end
-    end
-    return false
+
+		subpage, iterated_subpage = ContentCleaner.clean(subpage), ContentCleaner.clean(iterated_subpage)
+
+		if subpage.length > iterated_subpage.length
+			longer_text, shorter_text = subpage, iterated_subpage
+		else
+			longer_text, shorter_text = iterated_subpage, subpage
+		end
+
+		(0..shorter_text.length).step(25) do |n|
+			text_segment = shorter_text[n, n+50]
+			return true if text_segment.length == 50 && longer_text.include?(shorter_text[n, n+50])
+		end
+		false
   end
+
 
   def self.count_links(html)
   	Nokogiri::HTML(html).search("a").size

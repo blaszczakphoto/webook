@@ -1,7 +1,7 @@
-require 'debugger'
+
 
 class Subpage < ActiveRecord::Base
-  before_save :default_values
+  before_create :default_values
   belongs_to :website
 
   has_many :similar_subpages_association, :class_name => "SimilarSubpage"
@@ -12,7 +12,7 @@ class Subpage < ActiveRecord::Base
   scope :valid_pages, -> { where(valid_page: true) }
 
   def default_values
-    self.valid_page ||= true
+    self.valid_page = true if self.valid_page.nil?
   end
 
 
@@ -24,31 +24,7 @@ class Subpage < ActiveRecord::Base
     Sanitize.clean(content).gsub("\n","").strip
   end
 
-  def collect_urls
-    collected_urls = []
-    self.nokogiri_doc.css("a").each do |url|
-      href = prepare_url(url['href'])
-      next unless href      
-      if website.url_in_base?(href) and not website.url_stored?(href)
-        collected_urls.push(href)
-      end
-    end
-    collected_urls
-  end
-
-  # Private
-  def prepare_url(href)
-    return false if href.nil?
-    href = add_http(href) unless href.include? "http"
-    href = href.gsub("//", "/")
-    href = href.gsub("http:/", "http://")
-    href = href.gsub(/#.*/, "")
-  end
-
-  # Private
-  def add_http(href)
-    @website.base_url + href
-  end
+  
 
 
 end

@@ -10,11 +10,15 @@ class ContentCleaner
 	end
 
 	def self.force_utf(content)
-
 		ic = Iconv.new('UTF-8', 'UTF-8//IGNORE')
-		content = ic.iconv(content + ' ')[0..-2]
-		
-		return content
+		begin
+			content = ic.iconv(content + ' ')[0..-2]
+		rescue
+			return ""
+		else
+			return content
+		end
 	end
+
 
 end

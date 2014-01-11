@@ -65,7 +65,7 @@ class HeaderFinder
   # Private
   def self.position_in_html(content)
     i = 200
-    pure_content = ActionController::Base.helpers.strip_tags(content).strip
+    pure_content = ContentCleaner.clean(content)
     loop do 
       truncated_content = pure_content.slice(0, i)
       pos = @html.index(truncated_content)

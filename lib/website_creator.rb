@@ -3,16 +3,10 @@ class WebsiteCreator
 	def self.create(urls)
 		website = Website.create
 		urls.each do |url|
-			html = PageRetriver.retrive(url)
-			if html
-				subpage = SubpageCreator.create(html)
-				subpage.url = url
-				subpage.website = website
-				subpage.save
-			else
-				Subpage.create_invalid(url)
-			end
+			subpage = SubpageCreator.create(url)
+			subpage.update_attributes(website:website) if subpage.valid_page
 		end
+		website.save
 		website
 	end
 

@@ -3,28 +3,27 @@ require 'open-uri'
 
 class Crawler
 
-  attr_reader :page
+  attr_reader :website
 
-  def initialize(url)    
-    @page = Page.create!(base_url: url)
-    @collected_urls = [url]
-    @current_url = url
+  def initialize(base_url)    
+    @website = Website.create!(base_url: base_url)
+    @url_collector = UrlCollector.new(@website)
+    @url_collector.current_url = @website.base_url
   end
 
   def run
-    until @collected_urls.empty? do
-      @page.subpages << subpage = Subpage.create(url: @current_url)
-      @page.save
-      next_url
-      next if not subpage.valid_page
-      @collected_urls += subpage.collect_urls
-    end
-    @page.subpages.remove_duplicates!
-  end
+    counter = 1
+    until @url_collector.current_url.nil? do
+      counter += 1
+      break if counter == 30
+      p "*"*5 + @url_collector.current_url + "*"*5
 
-  def next_url
-    @collected_urls.delete(@current_url)
-    @current_url = @collected_urls.first
+      @website.subpages << subpage = SubpageCreator.create(@url_collector.current_url)
+      @url_collector.collect(subpage) if subpage.valid_page
+      @url_collector.current_url = @url_collector.next_url
+    end
+    
+    @website.save
   end
 
 end
