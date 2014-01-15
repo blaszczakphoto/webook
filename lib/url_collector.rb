@@ -10,14 +10,16 @@ class UrlCollector
 	end
 
 	def collect(subpage)
+		counter = 0
 		Nokogiri::HTML(subpage.html).css("a").each do |url|
 			href = prepare_url(url['href'])
 			next unless href
 			if @website.url_in_base?(href) && !@website.url_stored?(href) && !@collected_urls.include?(href)
 				@collected_urls.push(href)
+				counter += 1
 			end
 		end
-		@collected_urls
+		counter
 	end
 
 

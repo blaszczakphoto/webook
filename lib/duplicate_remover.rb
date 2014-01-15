@@ -15,10 +15,8 @@ class DuplicateRemover
 			subpages_without_current(subpage).each do |iterated_subpage|
 				if !iterated_subpage.valid_page
 					set_duplicate(iterated_subpage)
-					# @subpages.delete(iterated_subpage)
 				elsif !subpage.valid_page
 					set_duplicate(subpage)
-					# @subpages.delete(subpage)
 				elsif is_duplicate?(subpage.content, iterated_subpage.content)
 					duplicate = most_headers(subpage, iterated_subpage) || most_links(subpage, iterated_subpage)
 					set_duplicate(duplicate)
@@ -51,7 +49,7 @@ class DuplicateRemover
 
 	def self.most_links(subpage1, subpage2)
 		links1, links2 = count_links(subpage1.html), count_links(subpage2.html)
-		return false if links1 == links2
+		return subpage1 if links1 == links2 #if they are the same it can return the first
 		if links1 > links2
 			return subpage1
 		else
