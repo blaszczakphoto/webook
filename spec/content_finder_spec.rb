@@ -24,7 +24,7 @@ describe ContentFinder do
 		content.should include("Byłem w Turcji")
 	end
 
-	it "should remove all span tags" do
+	it 'should remove all span tags' do
 		html = File.open("spec/files/span_lots").read
 		content = ContentFinder.remove_problematic_content(html)
 		content.should include("Byłem w Turcji")

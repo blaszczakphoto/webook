@@ -12,22 +12,40 @@ class Crawler
   end
 
   def run(args)
-    optimizer = args[:optimizer] if args[:optimizer]
-    counter = 1
+    @optimizer, @limit = prepare_args(args)
     until @url_collector.current_url.nil? do
-      counter += 1
-      break if args[:limit] && counter == args[:limit]
-      p "*"*5 + @url_collector.current_url + "*"*5
-
-      @website.subpages << subpage = SubpageCreator.create(@url_collector.current_url)
-      if subpage.valid_page
-        links_num = @url_collector.collect(subpage) 
-
+      break if limit_reached?
+      
+      unless @optimizer && useless_link?(@url_collector.current_url)
+        @website.subpages << subpage = SubpageCreator.create(@url_collector.current_url)
+        subpage.update_attributes(links_num: @url_collector.collect(subpage)) if subpage.valid_page
+        p subpage.valid_page.to_s + " " + @url_collector.current_url
+      else
+        p "pominieto z uwagi na crawler pattern! :)" + @url_collector.current_url
+        @website.subpages << subpage = Subpage.create_invalid(@url_collector.current_url)
+      end
 
       @url_collector.current_url = @url_collector.next_url
     end
-    
+    p "limit reached: " + @limit.to_s
     @website.save
   end
+
+  def useless_link?(url) 
+    @optimizer.pattern_finder.has_pattern_for_crawler?(url)
+  end
+
+  def prepare_args(args)
+    [args[:optimizer] || false, args[:limit] || false]
+  end
+
+  def limit_reached?
+    return false unless @limit
+    @counter ||= 0
+    @counter += 1
+    @limit && @counter == @limit
+  end
+
+
 
 end

@@ -6,6 +6,7 @@
 <body>
    <% @subpages.each do |subpage| %>
       <h2><%= subpage.title%></h2>
+      <h4><%= subpage.url%></h4>
       <%= raw subpage.content%>
       </br></br>
    <% end %>

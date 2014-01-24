@@ -21,8 +21,8 @@ describe PatternFinder do
 		@website.stub(:base_url) {"http://www.dupa.pl/"}
 
 		subpages = []
-		@urls.each {|url| s = double("subpage"); s.stub(:url) {url}; s.stub(:valid_page) {false}; subpages.push(s)}
-		@v_urls.each {|url| s = double("subpage"); s.stub(:url) {url}; s.stub(:valid_page) {true}; subpages.push(s)}
+		@urls.each {|url| s = double("subpage"); s.stub(:url) {url}; s.stub(:links_num) {0}; s.stub(:valid_page) {false}; subpages.push(s)}
+		@v_urls.each {|url| s = double("subpage"); s.stub(:url) {url}; s.stub(:links_num) {0}; s.stub(:valid_page) {true}; subpages.push(s)}
 
 		@website.stub(:subpages) {subpages}
 

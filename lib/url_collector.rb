@@ -22,7 +22,6 @@ class UrlCollector
 		counter
 	end
 
-
 	def next_url
 		@collected_urls.delete(@current_url)
     @collected_urls.first

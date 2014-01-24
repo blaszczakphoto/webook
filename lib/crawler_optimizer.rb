@@ -6,20 +6,26 @@ class CrawlerOptimizer
 	def initialize(website)
 		@base_url = website.base_url
 		@subpages = website.subpages
-		
+
 		@pattern_finder = PatternFinder.new(website)
 	end
 
 	def optimize!
-		@unoptimized = find_unoptimized!
-		@unoptimized.each_with_index do |subpage, index|
-			next_subpage = @unoptimized[index + 1]
-			break unless next_subpage
-			@pattern_finder.find([subpage.url, next_subpage.url])
+		@unoptimized = unoptimized
+		unoptimized.each do |subpage|
+			@unoptimized.each do |iterated_subpage|
+				next if subpage.url == iterated_subpage.url
+				t_subpages = [subpage.url, iterated_subpage.url]
+				if subpage.links_num > 0
+					@pattern_finder.find(t_subpages)
+				else
+					@pattern_finder.find_for_crawler(t_subpages)
+				end
+			end
 		end
 	end
 
-	def find_unoptimized!
+	def unoptimized
 		unoptimized = []
 		@subpages.each do |subpage|
 			unless @pattern_finder.has_pattern?(subpage.url) || subpage.valid_page
@@ -28,4 +34,5 @@ class CrawlerOptimizer
 		end
 		unoptimized
 	end
+
 end

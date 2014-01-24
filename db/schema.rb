@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131221090953) do
+ActiveRecord::Schema.define(:version => 20140115103329) do
 
   create_table "similar_subpages", :force => true do |t|
     t.integer "subpage_id"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20131221090953) do
     t.datetime "updated_at", :null => false
     t.boolean  "valid_page"
     t.string   "html"
+    t.integer  "links_num"
   end
 
   create_table "websites", :force => true do |t|

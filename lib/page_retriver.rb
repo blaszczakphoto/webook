@@ -5,22 +5,21 @@ require "content_cleaner"
 class ResponseCanNotBeBlank < StandardError; end
 
 class PageRetriver
-
 	def self.retrive(url)
-		
-		false unless PageValidator.valid?(url)
+		return false unless PageValidator.valid?(url)
 		begin
 			@response = open(url)
 		rescue
-			false
+			return false
 		else
 			if proper_response?
 				@content = ContentCleaner.force_utf(@response.read)
 				return @content if proper_content?
 			else
-				false
+				return false
 			end
 		end
+		return false
 	end
 
 	def self.proper_response?
@@ -30,6 +29,5 @@ class PageRetriver
 	def self.proper_content?
 		@content.length > 100
 	end
-
 
 end

@@ -1,6 +1,7 @@
 Webook::Application.routes.draw do
 
   match 'optimize' => 'books#optimize'
+  match 'optimize2' => 'books#optimize2'
   resources :books
   # The priority is based upon order of creation:
   # first created -> highest priority.
