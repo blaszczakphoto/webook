@@ -1,3 +1,4 @@
+# coding: utf-8
 require "parser_helper"
 require "debugger"
 require "nokogiri"
@@ -9,37 +10,45 @@ class DuplicateRemover
 		@subpages = subpages
 		@subpages_cloned = create_clone
 		counter_current = 1
+		@duplicates_count = 0
+
 		@subpages_cloned.each do |subpage|
+			optimizer.add(subpage)
 
 			counter_current += 1
 			counter_total = @subpages_cloned.count
 			p counter_current.to_s + "/" + counter_total.to_s
 			p subpage.valid_page.to_s + " " +  subpage.url
-			# TODO: usuwa za duzo! :( 
-			# optimizer.optimize! if optimizer && (counter_current % 20 == 0)
+
+			if optimizer && @duplicates_count > 10
+				p "optymalizacja w trakcie usuwnia duplikatów.."
+				optimizer.optimize!
+				@duplicates_count = 0
+			end
 
 			if !subpage.valid_page
 				set_duplicate(subpage)
 				p subpage.valid_page.to_s +  " z uwagi na validpage false"
 				next
-			elsif optimizer && optimizer.pattern_finder.has_pattern?(subpage.url)
+			elsif optimizer && optimizer.duplicate?(subpage.url)
 				set_duplicate(subpage) 
 				p subpage.valid_page.to_s + " z uwagi na duplicate pattern"
 				next
 			end
 			
-			subpages_without_current(subpage).each do |iterated_subpage|
+			@subpages_cloned.each do |iterated_subpage|
+				next if subpage.url == iterated_subpage.url
 				if !iterated_subpage.valid_page
 					set_duplicate(iterated_subpage)
-				elsif optimizer && optimizer.pattern_finder.has_pattern?(iterated_subpage.url)
+				elsif optimizer && optimizer.duplicate?(iterated_subpage.url)
 					set_duplicate(iterated_subpage)
 					p "iterated has pattern" + iterated_subpage.url
 				elsif is_duplicate?(subpage.content, iterated_subpage.content)
-					duplicate = most_headers(subpage, iterated_subpage) || most_links(subpage, iterated_subpage)
+					optimizer.add(iterated_subpage)
+					duplicate = most_headers(subpage, iterated_subpage) || most_links(subpage, iterated_subpage) || longer_url(subpage, iterated_subpage)
 					set_duplicate(duplicate)
-
+					@duplicates_count += 1
 					p subpage.valid_page.to_s + " is duplicate? " + iterated_subpage.url
-					break
 				end
 			end
 			p " "
@@ -54,7 +63,7 @@ class DuplicateRemover
 	end
 
 	def self.set_duplicate(subpage)
-		if subpage && Subpage.exists?(subpage) 
+		if subpage && @subpages_cloned.include?(subpage)
 			subpage.update_attributes(valid_page: false) if subpage.valid_page
 			@subpages_cloned.delete(subpage)
 		end
@@ -76,10 +85,19 @@ class DuplicateRemover
 
 	def self.most_links(subpage1, subpage2)
 		links1, links2 = count_links(subpage1.html), count_links(subpage2.html)
-		return subpage1 if links1 == links2 #if they are the same it can return the first
+		return false if links1 == links2
 		if links1 > links2
 			return subpage1
-		else
+		else # links2 bigger or equal
+			return subpage2
+		end
+	end
+
+	# Return subpage with longer url
+	def self.longer_url(subpage1, subpage2)
+		if subpage1.url.length > subpage2.url.length
+			return subpage1
+		else 
 			return subpage2
 		end
 	end
@@ -98,10 +116,9 @@ class DuplicateRemover
 		else
 			longer_text, shorter_text = iterated_subpage, subpage
 		end
-		(0..shorter_text.length).step(25) do |n|
-			text_segment = shorter_text[n, 50]
-			
-			return true if text_segment.length == 50 && longer_text.include?(text_segment)
+		(0..shorter_text.length).step(50) do |n|
+			text_segment = shorter_text[n, 150]
+			return true if text_segment.length == 150 && longer_text.include?(text_segment)
 		end
 		false
   end

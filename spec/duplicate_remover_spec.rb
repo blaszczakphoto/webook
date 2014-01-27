@@ -66,6 +66,10 @@ describe DuplicateRemover do
     expect(subpages.count).to eq(4)
   end
 
+  it "should optimize during duplicate removing" do
+    
+  end
+
 
   
 end

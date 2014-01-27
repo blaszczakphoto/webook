@@ -20,19 +20,19 @@ class BooksController < ApplicationController
 	def new
 		# url = "http://przemek-sliwka.blog.onet.pl/"
 		# url = "http://dokturjazon.blox.pl/"
-		url = "http://www.gotquestions.org/Polski/"
-		# url = "http://www.zyciejestpiekne.eu/"
+		# url = "http://www.gotquestions.org/Polski/"
+		url = "http://www.zyciejestpiekne.eu/"
 		puts "zaczynamy!...................."
 
 
 		crawler = Crawler.new(url)
-		crawler.run({limit: 40})
+		crawler.run({limit: 2})
 		DuplicateRemover.remove(crawler.website.subpages)
 
 		optimizer = CrawlerOptimizer.new(crawler.website)
 		p "pierwsza optymalizacja"
-		optimizer.optimize!
-		crawler.run({optimizer: optimizer})
+		# optimizer.optimize!
+		crawler.run({optimizer: optimizer, limit: 50})
 
 		puts "*"*5 + "podstron do przerobienia:" + crawler.website.subpages.count.to_s + "*"*5
 		puts "*"*5 + "zmielono. teraz czas na usuwanie duplikatów" + "*"*5

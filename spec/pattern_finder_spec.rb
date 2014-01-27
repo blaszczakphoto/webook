@@ -27,8 +27,8 @@ describe PatternFinder do
 		@website.stub(:subpages) {subpages}
 
 		@pattern_finder = PatternFinder.new(@website)
-		@pattern_finder.find([@urls[0],@urls[1]])
-		@pattern_finder.find([@urls[2],@urls[3]])
+		@pattern_finder.find_duplicate([@urls[0],@urls[1]])
+		@pattern_finder.find_duplicate([@urls[2],@urls[3]])
 
 	end
 
@@ -38,10 +38,6 @@ describe PatternFinder do
 	end
 
 
-	it "should find pattern in the beginning" do
-		expect(@urls[0] =~ @pattern_finder.patterns[0]).to eq(0)
-		expect(@urls[1] =~ @pattern_finder.patterns[0]).to eq(0)
-	end
 
 	it "should check if url has pattern" do
 		expect(@pattern_finder.has_pattern?(@urls[0])).to eq(true)
