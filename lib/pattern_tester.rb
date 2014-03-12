@@ -21,10 +21,9 @@ class PatternTester
 		@tested_patterns.include?(pattern)
 	end
 
-	def has_links?(pattern, subpages)
-		subpages.each {|subpage| return true if subpage.links_num > 0}
+	def has_links?(pattern)
 		@subpages.each {|subpage| return true if (subpage.links_num > 0) && (subpage.url =~ pattern)}
-		false
+		return false
 	end
 
 end
