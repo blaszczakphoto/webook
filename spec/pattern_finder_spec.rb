@@ -27,21 +27,14 @@ describe PatternFinder do
 		@website.stub(:subpages) {subpages}
 
 		@pattern_finder = PatternFinder.new(@website)
-		@pattern_finder.find_duplicate([@urls[0],@urls[1]])
-		@pattern_finder.find_duplicate([@urls[2],@urls[3]])
+		@pattern_finder.find([subpages[0],subpages[1]])
+		@pattern_finder.find([subpages[2],subpages[3]])
 
 	end
 
 	it "should create working pattern" do
 		pattern = @pattern_finder.create_pattern("kategorie/", ["http://www.dupa.pl/kategorie/"])
 		expect(@urls[0] =~ pattern).to eq(0)
-	end
-
-
-
-	it "should check if url has pattern" do
-		expect(@pattern_finder.has_pattern?(@urls[0])).to eq(true)
-		expect(@pattern_finder.has_pattern?(@v_urls[0])).to eq(false)
 	end
 
 	it "should create pattern working in the end" do
@@ -51,17 +44,5 @@ describe PatternFinder do
 		expect(("//#disqus_threadhttp://www.zyciejestpiekne.eu/7-rzeczzesliwym" =~ pattern).nil?).to eq(true)
 		expect(("http://www.zyciejestpiekn//#disqus_threade.eu/7-rzeczzesliwym" =~ pattern).nil?).to eq(true)
 	end
-
-	it "should find pattern in the end" do
-		expect(@pattern_finder.has_pattern?(@urls[2])).to eq(true)
-		expect(@pattern_finder.has_pattern?(@urls[3])).to eq(true)
-	end
-
-
-
-
-
-
-
 
 end

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Archiwa: LifeStyle - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="Rok 2013 na moich zdjęciach" />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/?p=4658" />
+	<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/001-150x150.jpg" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/lifestyle/" />
+<link rel="next" href="http://www.zyciejestpiekne.eu/lifestyle/page/2/" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Archiwa: LifeStyle - Życie jest piękne!" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/lifestyle/" />
+<meta property="og:site_name" content="Życie jest piękne!" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.6">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '4658';
+	window._wp_rp_num_rel_posts = '3';
+</script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script>
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="archive category category-lifestyle category-548" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_02.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="active menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+      <!-- <div class="page-header">
+  <h1>
+    LifeStyle  </h1>
+</div> --><section class="large-9 columns pagg">
+
+      <article class="post-4658 post type-post status-publish format-gallery hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/003-720x276.jpg" class="attachment-homepage colorbox-4658  wp-post-image" alt="Rysunki wykonane przez jednego z nomadów. Na podróże zarabiali udzielając lekcji rysunku, śpiewając i grając na instrumentach.">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/rok-2013-na-moich-zdjeciach/">Rok 2013 na moich zdjęciach</a></h2>
+          <p><p>Jeszcze szybki powrót do roku 2013. Postanowiłem, że wybiorę 10 zdjęć które zrobiłem. Część z nich już widzieliście, część jeszcze nie. To fotograficzny zapis wspomnień związanych z różnymi wydarzeniami, które mnie spotkały. Przy okazji testujemy nowy rodzaj wpisów na blogu.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2014-01-08T19:03:30+00:00" pubdate>Styczeń 8, 2014</time></p>
+  <p><a href="/rok-2013-na-moich-zdjeciach//#disqus_thread"><span class="dsq-postid" rel="4658 http://www.zyciejestpiekne.eu/?p=4658">38 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4630 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/turcja-119-of-1191-720x276.jpg" class="attachment-homepage colorbox-4630  wp-post-image" alt="turcja (119 of 119)">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/2014-bedzie-rokiem-mocnych-wrazen/">2014 będzie rokiem mocnych wrażeń</a></h2>
+          <p><p>Tradycyjnie, każdego roku w okresie świątecznym piszę podsumowanie swojego roku i planuję kolejne rzeczy. Ten rok był dla mnie przełomowy i 2014 będzie bardzo ważnym, bo czuję, że od niego zależy reszta mojego życia.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-12-23T21:18:15+00:00" pubdate>Grudzień 23, 2013</time></p>
+  <p><a href="/2014-bedzie-rokiem-mocnych-wrazen//#disqus_thread"><span class="dsq-postid" rel="4630 http://www.zyciejestpiekne.eu/?p=4630">24 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4602 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/ustron-2-720x276.jpg" class="attachment-homepage colorbox-4602  wp-post-image" alt="ustron-2">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/trzeba-miec-fantazje/">Trzeba mieć fantazję!</a></h2>
+          <p><p>Fantazje w życiu to jedna z lepszych rzeczy, jaką można mieć. Niestety, większość osób jedyne fantazje jakie ma, to te erotyczne, w dodatku niezrealizowane.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-12-11T20:07:58+00:00" pubdate>Grudzień 11, 2013</time></p>
+  <p><a href="/trzeba-miec-fantazje//#disqus_thread"><span class="dsq-postid" rel="4602 http://www.zyciejestpiekne.eu/?p=4602">16 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4531 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/krakow_ikona-720x276.jpg" class="attachment-homepage colorbox-4531  wp-post-image" alt="krakow_ikona">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/20-powodow-za-ktore-uwielbiam-krakow/">20 powodów, za które uwielbiam Kraków</a></h2>
+          <p><p>Cudownie jest odkryć miejsce na ziemi, gdzie się dobrze czujesz, masz wspaniałych ludzi i czujesz, że to jest dobre miejsce dla Ciebie. Kocham Kraków.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-11-07T19:08:21+00:00" pubdate>Listopad 7, 2013</time></p>
+  <p><a href="/20-powodow-za-ktore-uwielbiam-krakow//#disqus_thread"><span class="dsq-postid" rel="4531 http://www.zyciejestpiekne.eu/?p=4531">57 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4495 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_ikona-720x276.jpg" class="attachment-homepage colorbox-4495  wp-post-image" alt="hakuna_ikona">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/hakuuuuna-matata/">Hakuuuuna Matata</a></h2>
+          <p><p>Dwa weekendy temu w Krakowie odbyła się Hakuna Matata 2. Pierwsza edycja miała miejsce w lipcu. Początkowo zakładaliśmy, że będzie to jednorazowe spotkanie czytelników bloga, ale wychodzi z tego coś większego i ciekawszego.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-10-31T09:31:58+00:00" pubdate>Październik 31, 2013</time></p>
+  <p><a href="/hakuuuuna-matata//#disqus_thread"><span class="dsq-postid" rel="4495 http://www.zyciejestpiekne.eu/?p=4495">5 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4469 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/indie_ikonka_wpisu-720x276.jpg" class="attachment-homepage colorbox-4469  wp-post-image" alt="indie_ikonka_wpisu">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/mam-okres/">Mam okres</a></h2>
+          <p><p>Przychodzi taki moment w życiu człowieka, że siada sobie wygodnie w fotelu, puszcza pozytywną muzykę, lekko mruży oczy i mówi sam do siebie: Mam okres&#8230;</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-10-15T15:10:13+00:00" pubdate>Październik 15, 2013</time></p>
+  <p><a href="/mam-okres//#disqus_thread"><span class="dsq-postid" rel="4469 http://www.zyciejestpiekne.eu/?p=4469">34 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4441 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="275" src="http://www.zyciejestpiekne.eu/wp-content/uploads/narty_ikina.jpg" class="attachment-homepage colorbox-4441  wp-post-image" alt="narty_ikona">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/gra-w-ktora-musisz-zagrac/">Gra, w którą musisz zagrać</a></h2>
+          <p><p>Wielkim fanem gier nie jestem, ale obok tej pozycji nie mogłem przejść obojętnie. Gram w nią od lat i jeszcze żadna inna nie zrobiła na mnie takiego wrażenia.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-09-29T19:31:16+00:00" pubdate>Wrzesień 29, 2013</time></p>
+  <p><a href="/gra-w-ktora-musisz-zagrac//#disqus_thread"><span class="dsq-postid" rel="4441 http://www.zyciejestpiekne.eu/?p=4441">36 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4360 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/woodstock_Ikona_wpisu-720x276.jpg" class="attachment-homepage colorbox-4360  wp-post-image" alt="woodstock_Ikona_wpisu">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/cala-prawda-o-woodstocku/">Cała prawda o Woodstocku</a></h2>
+          <p><p>Pojechałem, zobaczyłem, pobawiłem się. Gdy pierwszy raz wszedłem na teren Woodstocku, przeraziłem się. Takiego tłumu i syfu nie widziałem od czasów podróży do Indii. Jaki więc jest ten zły, niebezpieczny i pełen brudnych narkomanów Woodstock?</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-08-12T19:31:26+00:00" pubdate>Sierpień 12, 2013</time></p>
+  <p><a href="/cala-prawda-o-woodstocku//#disqus_thread"><span class="dsq-postid" rel="4360 http://www.zyciejestpiekne.eu/?p=4360">47 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4048 post type-post status-publish format-standard hentry category-lifestyle category-pozdroze post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/przedmioty_ikona-wpisu-720x276.jpg" class="attachment-homepage colorbox-4048  wp-post-image" alt="Przedmioty w podróży">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/5-rzeczy-bez-ktorych-nie-wyobrazam-sobie-podrozowania/">5 rzeczy bez których nie wyobrażam sobie podróżowania</a></h2>
+          <p><p>Są rzeczy, które w podróży są bardzo przydatne. Są rzeczy, bez których podróżuje się ciężko. Są rzeczy, bez których podróżować nie potrafię. Przedmioty sentymentalne, przedmioty naładowane emocjami, przedmioty z duszą.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-07-24T19:54:40+00:00" pubdate>Lipiec 24, 2013</time></p>
+  <p><a href="/5-rzeczy-bez-ktorych-nie-wyobrazam-sobie-podrozowania//#disqus_thread"><span class="dsq-postid" rel="4048 http://www.zyciejestpiekne.eu/?p=4048">26 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-4101 post type-post status-publish format-standard hentry category-lifestyle post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuuuuna-1-720x276.jpg" class="attachment-homepage colorbox-4101  wp-post-image" alt="hakuuuuna-1">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/hakuna-matata-spotkanie-czytelnikow-bloga/">Hakuna Matata &#8211; Spotkanie czytelników bloga</a></h2>
+          <p><p>Co to był za weekend! Z dumą i radością muszę napisać, że mam najlepszych czytelników bloga na Świecie. Są blogi, które może mają więcej wejść, firmy walą do nich z reklamami, piszą więcej, ale społeczność najlepszą mam ja! To były </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-07-11T19:25:02+00:00" pubdate>Lipiec 11, 2013</time></p>
+  <p><a href="/hakuna-matata-spotkanie-czytelnikow-bloga//#disqus_thread"><span class="dsq-postid" rel="4101 http://www.zyciejestpiekne.eu/?p=4101">30 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'zyciejestpiekne';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+  <ul class="large-3 columns directpagg">
+          <a href="/lifestyle/page/2/" ><span class="meta-nav">&larr;</span></a>                  </ul>
+        <ul class="large-9 columns pagination">
+        <div class='wp-pagenavi'>
+<span class='current'>1</span><a href='/lifestyle/page/2/' class='page larger'>2</a><a href='/lifestyle/page/3/' class='page larger'>3</a><a href='/lifestyle/page/4/' class='page larger'>4</a><a href='/lifestyle/page/2/' class='nextpostslink'>></a>
+</div>        </ul>
+</section>
+<aside class="sidebar span4 large-3 columns" role="complementary">
+  <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+</aside><!-- /.sidebar -->  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201404'></script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.454 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-01-25 17:32:00 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Jeszcze szybki powrót do roku 2013. Postanowiłem, że wybiorę 10 zdjęć które zrobiłem. Część z nich już widzieliście, część jeszcze nie. To fotograficzny zapis wspomnień związanych z różnymi wydarzeniami, które mnie spotkały. Przy okazji testujemy nowy rodzaj wpisów na blogu.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Tradycyjnie, każdego roku w okresie świątecznym piszę podsumowanie swojego roku i planuję kolejne rzeczy. Ten rok był dla mnie przełomowy i 2014 będzie bardzo ważnym, bo czuję, że od niego zależy reszta mojego życia.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Fantazje w życiu to jedna z lepszych rzeczy, jaką można mieć. Niestety, większość osób jedyne fantazje jakie ma, to te erotyczne, w dodatku niezrealizowane.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Cudownie jest odkryć miejsce na ziemi, gdzie się dobrze czujesz, masz wspaniałych ludzi i czujesz, że to jest dobre miejsce dla Ciebie. Kocham Kraków.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Dwa weekendy temu w Krakowie odbyła się Hakuna Matata 2. Pierwsza edycja miała miejsce w lipcu. Początkowo zakładaliśmy, że będzie to jednorazowe spotkanie czytelników bloga, ale wychodzi z tego coś większego i ciekawszego.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Przychodzi taki moment w życiu człowieka, że siada sobie wygodnie w fotelu, puszcza pozytywną muzykę, lekko mruży oczy i mówi sam do siebie: Mam okres…</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Wielkim fanem gier nie jestem, ale obok tej pozycji nie mogłem przejść obojętnie. Gram w nią od lat i jeszcze żadna inna nie zrobiła na mnie takiego wrażenia.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Pojechałem, zobaczyłem, pobawiłem się. Gdy pierwszy raz wszedłem na teren Woodstocku, przeraziłem się. Takiego tłumu i syfu nie widziałem od czasów podróży do Indii. Jaki więc jest ten zły, niebezpieczny i pełen brudnych narkomanów Woodstock?</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Są rzeczy, które w podróży są bardzo przydatne. Są rzeczy, bez których podróżuje się ciężko. Są rzeczy, bez których podróżować nie potrafię. Przedmioty sentymentalne, przedmioty naładowane emocjami, przedmioty z duszą.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Co to był za weekend! Z dumą i radością muszę napisać, że mam najlepszych czytelników bloga na Świecie. Są blogi, które może mają więcej wejść, firmy walą do nich z reklamami, piszą więcej, ale społeczność najlepszą mam ja! To były </p>
+ 
+ </div>
+ <p></p>
+ </div>
+</div>PHafrAWuwrUf7S*UkEp&Archiwa: LifeStyle - Życie jest piękne!

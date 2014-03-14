@@ -41,17 +41,6 @@ describe CrawlerOptimizer do
 "http://www.dupa.pl/2010/05/Niedziela.html",
 "http://www.dupa.pl/2011/03/Problemy-z-czasoprzestrzenia.html",
 "http://www.dupa.pl/1310721,262146,14,15.html?8,2010"
-
-
-
- 
-
-
-
- 
-
-
-
 		]
 
 		@v_urls = [
@@ -78,10 +67,10 @@ describe CrawlerOptimizer do
 	end
 
 	it "should find all patterns"do
-		expect(@optimizer.pattern_finder.has_pattern?("http://www.dupa.pl/kategorie/fdasfasd/")).to eq(true)
-		expect(@optimizer.pattern_finder.has_pattern?("http://www.dupa.pl/fdasfasd//#disqus_thread")).to eq(true)
-		expect(@optimizer.pattern_finder.has_pattern?("http://www.dupa.pl/4259841,1179650,217.html?4718534")).to eq(true)
-		expect(@optimizer.pattern_finder.has_pattern?("http://www.dupa.pl/1310721,262146,14,15.html?2,2011")).to eq(true)
+		expect(@optimizer.pattern?("http://www.dupa.pl/kategorie/fdasfasd/")).to eq(true)
+		expect(@optimizer.pattern?("http://www.dupa.pl/fdasfasd//#disqus_thread")).to eq(true)
+		expect(@optimizer.pattern?("http://www.dupa.pl/4259841,1179650,217.html?4718534")).to eq(true)
+		expect(@optimizer.pattern?("http://www.dupa.pl/1310721,262146,14,15.html?2,2011")).to eq(true)
 	end
 
 

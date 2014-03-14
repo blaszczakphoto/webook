@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Tu jest Polska! Tu jest pięknie! - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="Tu jest Polska! Tu jest pięknie!" />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/?p=4742" />
+	<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/screen_tujestpolska-150x150.jpg" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/polska-pieknie/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.7">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/wp-includes/js/comment-reply.min.js?ver=875'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '4742';
+	window._wp_rp_num_rel_posts = '3';
+	window._wp_rp_blog_id = '3126203';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Tu+jest+Polska%21+Tu+jest+pi%C4%99knie%21';
+	window._wp_rp_post_tags = ['praca', 'cai', 'od', 'www', 'mami', 'tu', 'po', 'ea', 'pod', 'al', 'tak', 'dla', 'si', 'na', 'nam', 'jed'];
+	window._wp_rp_remote_recommendations = false;
+	window._wp_rp_promoted_content = true;
+	window._wp_rp_traffic_exchange = true;
+</script>
+<script type="text/javascript" src="http://rp.zemanta.com/static/js/pageview.js?version=3.4.2" async></script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script><meta property="og:site_name" content="Życie jest piękne!" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/polska-pieknie/" />
+<meta property="og:title" content="Tu jest Polska! Tu jest pięknie! - Życie jest piękne!" />
+<meta property="og:description" content="To co się wydarzyło ostatniej nocy było niesamowite. Noc pełna pasji, zabawy i tworzenia. Wszystko zaczęło się od jednego komentarza na blogu pod wczorajszym wpisem. Stworzyliśmy ciekawy serwis internetowy – w kilka godzin, od podstaw. Muszę się tym pochwalić! Historia " />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/Fotka-główna-copy.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/screen_tujestpolska.jpg" />
+<meta property="og:image:width" content="759" />
+<meta property="og:image:height" content="245" />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/tojestpolska_plany.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta property="article:published_time" content="2014-01-29T14:47:08+00:00" />
+<meta property="article:modified_time" content="2014-01-29T14:48:46+00:00" />
+<meta property="article:author" content="http://www.zyciejestpiekne.eu/author/admin/" />
+<meta property="article:section" content="Praca" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="single single-post postid-4742 single-format-standard polska-pieknie" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_02.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+          <section class="post-4742 post type-post status-publish format-standard hentry category-praca-2 large-9 columns single page">
+      <article class="post">
+        <div class="description">
+                    <h1><a href="/polska-pieknie/">Tu jest Polska! Tu jest pięknie!</a></h1>
+          <div class="meta">
+  <p><time datetime="2014-01-29T15:47:08+00:00" pubdate>Styczeń 29, 2014</time></p>
+  <p><a href="/polska-pieknie//#disqus_thread"><span class="dsq-postid" rel="4742 http://www.zyciejestpiekne.eu/?p=4742">40 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+          <div class="thumbnail">
+            <!-- 168x230 -->
+            <img width="230" height="163" src="http://www.zyciejestpiekne.eu/wp-content/uploads/Fotka-główna-copy-230x163.jpg" class="attachment-post colorbox-4742  wp-post-image" alt="Fotka główna copy">          </div>
+            
+            <p>To co się wydarzyło ostatniej nocy było niesamowite. Noc pełna pasji, zabawy i tworzenia. Wszystko zaczęło się od jednego komentarza na blogu pod wczorajszym wpisem. Stworzyliśmy ciekawy serwis internetowy – w kilka godzin, od podstaw. Muszę się tym pochwalić!</p>
+<h2>Historia powstania</h2>
+<p>Dużo jeżdżę po świecie, ale zawsze podkreślam, że<a title="Doceń to, gdzie żyjesz!" href="http://www.zyciejestpiekne.eu/docen-to-gdzie-zyjesz/"> Polska mi się bardzo podoba</a> i ma dużo do zaoferowania. We wczorajszym wpisie rzuciłem takie hasło: „Tu jest Polska! Tu jest pięknie”. Pod artykułem pojawił się taki komentarz:</p>
+<p><img class="aligncenter size-full wp-image-4743 colorbox-4742" alt="screen_tujestpolska" src="http://www.zyciejestpiekne.eu/wp-content/uploads/screen_tujestpolska.jpg" width="759" height="245" /></p>
+<p>Zauważył to Marcin. Z Marcinem pracujemy razem w <a title="MelonStudio" href="http://melonstudio.eu">Melonie</a> od kilka lat, robiliśmy też kilka innych projektów i jak to się mówi, z niejednego kufla już piwo piliśmy. Marcin rzucił krótkie „zróbmy to. Zróbmy taki prosty serwis www ze zdjęciami z Polski”. Szybko marker, kartka papieru i planujemy. Po 15 minutach mieliśmy koncepcję na cały serwis.</p>
+<p>Problem pojawił się taki, że mamy masę pracy w firmie. Deadline’y się zbliżają, a nam się zachciało zrobić coś swojego &#8211; ot tak, po prostu. Czasem tak jest, że się chce zrobić coś dla samej przyjemności tworzenia, a nie dla pieniędzy. Postanowiliśmy, że zrobimy taki serwis w jedną noc. Zaczęliśmy o 23, skończyliśmy o 6 rano : )</p>
+<h2>Po co taki serwis?</h2>
+<p>1. Dla przyjemności tworzenia. Lubię jak powstaje coś z niczego.<br />
+2. Gdy ktoś będzie mi marudził na Polskę, że źle, że brzydko, że politycy kradną to zamknę mu gębę jednym linkiem. Polska jest naprawdę świetna.<br />
+3. Mam sporo znajomych z zagranicy. Część z nich nadal myśli, że do Polski strach jeździć. Z przyjemnością wyśle im linka do takiej galerii.</p>
+<h2>Zapraszamy do zobaczenia efektów naszej pracy: <span style="color: #ff6600;"><a title="Tu jest Polska" href="http://tujestpolska.pl"><span style="color: #ff6600;">www.tujestpolska.pl</span></a></span></h2>
+<p>Mogą się zdarzyć jakieś błędy, przydałoby się jeszcze dopisać kilka funkcji, ale weźcie poprawkę na czas realizacji. Tutaj jeszcze można lajkować Fan Page, gdzie pewnie będą pojawiać się równie ciekawe zdjęcia. Aha – możecie tez wgrywać swoje fotki. Jeżeli macie jakieś ładne zdjęcia z naszego kraju to możecie je dodać przez prosty formularz. Będziemy wybierać te najlepsze, żeby naprawdę było na czym oko zawiesić.</p>
+<p>Na pewno zrobimy tam jeszcze parę rzeczy. W pierwszej kolejności szybkość wyświetlania zdjęć. Marzy nam się też lokalizowanie zdjęć, możliwość oceniania i sortowania po najlepszych. Poprawimy też sposób wysyłania zdjęć, stworzymy regulamin, który będzie gwarantował fotografom, że ich zdjęcia nie będą użyte bez ich zgody itp. Najważniejsze, że ruszyliśmy z tym : )</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-4744 colorbox-4742" alt="tojestpolska_plany" src="http://www.zyciejestpiekne.eu/wp-content/uploads/tojestpolska_plany.jpg" width="630" height="420" /></p>
+<p>Nie mamy żadnych oczekiwań w stosunku do tego serwisu. Co będzie to będzie. Dla nas to czysta przyjemność stworzyć coś takiego. Uwielbiamy robić takie rzeczy i ta nieprzespana noc dała dużo satysfakcji i radości.</p>
+<p><strong>Widzicie, to prosty przykład jak należy przekładać proste idee w działanie. Zaczęliśmy działać, zanim zdaliśmy sobie sprawę, że to bez sensu. Codziennie spędzamy przy komputerze po kilkanaście godzin wykonując projekty dla naszych klientów, a mimo to chce nam się jeszcze zarywać noc, męczyć oczy, żeby zrobić coś fajnego.</strong></p>
+<p>Ta moc tworzenia jest czymś pięknym! Jeżeli od dłuższego czasu chodzi za Tobą jakiś pomysł na biznes, serwis internetowy, myślisz nad założeniem bloga lub otwarciem straganu z warzywami – zrób to. Zarwij noc i po prostu zrób to. Nie planuj zbyt dużo, nie dawaj sobie zbyt dużo „wymagań”. Zrób tak, jak da się to zrobić w ciągu kilka godzin, pokaż to światu a później ewentualnie rozwijaj.</p>
+<h2>To jeszcze raz – <span style="color: #ff6600;"><a title="Tu jest Polska" href="http://tujestpolska.pl"><span style="color: #ff6600;">Tujestpolska.pl</span></a></span></h2>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.zyciejestpiekne.eu%2Fpolska-pieknie%2F&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden;  width:450px; height:65px"></iframe>
+
+<div class="wp_rp_wrap  wp_rp_vertical" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-4622" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/moje-miejsce-pracy/" class="wp_rp_thumbnail"><img class="colorbox-4742"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko1-150x150.jpg" alt="Moje miejsce pracy" /></a><a href="http://www.zyciejestpiekne.eu/moje-miejsce-pracy/" class="wp_rp_title">Moje miejsce pracy</a></li><li data-position="1" data-poid="in-2414" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/miej-jaja/" class="wp_rp_thumbnail"><img class="colorbox-4742"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/2012/04/01mini-150x150.jpg" alt="Miej jaja!" /></a><a href="http://www.zyciejestpiekne.eu/miej-jaja/" class="wp_rp_title">Miej jaja!</a></li><li data-position="2" data-poid="in-834" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/jak-realizowac-postanowienia-noworoczne/" class="wp_rp_thumbnail"><img class="colorbox-4742"  src="/plugins/related-posts/static/thumbs/11.jpg" alt="Jak realizować postanowienia noworoczne?" /></a><a href="http://www.zyciejestpiekne.eu/jak-realizowac-postanowienia-noworoczne/" class="wp_rp_title">Jak realizować postanowienia noworoczne?</a></li></ul></div></div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <footer class="row pagg">
+
+        <ul class="large-3 columns directpagg">
+                          </ul>
+        <ul class="large-7 columns pagination">
+                        </ul>
+        <div class="cf"></div>
+                
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-8315">
+        <div id="dsq-comment-header-8315" class="dsq-comment-header">
+            <cite id="dsq-cite-8315">
+                <span id="dsq-author-user-8315">moovie.blog.pl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8315" class="dsq-comment-body">
+            <div id="dsq-comment-message-8315" class="dsq-comment-message"><p>Prawdę rzeczesz przyjacielu. Bo cudze chwalą, a swojego nie znają. Niech optymizm będzie z Tobą!</p>
+<p>MJ</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8316">
+        <div id="dsq-comment-header-8316" class="dsq-comment-header">
+            <cite id="dsq-cite-8316">
+                <span id="dsq-author-user-8316">Maciej B</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8316" class="dsq-comment-body">
+            <div id="dsq-comment-message-8316" class="dsq-comment-message"><p>&#8222;Będziemy wybierać te najlepsze, żeby naprawdę było na czym oko zawiesić.&#8221; <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /><br />
+Aż zaszczycony się czuję, ze moje zdjęcie znalazło się w tym gronie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Przydała by się też lista wszystkich zdjęć z miniaturkami i może jakieś proste kategorie typu: góry, morze, niziny, pojezierze itd <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /><br />
+Wybieranie losowego zdjęcia&#8230;<br />
+A w przyszłości może i konta dla użytkowników oraz możliwość oceniania zdjęć (kciuki, gwiazdki), lajkowania i udostępniania,  żebym mógł komuś wysłać link np z moimi zdjęciami, bo obecnie strony dynamicznie się zmieniają i nie jest to możliwe <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /><br />
+Pozdrawiam! <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8360">
+        <div id="dsq-comment-header-8360" class="dsq-comment-header">
+            <cite id="dsq-cite-8360">
+http://grafikaayris.blogspot.com/                <span id="dsq-author-user-8360">Ay</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8360" class="dsq-comment-body">
+            <div id="dsq-comment-message-8360" class="dsq-comment-message"><p>Zgadzam się, że przydałaby się jakaś lista z miniaturkami. Bo teraz, żeby obejrzeć jakieś jedno zdjęcie z początku, trzeba przeglądać wszystkie po kolei, a że zdjęć będzie przybywało, to w końcu odkopanie takiego będzie bardzo upierdliwe. <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />   </p>
+<p>Pozostałe pomysły też popieram, ale to w tej chwili wydaje mi się najbardziej potrzebne.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8317">
+        <div id="dsq-comment-header-8317" class="dsq-comment-header">
+            <cite id="dsq-cite-8317">
+http://www.magdabednarczyk.pl/                <span id="dsq-author-user-8317">Magda Bednarczyk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8317" class="dsq-comment-body">
+            <div id="dsq-comment-message-8317" class="dsq-comment-message"><p>Więcej zdjęć Bieszczad poproszę! <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-8318">
+        <div id="dsq-comment-header-8318" class="dsq-comment-header">
+            <cite id="dsq-cite-8318">
+                <span id="dsq-author-user-8318">Ania</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8318" class="dsq-comment-body">
+            <div id="dsq-comment-message-8318" class="dsq-comment-message"><p>Ooo! i moje zdjęcie się tam znalazło <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  miło <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  a pomysł był genialny w swojej prostocie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8319">
+        <div id="dsq-comment-header-8319" class="dsq-comment-header">
+            <cite id="dsq-cite-8319">
+                <span id="dsq-author-user-8319">Ignacy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8319" class="dsq-comment-body">
+            <div id="dsq-comment-message-8319" class="dsq-comment-message"><p>Świetny pomysł! Nazwa zaś jest już sama w sobie bardzo &#8222;swojska&#8221;.<br />
+Jak działa algorytm? Nowe zdjęcie jest &#8222;na samym wierzchu&#8221;?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8330">
+        <div id="dsq-comment-header-8330" class="dsq-comment-header">
+            <cite id="dsq-cite-8330">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8330">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8330" class="dsq-comment-body">
+            <div id="dsq-comment-message-8330" class="dsq-comment-message"><p>Nowe na samej górze, ale jest opcja głosowania i będzie można sortować po najlepszych w danym miesiącu itp. Będzie tez opcja losowego slideshow <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8321">
+        <div id="dsq-comment-header-8321" class="dsq-comment-header">
+            <cite id="dsq-cite-8321">
+http://madeintheighties.blogspot.com/                <span id="dsq-author-user-8321">grejfrut</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8321" class="dsq-comment-body">
+            <div id="dsq-comment-message-8321" class="dsq-comment-message"><p>Świetny pomysł i jeszcze lepsze wykonanie, ja jestem kupiona (:<br />
+A poza tym wiadomo, że tu jest pięknie!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8322">
+        <div id="dsq-comment-header-8322" class="dsq-comment-header">
+            <cite id="dsq-cite-8322">
+                <span id="dsq-author-user-8322">Marta</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8322" class="dsq-comment-body">
+            <div id="dsq-comment-message-8322" class="dsq-comment-message"><p>Świetny pomysł! Jestem pewna, że będę zaglądać regularnie, tak jak na ‚życie jest piękne’ <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  pozdrawiam z pięknych Beskidów!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8324">
+        <div id="dsq-comment-header-8324" class="dsq-comment-header">
+            <cite id="dsq-cite-8324">
+                <span id="dsq-author-user-8324">Jim1961</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8324" class="dsq-comment-body">
+            <div id="dsq-comment-message-8324" class="dsq-comment-message"><p>Grafika a&#8217;la Paint, backend na WP &#8211; co Wyście tam robili te 7 godzin <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8328">
+        <div id="dsq-comment-header-8328" class="dsq-comment-header">
+            <cite id="dsq-cite-8328">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8328">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8328" class="dsq-comment-body">
+            <div id="dsq-comment-message-8328" class="dsq-comment-message"><p>Zrób lepsze <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-3" id="dsq-comment-8331">
+        <div id="dsq-comment-header-8331" class="dsq-comment-header">
+            <cite id="dsq-cite-8331">
+                <span id="dsq-author-user-8331">Jim1961</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8331" class="dsq-comment-body">
+            <div id="dsq-comment-message-8331" class="dsq-comment-message"><p>Zrobiłbym, ale po co powielać pomysł. Z kolei moje pomysły są deczko bardziej skomplikowane. Nie hejtuję, z przymrużeniem oka, wyrażam swoją opinię <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-4" id="dsq-comment-8332">
+        <div id="dsq-comment-header-8332" class="dsq-comment-header">
+            <cite id="dsq-cite-8332">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8332">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8332" class="dsq-comment-body">
+            <div id="dsq-comment-message-8332" class="dsq-comment-message"><p>Wiem, wiem <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Miało być szybko i jak najprościej. Jak będzie chwila czasu to poprawimy bugi, wyświetlanie itp. i będzie wszystko ładnie śmigało <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8326">
+        <div id="dsq-comment-header-8326" class="dsq-comment-header">
+            <cite id="dsq-cite-8326">
+                <span id="dsq-author-user-8326">beztroskiewczasy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8326" class="dsq-comment-body">
+            <div id="dsq-comment-message-8326" class="dsq-comment-message"><p>Strona jest responsywna i bardzo fajnie, ale nie każcie wczytywać mobilnym pełnowymiarowe obrazki -:) WP ma pluginy do tego zapewne.</p>
+<p>Poza tym podoba mi się projekt, ładne zdjęcia.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8329">
+        <div id="dsq-comment-header-8329" class="dsq-comment-header">
+            <cite id="dsq-cite-8329">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8329">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8329" class="dsq-comment-body">
+            <div id="dsq-comment-message-8329" class="dsq-comment-message"><p>Ma, ma i na pewno to wdrożymy tylko zabrakło czasu. Będziemy robić aktualizację i będzie porobione :wszystko ładnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8334">
+        <div id="dsq-comment-header-8334" class="dsq-comment-header">
+            <cite id="dsq-cite-8334">
+                <span id="dsq-author-user-8334">Martyna</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8334" class="dsq-comment-body">
+            <div id="dsq-comment-message-8334" class="dsq-comment-message"><p>Pomysł genialny w swojej prostocie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Cieszę się, że ta strona powstała.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8336">
+        <div id="dsq-comment-header-8336" class="dsq-comment-header">
+            <cite id="dsq-cite-8336">
+http://tomojswiat.wordpress.com/                <span id="dsq-author-user-8336">Malwina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8336" class="dsq-comment-body">
+            <div id="dsq-comment-message-8336" class="dsq-comment-message"><p>Najprostsze pomysły są najfajniejsze. I zgadzam się z resztą postu. Jeżeli masz na coś ochotę to po prostu zrób to! Ja tak robię <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8337">
+        <div id="dsq-comment-header-8337" class="dsq-comment-header">
+            <cite id="dsq-cite-8337">
+                <span id="dsq-author-user-8337">mm</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8337" class="dsq-comment-body">
+            <div id="dsq-comment-message-8337" class="dsq-comment-message"><p>Strona suuuper! Zamiast się uczyć zaglądam, by popatrzeć na Polskę. I mam coraz większą ochotę ruszyć się sprzed biurka i robić zdjęcia. Brakuje mi nieco miniaturek, ale nie dodawałabym też zbyt dużo opcji do tej strony &#8211; co za dużo to niezdrowo :).</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8338">
+        <div id="dsq-comment-header-8338" class="dsq-comment-header">
+            <cite id="dsq-cite-8338">
+http://swiatlo-i-brzask.blogspot.com/                <span id="dsq-author-user-8338">Polly</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8338" class="dsq-comment-body">
+            <div id="dsq-comment-message-8338" class="dsq-comment-message"><p>Znalazłam linka jeszcze pod poprzednim postem i pobiegłam sprawdzić. Jest pięknie! Pogratulować! Przy okazji znalazłam tam linka do bloga, który mnie wciągnął na cały wieczór. Co do rozbudowywania serwisu, pewnie niektóre opcje by się przydały, ale nie wiem, czy w prostocie nie tkwi siła&#8230;</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8341">
+        <div id="dsq-comment-header-8341" class="dsq-comment-header">
+            <cite id="dsq-cite-8341">
+                <span id="dsq-author-user-8341">tENtego</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8341" class="dsq-comment-body">
+            <div id="dsq-comment-message-8341" class="dsq-comment-message"><p>Maju jakie polecasz książki motywacyjną, aby dało mi mega kopa do zmiany życia.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8348">
+        <div id="dsq-comment-header-8348" class="dsq-comment-header">
+            <cite id="dsq-cite-8348">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8348">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8348" class="dsq-comment-body">
+            <div id="dsq-comment-message-8348" class="dsq-comment-message"><p>&#8222;Kroki w nieznane&#8221; R. Branson. Najlepsza książka jaką w życiu czytałem.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8345">
+        <div id="dsq-comment-header-8345" class="dsq-comment-header">
+            <cite id="dsq-cite-8345">
+                <span id="dsq-author-user-8345">Wojtek</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8345" class="dsq-comment-body">
+            <div id="dsq-comment-message-8345" class="dsq-comment-message"><p>Nie wiem, z czego to wynika, ale storna mi się w ogóle nie otwiera. Michał, pomożesz?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8347">
+        <div id="dsq-comment-header-8347" class="dsq-comment-header">
+            <cite id="dsq-cite-8347">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8347">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8347" class="dsq-comment-body">
+            <div id="dsq-comment-message-8347" class="dsq-comment-message"><p>Może jakieś chwilowe serwerowe problemy.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8349">
+        <div id="dsq-comment-header-8349" class="dsq-comment-header">
+            <cite id="dsq-cite-8349">
+                <span id="dsq-author-user-8349">kot Justyna</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8349" class="dsq-comment-body">
+            <div id="dsq-comment-message-8349" class="dsq-comment-message"><p>fajny pomysły, prosty, ale miło zostać, poklikać i pozachwycać tym, o czym się na co dzień zapomina <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8352">
+        <div id="dsq-comment-header-8352" class="dsq-comment-header">
+            <cite id="dsq-cite-8352">
+                <span id="dsq-author-user-8352">Martyna Lipiec</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8352" class="dsq-comment-body">
+            <div id="dsq-comment-message-8352" class="dsq-comment-message"><p>Ale pozytywna akcja <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8354">
+        <div id="dsq-comment-header-8354" class="dsq-comment-header">
+            <cite id="dsq-cite-8354">
+                <span id="dsq-author-user-8354">http://100marzen.blogspot.de/</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8354" class="dsq-comment-body">
+            <div id="dsq-comment-message-8354" class="dsq-comment-message"><p>Świetny pomysł ! Życzę sukcesów <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8355">
+        <div id="dsq-comment-header-8355" class="dsq-comment-header">
+            <cite id="dsq-cite-8355">
+                <span id="dsq-author-user-8355">Margdalena</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8355" class="dsq-comment-body">
+            <div id="dsq-comment-message-8355" class="dsq-comment-message"><p>Niesamowicie pozytywny pomysł <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8356">
+        <div id="dsq-comment-header-8356" class="dsq-comment-header">
+            <cite id="dsq-cite-8356">
+                <span id="dsq-author-user-8356">hala</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8356" class="dsq-comment-body">
+            <div id="dsq-comment-message-8356" class="dsq-comment-message"><p>zajebisty pomysł ;))</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8358">
+        <div id="dsq-comment-header-8358" class="dsq-comment-header">
+            <cite id="dsq-cite-8358">
+                <span id="dsq-author-user-8358">Ruda93</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8358" class="dsq-comment-body">
+            <div id="dsq-comment-message-8358" class="dsq-comment-message"><p>świetny pomysł! Jeśli moge coś podpowiedzieć , to podpisujcie jakoś te miejsca, moze kilka z nich uda mi sie w tym roku odwiedzić bo zdjecia są oblędne!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8361">
+        <div id="dsq-comment-header-8361" class="dsq-comment-header">
+            <cite id="dsq-cite-8361">
+                <span id="dsq-author-user-8361">mat</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8361" class="dsq-comment-body">
+            <div id="dsq-comment-message-8361" class="dsq-comment-message"><p>pomysl rewelacja, 3mam kciuki!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8363">
+        <div id="dsq-comment-header-8363" class="dsq-comment-header">
+            <cite id="dsq-cite-8363">
+                <span id="dsq-author-user-8363">Kuba</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8363" class="dsq-comment-body">
+            <div id="dsq-comment-message-8363" class="dsq-comment-message"><p>Jakby jeszcze można było dodać lokalizację miejsca ze zdjęcia w celu zobaczenia tego na własne oczy byłoby ciekawej. Chciałem odnaleźć kilka z tych miejsc.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-8364">
+        <div id="dsq-comment-header-8364" class="dsq-comment-header">
+            <cite id="dsq-cite-8364">
+                <span id="dsq-author-user-8364">Beata</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8364" class="dsq-comment-body">
+            <div id="dsq-comment-message-8364" class="dsq-comment-message"><p>Pomysł świetny i z ogromnym potencjałem. Niesamowite jak szybko przechodzisz od pomysłu do realizacji. Prawdziwy &#8222;człowiek czynu&#8221;. Podziwiam.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-8365">
+        <div id="dsq-comment-header-8365" class="dsq-comment-header">
+            <cite id="dsq-cite-8365">
+                <span id="dsq-author-user-8365">Beata</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8365" class="dsq-comment-body">
+            <div id="dsq-comment-message-8365" class="dsq-comment-message"><p>Oczywiscie komentarz wyżej był do Maja. Przepraszam</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8366">
+        <div id="dsq-comment-header-8366" class="dsq-comment-header">
+            <cite id="dsq-cite-8366">
+                <span id="dsq-author-user-8366">Robert</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8366" class="dsq-comment-body">
+            <div id="dsq-comment-message-8366" class="dsq-comment-message"><p>Czy korzysta ktoś z Google Chrome? Działa Was strona? Jeżeli nie to zgłaszam błąd, a mianowicie na dwóch komputerach z tą przeglądarką otwiera się tylko czarne tło i na środku niebieskie kółeczko ładowania. Natomiast przy próbie z Firefoxem bez problemu otwierają się piękne zdjęcia <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-8367">
+        <div id="dsq-comment-header-8367" class="dsq-comment-header">
+            <cite id="dsq-cite-8367">
+                <span id="dsq-author-user-8367">Ignatowicz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8367" class="dsq-comment-body">
+            <div id="dsq-comment-message-8367" class="dsq-comment-message"><p>Potwierdzam, u mnie z kolei w Firefox nie działa. </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8370">
+        <div id="dsq-comment-header-8370" class="dsq-comment-header">
+            <cite id="dsq-cite-8370">
+                <span id="dsq-author-user-8370">Theo Tadeusz Motz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8370" class="dsq-comment-body">
+            <div id="dsq-comment-message-8370" class="dsq-comment-message"><p>Maju, coś się zawiesiło, i strona o której piszesz teraz nie działa&#8230;</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8388">
+        <div id="dsq-comment-header-8388" class="dsq-comment-header">
+            <cite id="dsq-cite-8388">
+                <span id="dsq-author-user-8388">Ignacy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8388" class="dsq-comment-body">
+            <div id="dsq-comment-message-8388" class="dsq-comment-message"><p>Teraz strona całkowicie leży.<br />
+A akurat miałem ochotę pooglądać widoczki :&gt;</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8389">
+        <div id="dsq-comment-header-8389" class="dsq-comment-header">
+            <cite id="dsq-cite-8389">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-8389">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8389" class="dsq-comment-body">
+            <div id="dsq-comment-message-8389" class="dsq-comment-message"><p>Słuchajcie strona leży bo serwery nie uciągają tyle wejść. Duże zainteresowanie, a zdjęcia potrzebują dużego serwera dlatego od kilku dni są problemy. </p>
+<p>Dobry news jest tai, że dostaliśmy już serwer, który da sobie z tym radę i przenosimy wszystko ładnie. Stąd problemy techniczne. </p>
+<p>Dajcie kilka godzin na ogarnięcie sytuacji <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-8400">
+        <div id="dsq-comment-header-8400" class="dsq-comment-header">
+            <cite id="dsq-cite-8400">
+                <span id="dsq-author-user-8400">antek</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8400" class="dsq-comment-body">
+            <div id="dsq-comment-message-8400" class="dsq-comment-message"><p>dalej nie działa moi przyjaciele&#8230;:(</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-8430">
+        <div id="dsq-comment-header-8430" class="dsq-comment-header">
+            <cite id="dsq-cite-8430">
+                <span id="dsq-author-user-8430">Andrezej</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8430" class="dsq-comment-body">
+            <div id="dsq-comment-message-8430" class="dsq-comment-message"><p>mam pytanko, czy strona tujestpolska.pl bedzie jakos rozwijana? co odświeze (wchodze na nastepny dzien) to mam te same zdjecia i musze jechac &#8222;daleko&#8221; w prawo zeby jakies nowe zobaczyc. Moze by tak pokatalogowac to miesiacami? <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  pozdrawiam i popieram inicjatywe Michał!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.zyciejestpiekne.eu/polska-pieknie/';
+    var disqus_identifier = '4742 http://www.zyciejestpiekne.eu/?p=4742';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'zyciejestpiekne';
+    var disqus_title = "Tu jest Polska! Tu jest pięknie!";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=4742';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.zyciejestpiekne.eu\/polska-pieknie\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+      </footer>
+  </section>
+  <aside class="sidebar span4 large-3 columns" role="complementary">
+    <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+  </aside><!-- /.sidebar -->
+    
+  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.48.0-2013.12.28'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.7'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201408'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="http:\/\/connect.facebook.net\/pl_PL\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+<div id="fb-root"></div>  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.786 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-02-19 19:20:31 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div><div>
+ 
+ 
+ 
+ 
+ <p>To co się wydarzyło ostatniej nocy było niesamowite. Noc pełna pasji, zabawy i tworzenia. Wszystko zaczęło się od jednego komentarza na blogu pod wczorajszym wpisem. Stworzyliśmy ciekawy serwis internetowy – w kilka godzin, od podstaw. Muszę się tym pochwalić!</p>
+<h2>Historia powstania</h2>
+<p>Dużo jeżdżę po świecie, ale zawsze podkreślam, że<a href="http://www.zyciejestpiekne.eu/docen-to-gdzie-zyjesz/"> Polska mi się bardzo podoba</a> i ma dużo do zaoferowania. We wczorajszym wpisie rzuciłem takie hasło: „Tu jest Polska! Tu jest pięknie”. Pod artykułem pojawił się taki komentarz:</p>
+<p><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/screen_tujestpolska.jpg"></p>
+<p>Zauważył to Marcin. Z Marcinem pracujemy razem w <a href="http://melonstudio.eu">Melonie</a> od kilka lat, robiliśmy też kilka innych projektów i jak to się mówi, z niejednego kufla już piwo piliśmy. Marcin rzucił krótkie „zróbmy to. Zróbmy taki prosty serwis www ze zdjęciami z Polski”. Szybko marker, kartka papieru i planujemy. Po 15 minutach mieliśmy koncepcję na cały serwis.</p>
+<p>Problem pojawił się taki, że mamy masę pracy w firmie. Deadline’y się zbliżają, a nam się zachciało zrobić coś swojego – ot tak, po prostu. Czasem tak jest, że się chce zrobić coś dla samej przyjemności tworzenia, a nie dla pieniędzy. Postanowiliśmy, że zrobimy taki serwis w jedną noc. Zaczęliśmy o 23, skończyliśmy o 6 rano : )</p>
+<h2>Po co taki serwis?</h2>
+<p>1. Dla przyjemności tworzenia. Lubię jak powstaje coś z niczego.<br>
+2. Gdy ktoś będzie mi marudził na Polskę, że źle, że brzydko, że politycy kradną to zamknę mu gębę jednym linkiem. Polska jest naprawdę świetna.<br>
+3. Mam sporo znajomych z zagranicy. Część z nich nadal myśli, że do Polski strach jeździć. Z przyjemnością wyśle im linka do takiej galerii.</p>
+<h2>Zapraszamy do zobaczenia efektów naszej pracy: <span><a href="http://tujestpolska.pl"><span>www.tujestpolska.pl</span></a></span>
+</h2>
+<p>Mogą się zdarzyć jakieś błędy, przydałoby się jeszcze dopisać kilka funkcji, ale weźcie poprawkę na czas realizacji. Tutaj jeszcze można lajkować Fan Page, gdzie pewnie będą pojawiać się równie ciekawe zdjęcia. Aha – możecie tez wgrywać swoje fotki. Jeżeli macie jakieś ładne zdjęcia z naszego kraju to możecie je dodać przez prosty formularz. Będziemy wybierać te najlepsze, żeby naprawdę było na czym oko zawiesić.</p>
+<p>Na pewno zrobimy tam jeszcze parę rzeczy. W pierwszej kolejności szybkość wyświetlania zdjęć. Marzy nam się też lokalizowanie zdjęć, możliwość oceniania i sortowania po najlepszych. Poprawimy też sposób wysyłania zdjęć, stworzymy regulamin, który będzie gwarantował fotografom, że ich zdjęcia nie będą użyte bez ich zgody itp. Najważniejsze, że ruszyliśmy z tym : )</p>
+<p><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/tojestpolska_plany.jpg"></p>
+<p>Nie mamy żadnych oczekiwań w stosunku do tego serwisu. Co będzie to będzie. Dla nas to czysta przyjemność stworzyć coś takiego. Uwielbiamy robić takie rzeczy i ta nieprzespana noc dała dużo satysfakcji i radości.</p>
+<p>Widzicie, to prosty przykład jak należy przekładać proste idee w działanie. Zaczęliśmy działać, zanim zdaliśmy sobie sprawę, że to bez sensu. Codziennie spędzamy przy komputerze po kilkanaście godzin wykonując projekty dla naszych klientów, a mimo to chce nam się jeszcze zarywać noc, męczyć oczy, żeby zrobić coś fajnego.</p>
+<p>Ta moc tworzenia jest czymś pięknym! Jeżeli od dłuższego czasu chodzi za Tobą jakiś pomysł na biznes, serwis internetowy, myślisz nad założeniem bloga lub otwarciem straganu z warzywami – zrób to. Zarwij noc i po prostu zrób to. Nie planuj zbyt dużo, nie dawaj sobie zbyt dużo „wymagań”. Zrób tak, jak da się to zrobić w ciągu kilka godzin, pokaż to światu a później ewentualnie rozwijaj.</p>
+<div><div><h3>MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3></div></div>
+ </div></div>PHafrAWuwrUf7S*UkEp&Tu jest Polska! Tu jest pięknie! - Życie jest piękne!

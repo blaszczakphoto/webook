@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Archiwa: Sport - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="CrossFit – nowa zabawka " />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/?p=4596" />
+	<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/012-150x150.jpg" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/sport-2/" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Archiwa: Sport - Życie jest piękne!" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/sport-2/" />
+<meta property="og:site_name" content="Życie jest piękne!" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.6">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '4596';
+	window._wp_rp_num_rel_posts = '3';
+</script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script>
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="archive category category-sport-2 category-546" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_03.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="active menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+      <!-- <div class="page-header">
+  <h1>
+    Sport  </h1>
+</div> --><section class="large-9 columns pagg">
+
+      <article class="post-4596 post type-post status-publish format-standard hentry category-adrenalina category-sport-2 post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/012-720x276.jpg" class="attachment-homepage colorbox-4596  wp-post-image" alt="01">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/crossfit-nowa-zabawka/">CrossFit – nowa zabawka</a></h2>
+          <p><p>Po maratonie poznańskim postanowiłem, że muszę odpocząć trochę od biegania. Biegałem w miarę regularnie od 2 lat i przyszła pora na małą przerwę, więc zacząłem szukać alternatywy ruchowej. Znalazłem Crossfit.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-12-06T16:46:14+00:00" pubdate>Grudzień 6, 2013</time></p>
+  <p><a href="/crossfit-nowa-zabawka//#disqus_thread"><span class="dsq-postid" rel="4596 http://www.zyciejestpiekne.eu/?p=4596">30 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-3746 post type-post status-publish format-standard hentry category-sport-2 post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/943391_10200505962645984_667290524_n-720x276.jpg" class="attachment-homepage colorbox-3746  wp-post-image" alt="943391_10200505962645984_667290524_n">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/dzien-ktory-zapamietamy-do-konca-zycia/">Dzień, który zapamiętamy do końca życia</a></h2>
+          <p><p>Są takie dni, że budzisz się, idziesz do łazienki, patrzysz w lustro i wiesz, że to będzie wyjątkowy dzień. Takie przeczucie, że wszystko pójdzie zgodnie z planem, nawet jeżeli tego dnia biegnie się 42 km</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-04-29T16:09:03+00:00" pubdate>Kwiecień 29, 2013</time></p>
+  <p><a href="/dzien-ktory-zapamietamy-do-konca-zycia//#disqus_thread"><span class="dsq-postid" rel="3746 http://www.zyciejestpiekne.eu/?p=3746">40 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-3377 post type-post status-publish format-standard hentry category-sport-2 post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/bieganie-720x276.jpg" class="attachment-homepage colorbox-3377  wp-post-image" alt="bieganie">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/42-do-szczescia-badz-czescia-rewolucji/">42 do szczęścia &#8211; Bądź częścią rewolucji!</a></h2>
+          <p><p>Na blogu cisza przed burzą. To nie jest tak jak niektórzy myślą, że po swoich urodzinach tydzień balowałem i nic nie pisałem. Przygotowywałem coś większego, coś co zawsze chciałem na tym blogu zrobić i wreszcie nadszedł ten dzień. Dziejemy się </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2013-03-30T09:24:21+00:00" pubdate>Marzec 30, 2013</time></p>
+  <p><a href="/42-do-szczescia-badz-czescia-rewolucji//#disqus_thread"><span class="dsq-postid" rel="3377 http://www.zyciejestpiekne.eu/?p=3377">31 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-2880 post type-post status-publish format-standard hentry category-sport-2 tag-bieganie-w-maratonach tag-jak-przebiec-maraton tag-maraton tag-motywacja-do-biegania tag-sport post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/2012/10/maraton_krakowski-720x276.jpg" class="attachment-homepage colorbox-2880  wp-post-image" alt="maraton_krakowski">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/jak-przebiec-maraton/">Jak przebiec maraton?</a></h2>
+          <p><p>Ostatnio pobiegłem sobie w Biegu Trzech Kopców. Był to mój pierwszy bieg górski i powiem szczerze, że dał mi po dupie. Większość trasy była pod górę, do tego deszcz i błoto, ale było pięknie. Biegnąc, lubię odlecieć myślami gdzieś daleko </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2012-11-01T20:15:55+00:00" pubdate>Listopad 1, 2012</time></p>
+  <p><a href="/jak-przebiec-maraton//#disqus_thread"><span class="dsq-postid" rel="2880 http://www.zyciejestpiekne.eu/?p=2880">44 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-2424 post type-post status-publish format-standard hentry category-sport-2 tag-cracovia-maraton tag-determinacja tag-motywacja tag-maraton tag-osiaganie-celow post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/2012/04/cracovia-720x276.jpg" class="attachment-homepage colorbox-2424  wp-post-image" alt="cracovia">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/dzien-ktory-przejdzie-do-historii/">Dzień, który przejdzie do historii!</a></h2>
+          <p><p>Wczorajszy dzień przejdzie do historii i na pewno zapamiętam go na długie lata. Pamiętacie jak jakiś czas temu wrzuciłem informacje, że szukam osób, które chcą razem ze mną przebiec maraton? Ten dzień nadszedł wczoraj. Po raz trzeci w swoim życiu </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2012-04-23T20:41:29+00:00" pubdate>Kwiecień 23, 2012</time></p>
+  <p><a href="/dzien-ktory-przejdzie-do-historii//#disqus_thread"><span class="dsq-postid" rel="2424 http://www.zyciejestpiekne.eu/?p=2424">38 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-1809 post type-post status-publish format-standard hentry category-sport-2 tag-bobek tag-bobek-muminki tag-czy-sumienie-istnieje tag-muminki tag-osiaganie-celow tag-rozwoj-osobisty tag-sumienie tag-wewnetrzny-glos post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/2011/10/maraton-720x276.jpg" class="attachment-homepage colorbox-1809  wp-post-image" alt="maraton">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/ucisz-wewnetrzny-glos/">Ucisz wewnętrzny głos</a></h2>
+          <p><p>Wpis ten zacząłem pisać w swojej głowie w ostatnią niedziele na 28 kmmaratonu warszawskiego. Kurcze, wiedziałem, że tak będzie. Kiedyś pojawiła się idea, żeby przebiec maraton. Po pół roku przygotowań pokonałem magiczny dystans 42 km i 195m w Krakowie. Cała </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2011-10-02T16:35:27+00:00" pubdate>Październik 2, 2011</time></p>
+  <p><a href="/ucisz-wewnetrzny-glos//#disqus_thread"><span class="dsq-postid" rel="1809 http://www.zyciejestpiekne.eu/?p=1809">36 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-1055 post type-post status-publish format-standard hentry category-sport-2 tag-maraton tag-marzenia tag-realizowanie-marzen tag-realziacja-celow-slomiany-zapal post">
+        <div class="thumbnail">
+          <img width="720" height="276" src="http://www.zyciejestpiekne.eu/wp-content/uploads/2011/04/marathoon-720x276.jpg" class="attachment-homepage colorbox-1055  wp-post-image" alt="marathoon">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/projekt-maraton-zakonczony/">Projekt maraton zakończony! :)</a></h2>
+          <p><p>Jakieś pół roku temu wymyśliłem coś takiego jak &#8222;Projekt maraton&#8222;. Założyłem sobie, że przez zimę będę regularnie biegał i wystartuje w krakowskim maratonie 17 kwietnia. Początkowo pisałem &#8222;raporty&#8221; z przygotowań, aby mieć większą motywacje do biegania, później pomysł ten odrzuciłem, </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2011-04-19T20:39:42+00:00" pubdate>Kwiecień 19, 2011</time></p>
+  <p><a href="/projekt-maraton-zakonczony//#disqus_thread"><span class="dsq-postid" rel="1055 http://www.zyciejestpiekne.eu/?p=1055">20 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-744 post type-post status-publish format-standard hentry category-sport-2 tag-jak-motytowac-sie-do-biegania-jak-zaczac-biegac-motywacja-inspiracja-bieganie post">
+        <div class="thumbnail">
+          <img width="123" height="123" src="http://www.zyciejestpiekne.eu/wp-content/uploads/2010/10/maraton.jpg" class="attachment-homepage colorbox-744  wp-post-image" alt="maraton">        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/jak-motywowac-sie-do-biegania/">Jak motywować się do biegania?</a></h2>
+          <p><p>Raz na trzy tygodnie obiecałem, że będe pisał jak idzie mi z przygotowaniem do maratonu. Przyszedł więc czas na pokazanie efektów mojej pracy. Aby to nie był wpis nieprzydatny postanowiłem trochę go przerobić, aby pokazać wam jak ja motywuje się </p>
+</p>
+          <div class="meta">
+  <p><time datetime="2010-11-30T11:32:27+00:00" pubdate>Listopad 30, 2010</time></p>
+  <p><a href="/jak-motywowac-sie-do-biegania//#disqus_thread"><span class="dsq-postid" rel="744 http://www.zyciejestpiekne.eu/?p=744">15 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <article class="post-725 post type-post status-publish format-standard hentry category-sport-2 post">
+        <div class="thumbnail">
+          <img src="" alt="" />        </div>
+        <div class="description">
+          <img src="/assets/img/postShadow.png" alt="" class="postShadow"/>
+          <h2><a href="/projekt-maraton-czesc-i/">Projekt maraton część I</a></h2>
+          <p><p>Dwa tygodnie temu napisałem post na temat mojego wyzwania jakim jest przebiegnięcie maratonu. Zdeklarowałem się wtedy, że raz na dwa tygodnie będę pisał jak mi idzie, jakie robię postępy i czy w ogóle trenuje.</p>
+</p>
+          <div class="meta">
+  <p><time datetime="2010-11-01T16:06:49+00:00" pubdate>Listopad 1, 2010</time></p>
+  <p><a href="/projekt-maraton-czesc-i//#disqus_thread"><span class="dsq-postid" rel="725 http://www.zyciejestpiekne.eu/?p=725">3 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+        </div>
+        <div class="cf"></div>
+      </article>
+    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'zyciejestpiekne';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+        <ul class="large-9 columns pagination">
+                </ul>
+</section>
+<aside class="sidebar span4 large-3 columns" role="complementary">
+  <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+</aside><!-- /.sidebar -->  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201404'></script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.549 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-01-25 17:34:53 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Po maratonie poznańskim postanowiłem, że muszę odpocząć trochę od biegania. Biegałem w miarę regularnie od 2 lat i przyszła pora na małą przerwę, więc zacząłem szukać alternatywy ruchowej. Znalazłem Crossfit.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Są takie dni, że budzisz się, idziesz do łazienki, patrzysz w lustro i wiesz, że to będzie wyjątkowy dzień. Takie przeczucie, że wszystko pójdzie zgodnie z planem, nawet jeżeli tego dnia biegnie się 42 km</p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Na blogu cisza przed burzą. To nie jest tak jak niektórzy myślą, że po swoich urodzinach tydzień balowałem i nic nie pisałem. Przygotowywałem coś większego, coś co zawsze chciałem na tym blogu zrobić i wreszcie nadszedł ten dzień. Dziejemy się </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Ostatnio pobiegłem sobie w Biegu Trzech Kopców. Był to mój pierwszy bieg górski i powiem szczerze, że dał mi po dupie. Większość trasy była pod górę, do tego deszcz i błoto, ale było pięknie. Biegnąc, lubię odlecieć myślami gdzieś daleko </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Wczorajszy dzień przejdzie do historii i na pewno zapamiętam go na długie lata. Pamiętacie jak jakiś czas temu wrzuciłem informacje, że szukam osób, które chcą razem ze mną przebiec maraton? Ten dzień nadszedł wczoraj. Po raz trzeci w swoim życiu </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Wpis ten zacząłem pisać w swojej głowie w ostatnią niedziele na 28 kmmaratonu warszawskiego. Kurcze, wiedziałem, że tak będzie. Kiedyś pojawiła się idea, żeby przebiec maraton. Po pół roku przygotowań pokonałem magiczny dystans 42 km i 195m w Krakowie. Cała </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Jakieś pół roku temu wymyśliłem coś takiego jak „Projekt maraton„. Założyłem sobie, że przez zimę będę regularnie biegał i wystartuje w krakowskim maratonie 17 kwietnia. Początkowo pisałem „raporty” z przygotowań, aby mieć większą motywacje do biegania, później pomysł ten odrzuciłem, </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Raz na trzy tygodnie obiecałem, że będe pisał jak idzie mi z przygotowaniem do maratonu. Przyszedł więc czas na pokazanie efektów mojej pracy. Aby to nie był wpis nieprzydatny postanowiłem trochę go przerobić, aby pokazać wam jak ja motywuje się </p>
+ 
+ </div>
+ <p></p>
+ </div>
+<div>
+ <div>
+ <img src="/assets/img/postShadow.png">
+ <p></p>
+<p>Dwa tygodnie temu napisałem post na temat mojego wyzwania jakim jest przebiegnięcie maratonu. Zdeklarowałem się wtedy, że raz na dwa tygodnie będę pisał jak mi idzie, jakie robię postępy i czy w ogóle trenuje.</p>
+ 
+ </div>
+ <p></p>
+ </div>
+</div>PHafrAWuwrUf7S*UkEp&Archiwa: Sport - Życie jest piękne!

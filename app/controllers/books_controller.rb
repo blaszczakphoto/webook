@@ -5,9 +5,11 @@ class BooksController < ApplicationController
 	def index
 		urls = [
 			# "http://dokturjazon.blox.pl/2011/03/Problemy-z-czasoprzestrzenia.html",
+			"http://dokturjazon.blox.pl/html/4259841,1179650,217.html?4533333",
+			# "http://hitchbase.com/ergebnisse.php?LANG=ger&abfrage%5Bstartort%5D=903",
 			# "http://dokturjazon.blox.pl/html"
 			# "http://przemek-sliwka.blog.onet.pl/2009/02/15/dlaczego-chrzescijanin-powinien-glosic-ewangelie/"
-			"http://dokturjazon.blox.pl/html/4259841,1179650,217.html?4735134"
+			# "http://dokturjazon.blox.pl/html/4259841,1179650,217.html?4735134"
 		]
 		# book = BookCreator.create(urls)
 		# @subpages = DuplicateRemover.remove(book.website.subpages)
@@ -19,15 +21,16 @@ class BooksController < ApplicationController
 
 	def new
 		# url = "http://przemek-sliwka.blog.onet.pl/"
-		# url = "http://dokturjazon.blox.pl/"
+		url = "http://dokturjazon.blox.pl/"
 		# url = "http://www.gotquestions.org/Polski/"
-		url = "http://www.zyciejestpiekne.eu/"
+		# url = "http://www.zyciejestpiekne.eu/"
 		puts "zaczynamy!...................."
 
 
 		crawler = Crawler.new(url)
-		crawler.run({limit: 2})
-		DuplicateRemover.remove(crawler.website.subpages)
+		crawler.run()
+		optimizer = DuplicateOptimizer.new(crawler.website)
+    @subpages = DuplicateRemover.remove(crawler.website.subpages, optimizer)
 
 		optimizer = CrawlerOptimizer.new(crawler.website)
 		p "pierwsza optymalizacja"
@@ -44,6 +47,15 @@ class BooksController < ApplicationController
 		render template: "books/standard_book.html", :layout => false
 	end
 
+	def exploiter
+		url = "http://linielotnicze.blox.pl/"
+		# url = "http://dokturjazon.blox.pl/"
+		exploiter = PageExploiter.new(url)
+		@subpages = exploiter.exploit!
+		@subpages.reverse!
+		
+		render template: "books/standard_book.html", :layout => false
+	end
 
 	def optimize
 		urls = [
@@ -57,7 +69,6 @@ class BooksController < ApplicationController
 		book = BookCreator.create(urls)
 		@subpages = DuplicateRemover.remove(book.website.subpages)
 		render template: "books/standard_book.html", :layout => false
-
 
 	end
 

@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Moje miejsce pracy - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="Moje miejsce pracy" />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/?p=4622" />
+	<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko-150x150.jpg" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/moje-miejsce-pracy/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.6">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/wp-includes/js/comment-reply.min.js?ver=5568'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '4622';
+	window._wp_rp_num_rel_posts = '3';
+	window._wp_rp_blog_id = '3126203';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Moje+miejsce+pracy';
+	window._wp_rp_post_tags = ['praca', 'si', 'mia', 'ku', 'roku', 'inn', 'le', 'mi', 'dla', 'tam', 'tak', 'od', 'ja', 'na', 'al', 'mam'];
+	window._wp_rp_remote_recommendations = false;
+	window._wp_rp_promoted_content = true;
+	window._wp_rp_traffic_exchange = true;
+</script>
+<script type="text/javascript" src="http://rp.zemanta.com/static/js/pageview.js?version=3.4.2" async></script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script><meta property="og:site_name" content="Życie jest piękne!" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/moje-miejsce-pracy/" />
+<meta property="og:title" content="Moje miejsce pracy - Życie jest piękne!" />
+<meta property="og:description" content="Są ludzie, którzy potrafią pracować w łóżku. Podziwiam i gratuluję – ja tak nie potrafię. Biurko to miejsce, gdzie spędzam kupę czasu, więc wszystko sobie ładnie zorganizowałem, żeby praca była miła i przyjemna. Powyżej widzicie moją świątynię. No dobra, z " />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko1.jpg" />
+<meta property="og:image:width" content="668" />
+<meta property="og:image:height" content="445" />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko.jpg" />
+<meta property="og:image:width" content="668" />
+<meta property="og:image:height" content="445" />
+<meta property="article:published_time" content="2013-12-17T20:10:44+00:00" />
+<meta property="article:modified_time" content="2013-12-17T20:15:12+00:00" />
+<meta property="article:author" content="http://www.zyciejestpiekne.eu/author/admin/" />
+<meta property="article:section" content="Praca" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="single single-post postid-4622 single-format-standard moje-miejsce-pracy" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_03.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+          <section class="post-4622 post type-post status-publish format-standard hentry category-praca-2 large-9 columns single page">
+      <article class="post">
+        <div class="description">
+                    <h1><a href="/moje-miejsce-pracy/">Moje miejsce pracy</a></h1>
+          <div class="meta">
+  <p><time datetime="2013-12-17T21:10:44+00:00" pubdate>Grudzień 17, 2013</time></p>
+  <p><a href="/moje-miejsce-pracy//#disqus_thread"><span class="dsq-postid" rel="4622 http://www.zyciejestpiekne.eu/?p=4622">43 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+          <div class="thumbnail">
+            <!-- 168x230 -->
+            <img width="230" height="163" src="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko1-230x163.jpg" class="attachment-post colorbox-4622  wp-post-image" alt="majowe_biurko">          </div>
+            
+            <p>Są ludzie, którzy potrafią pracować w łóżku. Podziwiam i gratuluję – ja tak nie potrafię. Biurko to miejsce, gdzie spędzam kupę czasu, więc wszystko sobie ładnie zorganizowałem, żeby praca była miła i przyjemna.</p>
+<p><span id="more-4622"></span></p>
+<p>Powyżej widzicie moją świątynię. No dobra, z tą szklanką soku przesadziłem – zazwyczaj są tam dwa kubki po kawie i herbacie, ale zawsze trzymam porządek. W momencie gdy na biurku mam chaos, to mam go też w swojej głowie.</p>
+<p style="text-align: center;"><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko.jpg"><img class="aligncenter size-full wp-image-4623 colorbox-4622" alt="majowe_biurko" src="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko.jpg" width="668" height="445" /></a></p>
+<h2>Co znajduje się w moim miejscu pracy?</h2>
+<p><strong>1. Lista obecnych zleceń</strong> &#8211; zapisuję tam wszystkie projekty, jakimi obecnie się zajmuję. Są to zarówno zlecenia firmowe, jak i zobowiązania dla znajomych lub inne, mniejsze sprawy. Odkąd przesadziłem z ilością pracy i płakałem, że jest mi źle, postanowiłem pilnować, żeby lista ta nie była zbyt długa. Staram się robić wszystko, aby jak najszybciej CAŁKOWICIE wykreślić jakąś pozycję, żeby nie siedziała mi w głowie. Od jakiegoś czasu pilnuję też, żeby nie przybywało tam zbyt dużo pozycji. Obecnie ustaliłem sobie, że nie dopiszę nic nowego tym roku. Chcę uporządkować wszystkie sprawy, a nowe zlecenia idą na nowy rok.</p>
+<p><strong>2. Księga pomysłów</strong> – miejsce, gdzie zapisano już lekarstwo na raka, rozwiązanie kryzysu gospodarczego i sposób na zbudowanie autostrad w Polsce. A tak poważnie – zapisuję tam różne pomysły, które przyjdą mi do głowy. Od wpisu na blog, po jakiś nowy biznes. Taki inkubator pomysłów. Z perspektywy czasu widzę, że większość jest beznadziejna, ale co tam – może kiedyś wpadnę na coś wielkiego.</p>
+<p><strong>3. Obecny projekt</strong> – jakieś szkice, które dotyczą projektu, nad którym obecnie pracuję. Taka mała przypominajka.</p>
+<p><strong>4. Pieniądze Świata</strong> – gdy wróciłem z USA, znalazłem w portfelu jednego dolara. Nie wiedziałem co z nim zrobić, więc wymyśliłem, że przybiję go na tablicy korkowej. Potem wróciłem z <a title="Mongolski cyrk" href="http://www.zyciejestpiekne.eu/mongolski-cyrk/">Mongolii</a> i <a title="Odkryj własny mur chiński" href="http://www.zyciejestpiekne.eu/odkryj-wlasny-mur-chinski/">Chin</a> i zrobiłem to samo. Jakiś czas później przyjechała do mnie kumpela z <a title="Jak to pociągiem do Chin się wybrałem!" href="http://www.zyciejestpiekne.eu/jak-to-pociagiem-do-chin-sie-wybralem/">Moskwy</a>, popatrzyła, po czym wyjęła 50 rubli i przybiła do tablicy korkowej. Innym razem wpadł do mnie Górecki, popatrzył, popatrzył, po czym pobiegł do kurtki i nie wiadomo skąd wyjął pieniądz koreański. I tak powstała mała kolekcja…</p>
+<blockquote><p> To nie tak – ja też codziennie rano wstaję, pracuję, denerwuję się, irytuję i przeklinam.</p></blockquote>
+<p><strong>5. Co do pieniędzy</strong>… na biurku mam jeszcze 55 tysięcy złotych w gotówce. Niestety, zmielone. Taki prezent od znajomego, który ma działać na wyobraźnię.</p>
+<p><strong>6. Święta, święta</strong>… Stroik, który dostałem od mamy : )</p>
+<p><strong>7. Myszka do komputera</strong> – wynalazek, który w świecie laptopów został zapomniany. Powiem szczerze, że nie wyobrażam sobie nie mieć myszki do komputera. Uważam, że pracując z myszką zaoszczędzam rocznie kilka dni. Wszystko robi się szybciej i wygodniej i nie rozumiem ludzi, którzy myszek nie mają. Co ciekawe, zazwyczaj te same osoby nie posiadają biurka…</p>
+<p><strong>8. Kalendarz</strong> – do zapisywania dziennej listy „to do” i umówionych spotkań. Żeby o niczym nie zapomnieć.</p>
+<p>Na biurku jest jeszcze zawracacz dupy zwany telefonem. W ostatnim czasie staram się trochę od niego odciąć i jak robię coś naprawdę ważnego, wyciszam, chowam i ewentualnie oddzwaniam później.</p>
+<p>Opcjonalnie, od czasu do czasu na biurko wskakuje 21 calowy monitor, który obecnie jest na użytku współlokatora. Akurat teraz go nie potrzebuję, ale czasem lubię popracować na czymś dużym.</p>
+<p>Tyle. Prosta, wygodna organizacja. Postanowiłem, że na blogu zaczną pojawiać się wpisy o mojej pracy, bo dużo osób myśli, że leżę sobie do góry brzuchem, wkręcam wszystkim, że życie jest piękne, a od czasu do czasu spełniam marzenia z listy. To nie tak – ja też codziennie rano wstaję, pracuję, denerwuję się, irytuję i przeklinam. Tylko znalazłem w tym głębszy sens i misje : )</p>
+<h2>A jak wyglądają wasze biurka? Zapodajcie fotki ; )</h2>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.zyciejestpiekne.eu%2Fmoje-miejsce-pracy%2F&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden;  width:450px; height:65px"></iframe>
+
+<div class="wp_rp_wrap  wp_rp_vertical" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-67" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/napoj-lepszy-od-kawy/" class="wp_rp_thumbnail"><img class="colorbox-4622"  src="/plugins/related-posts/static/thumbs/15.jpg" alt="Napój lepszy od kawy" /></a><a href="http://www.zyciejestpiekne.eu/napoj-lepszy-od-kawy/" class="wp_rp_title">Napój lepszy od kawy</a></li><li data-position="1" data-poid="in-2759" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/odkryj-wlasny-mur-chinski/" class="wp_rp_thumbnail"><img class="colorbox-4622"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/2012/09/maj-133-of-21-150x150.jpg" alt="Odkryj własny mur chiński" /></a><a href="http://www.zyciejestpiekne.eu/odkryj-wlasny-mur-chinski/" class="wp_rp_title">Odkryj własny mur chiński</a></li><li data-position="2" data-poid="in-1786" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/kreatywnosc-nie-istnieje/" class="wp_rp_thumbnail"><img class="colorbox-4622"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/2011/09/kreatywnosc-150x150.jpg" alt="Kreatywność nie istnieje? " /></a><a href="http://www.zyciejestpiekne.eu/kreatywnosc-nie-istnieje/" class="wp_rp_title">Kreatywność nie istnieje? </a></li></ul></div></div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <footer class="row pagg">
+
+        <ul class="large-3 columns directpagg">
+                          </ul>
+        <ul class="large-7 columns pagination">
+                        </ul>
+        <div class="cf"></div>
+                
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-7943">
+        <div id="dsq-comment-header-7943" class="dsq-comment-header">
+            <cite id="dsq-cite-7943">
+http://www.magdabednarczyk.pl/                <span id="dsq-author-user-7943">Magda Bednarczyk</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7943" class="dsq-comment-body">
+            <div id="dsq-comment-message-7943" class="dsq-comment-message"><p>To tak dość tradycyjnie (w sensie &#8211; papierowo) się organizujesz. A używasz jakichś aplikacji/programów etc. ?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-7954">
+        <div id="dsq-comment-header-7954" class="dsq-comment-header">
+            <cite id="dsq-cite-7954">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7954">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7954" class="dsq-comment-body">
+            <div id="dsq-comment-message-7954" class="dsq-comment-message"><p>Nie  <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Próbowałem, ale żadna mi nie siadła. Nie ma to jak papier.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-7944">
+        <div id="dsq-comment-header-7944" class="dsq-comment-header">
+            <cite id="dsq-cite-7944">
+                <span id="dsq-author-user-7944">Karol Szczechowicz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7944" class="dsq-comment-body">
+            <div id="dsq-comment-message-7944" class="dsq-comment-message"><p>Ostatnio u siebie napisałem, że biurko jest najważniejszym meblem w domu. <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-7951">
+        <div id="dsq-comment-header-7951" class="dsq-comment-header">
+            <cite id="dsq-cite-7951">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7951">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7951" class="dsq-comment-body">
+            <div id="dsq-comment-message-7951" class="dsq-comment-message"><p>Tez ładnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-7981">
+        <div id="dsq-comment-header-7981" class="dsq-comment-header">
+            <cite id="dsq-cite-7981">
+http://www.antysztampa.pl/                <span id="dsq-author-user-7981">Karol Szczechowicz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7981" class="dsq-comment-body">
+            <div id="dsq-comment-message-7981" class="dsq-comment-message"><p>Z Ikei #TylorDurden</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-7946">
+        <div id="dsq-comment-header-7946" class="dsq-comment-header">
+            <cite id="dsq-cite-7946">
+                <span id="dsq-author-user-7946">Janek</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7946" class="dsq-comment-body">
+            <div id="dsq-comment-message-7946" class="dsq-comment-message"><p>Jestem chyba ostatnim niedobitkiem na Ziemi używającym stacjonarnego <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  Nienawidzę klawiatury od laptopa, musiałbym podłączyć jakąś na USB.<br />
+Dobry post <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Tablica korkowa nad monitorem- jest to pomysł. Pozdrawiam</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-7950">
+        <div id="dsq-comment-header-7950" class="dsq-comment-header">
+            <cite id="dsq-cite-7950">
+                <span id="dsq-author-user-7950">Błażej</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7950" class="dsq-comment-body">
+            <div id="dsq-comment-message-7950" class="dsq-comment-message"><p>Też wolę &#8222;zwykłą&#8221; klawiaturę ;), Dodatkowo ekran na ścianie, aby miejsca na biurku więcej było <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-7952">
+        <div id="dsq-comment-header-7952" class="dsq-comment-header">
+            <cite id="dsq-cite-7952">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7952">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7952" class="dsq-comment-body">
+            <div id="dsq-comment-message-7952" class="dsq-comment-message"><p>Ja długo miałem stacjonara <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Jak pracuje z monitorem to tez zawsze klawiaturka i komfort <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-7947">
+        <div id="dsq-comment-header-7947" class="dsq-comment-header">
+            <cite id="dsq-cite-7947">
+                <span id="dsq-author-user-7947">Magda</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7947" class="dsq-comment-body">
+            <div id="dsq-comment-message-7947" class="dsq-comment-message"><p>Punkt 7: w łóżku ciężko używa się myszki, ot rozwiązanie zagadki <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-7953">
+        <div id="dsq-comment-header-7953" class="dsq-comment-header">
+            <cite id="dsq-cite-7953">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7953">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7953" class="dsq-comment-body">
+            <div id="dsq-comment-message-7953" class="dsq-comment-message"><p>Ja potrafię <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  Po prześcieradle pięknie jeździ</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7948">
+        <div id="dsq-comment-header-7948" class="dsq-comment-header">
+            <cite id="dsq-cite-7948">
+                <span id="dsq-author-user-7948">Kasia</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7948" class="dsq-comment-body">
+            <div id="dsq-comment-message-7948" class="dsq-comment-message"><p>Hahaha, dobrze dostrzegłam 1000 wonów <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7949">
+        <div id="dsq-comment-header-7949" class="dsq-comment-header">
+            <cite id="dsq-cite-7949">
+                <span id="dsq-author-user-7949">Kamil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7949" class="dsq-comment-body">
+            <div id="dsq-comment-message-7949" class="dsq-comment-message"><p>Po remoncie, marzenie o zaprojektowaniu pokoju, fajnym inspirującym miejscu do pracy spełnione <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  pozdrówki ! 5</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-7956">
+        <div id="dsq-comment-header-7956" class="dsq-comment-header">
+            <cite id="dsq-cite-7956">
+                <span id="dsq-author-user-7956">Kamil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7956" class="dsq-comment-body">
+            <div id="dsq-comment-message-7956" class="dsq-comment-message"><p>jeszcze między wierzą a monitorem będzie tak jak u Was mała tablica korkowa bo tak to walają sie karteczki z załatwieniami i innymi sprawami <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-7957">
+        <div id="dsq-comment-header-7957" class="dsq-comment-header">
+            <cite id="dsq-cite-7957">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7957">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7957" class="dsq-comment-body">
+            <div id="dsq-comment-message-7957" class="dsq-comment-message"><p>Pięknie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-7978">
+        <div id="dsq-comment-header-7978" class="dsq-comment-header">
+            <cite id="dsq-cite-7978">
+                <span id="dsq-author-user-7978">Kamil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7978" class="dsq-comment-body">
+            <div id="dsq-comment-message-7978" class="dsq-comment-message"><p>Kupiłaś hehehe, wiesz co to jest taki specjalny materiał &#8222;styrodur&#8221; coś ala steropian. Akurat to robił mój kolega który pracuje w firmie reklamowej gdzie robią banery podświetlane szyldy itd. On mi tłumaczył, że to działa na zasadzie że nagrzana pod temperaturą igła wycina jaką chcesz bryłe, akurat to jest logo mojej firmy <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Pozdrówki szefie</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-7967">
+        <div id="dsq-comment-header-7967" class="dsq-comment-header">
+            <cite id="dsq-cite-7967">
+                <span id="dsq-author-user-7967">Guest</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7967" class="dsq-comment-body">
+            <div id="dsq-comment-message-7967" class="dsq-comment-message"><p>Czyżby koziołki do malowania? <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  u mnie jakoś dziwnie podobnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-7979">
+        <div id="dsq-comment-header-7979" class="dsq-comment-header">
+            <cite id="dsq-cite-7979">
+                <span id="dsq-author-user-7979">Kamil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7979" class="dsq-comment-body">
+            <div id="dsq-comment-message-7979" class="dsq-comment-message"><p>Tak dokładnie, kupiłem na allegro budowlane koziołki, dociąłem na szerokośc, oszlifowałem pomalowałem i wyszło całkiem wporząsiu <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-7973">
+        <div id="dsq-comment-header-7973" class="dsq-comment-header">
+            <cite id="dsq-cite-7973">
+                <span id="dsq-author-user-7973">hubert</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7973" class="dsq-comment-body">
+            <div id="dsq-comment-message-7973" class="dsq-comment-message"><p>blaciki na ścianie. skatemafia;] tez jezdze na desce;p</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-7980">
+        <div id="dsq-comment-header-7980" class="dsq-comment-header">
+            <cite id="dsq-cite-7980">
+                <span id="dsq-author-user-7980">Kamil</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7980" class="dsq-comment-body">
+            <div id="dsq-comment-message-7980" class="dsq-comment-message"><p>Proste SM zawsze, byłem ciekaw czy ktoś to zauważy hehe, skąd jesteś? pozdrówki! 5</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-7955">
+        <div id="dsq-comment-header-7955" class="dsq-comment-header">
+            <cite id="dsq-cite-7955">
+                <span id="dsq-author-user-7955">daniel</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7955" class="dsq-comment-body">
+            <div id="dsq-comment-message-7955" class="dsq-comment-message"><p>a co jest na tablicy w gornym lewym rogu?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-7958">
+        <div id="dsq-comment-header-7958" class="dsq-comment-header">
+            <cite id="dsq-cite-7958">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7958">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7958" class="dsq-comment-body">
+            <div id="dsq-comment-message-7958" class="dsq-comment-message"><p>Dane firmy. NIP, Regon itp.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7959">
+        <div id="dsq-comment-header-7959" class="dsq-comment-header">
+            <cite id="dsq-cite-7959">
+                <span id="dsq-author-user-7959">Wikszon</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7959" class="dsq-comment-body">
+            <div id="dsq-comment-message-7959" class="dsq-comment-message"><p>Ja mam problemu ze zorganizowaniem swojego biurka, ciągle na nim jest za dużo rzeczy ;o no i &#8222;wszystko potrzebne&#8221; oczywiście <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7960">
+        <div id="dsq-comment-header-7960" class="dsq-comment-header">
+            <cite id="dsq-cite-7960">
+                <span id="dsq-author-user-7960">Marcin</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7960" class="dsq-comment-body">
+            <div id="dsq-comment-message-7960" class="dsq-comment-message"><p>Pokój Michała, z przeciwnej strony <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-7962">
+        <div id="dsq-comment-header-7962" class="dsq-comment-header">
+            <cite id="dsq-cite-7962">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7962">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7962" class="dsq-comment-body">
+            <div id="dsq-comment-message-7962" class="dsq-comment-message"><p>Haha, przeglądam i zastanawiam się co mój pokój tu robi <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-2" id="dsq-comment-7965">
+        <div id="dsq-comment-header-7965" class="dsq-comment-header">
+            <cite id="dsq-cite-7965">
+                <span id="dsq-author-user-7965">Piotrek Reczyński</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7965" class="dsq-comment-body">
+            <div id="dsq-comment-message-7965" class="dsq-comment-message"><p>Centrum dowodzenia! 3 monitory <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7961">
+        <div id="dsq-comment-header-7961" class="dsq-comment-header">
+            <cite id="dsq-cite-7961">
+                <span id="dsq-author-user-7961">Agnieszka Iwan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7961" class="dsq-comment-body">
+            <div id="dsq-comment-message-7961" class="dsq-comment-message"><p>Śmiesznie. Weszłam dziś na Twojego bloga w poszukiwaniu czegoś zupełnie innego, patrzę, a tu wpis nt. istotności biurka. Uwierzysz, że kilka godzin temu, nie mając pojęcia o Twoim wpisie, siadłam do niego pierwszy raz od&#8230; nie pamiętam kiedy? <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /><br />
+Koniecznie muszę zainwestować w fotel, może wtedy częściej będę do niego siadać.</p>
+<p>Pkt 7, zwłaszcza ostatnie zdanie &#8211; so true!</p>
+<p>@Kamil &#8211; super biurko <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7963">
+        <div id="dsq-comment-header-7963" class="dsq-comment-header">
+            <cite id="dsq-cite-7963">
+                <span id="dsq-author-user-7963">Magda</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7963" class="dsq-comment-body">
+            <div id="dsq-comment-message-7963" class="dsq-comment-message"><p>Moje biurko <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7964">
+        <div id="dsq-comment-header-7964" class="dsq-comment-header">
+            <cite id="dsq-cite-7964">
+                <span id="dsq-author-user-7964">Magda</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7964" class="dsq-comment-body">
+            <div id="dsq-comment-message-7964" class="dsq-comment-message"><p>Moje biurko <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7966">
+        <div id="dsq-comment-header-7966" class="dsq-comment-header">
+            <cite id="dsq-cite-7966">
+                <span id="dsq-author-user-7966">Piotrek Reczyński</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7966" class="dsq-comment-body">
+            <div id="dsq-comment-message-7966" class="dsq-comment-message"><p>Największą wadą Twojego biurka i tych pokazanych w komentarzach jest ustawienie pod ścianą. Ja muszę mieć opcję wyciągnięcia kopyt przed siebie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Zresztą od siedzącego trybu życia siadły mi kolana &#8211; mięśnie skurczone przez długi czas przyzwyczajają się do tej pozycji i się skracają, co ściąga rzepkę itp.<br />
+Pomyślcie o tym ile siedzimy i ile w tym jest siedzenia ze zgiętymi nogami <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7968">
+        <div id="dsq-comment-header-7968" class="dsq-comment-header">
+            <cite id="dsq-cite-7968">
+http://zapiskizpodrozy.eu/                <span id="dsq-author-user-7968">Marzena K</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7968" class="dsq-comment-body">
+            <div id="dsq-comment-message-7968" class="dsq-comment-message"><p>Próbowałam mieć myszkę w akademiku &#8211; umarła szybko. Biurka w sumie też<br />
+nie mam, bo spod masy rzeczy stolik traci tę funkcję&#8230; ale nie pracuję<br />
+przy kompie, nie pracuję przy biurku i raczej nigdy nie będę <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Teraz<br />
+moją pracą domową jest nauka i jeśli nie notuję to najbardziej lubię<br />
+leżeć <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  bo jak mi jest wygodnie to się nie rozpraszam, przy biurku<br />
+nigdy nie ma aż takiej wygody <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /><br />
+W Ostrowcu miałam biurko, które było<br />
+ zawsze puste, lekcje robiłam na podłodze i dalej chętnie bym tam<br />
+przesiadywała, jeśli miałabym dywan <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  Na podłodze pies zawsze ma<br />
+bliżej, żeby się poprzytulać.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7969">
+        <div id="dsq-comment-header-7969" class="dsq-comment-header">
+            <cite id="dsq-cite-7969">
+                <span id="dsq-author-user-7969">jaco</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7969" class="dsq-comment-body">
+            <div id="dsq-comment-message-7969" class="dsq-comment-message"><p>Pomyśl ile dni byś zaoszczędził nie używając myszki a klawiatury <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Nie mam<br />
+myszki, mam biurko, używam skrótów a dobry touchpad (głownie do stron) jest równie szybki jak myszka.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7970">
+        <div id="dsq-comment-header-7970" class="dsq-comment-header">
+            <cite id="dsq-cite-7970">
+                <span id="dsq-author-user-7970">Monika</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7970" class="dsq-comment-body">
+            <div id="dsq-comment-message-7970" class="dsq-comment-message"><p>Ale to nie są prawdziwe zmielone 55 tys ? Prawda? :D:D</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-7977">
+        <div id="dsq-comment-header-7977" class="dsq-comment-header">
+            <cite id="dsq-cite-7977">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7977">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7977" class="dsq-comment-body">
+            <div id="dsq-comment-message-7977" class="dsq-comment-message"><p>Prawdziwe <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Możesz sobie takie coś kupić <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  <a href="http://www.pwpw.pl/brykiety.html" rel="nofollow">http://www.pwpw.pl/brykiety.html</a></p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-7971">
+        <div id="dsq-comment-header-7971" class="dsq-comment-header">
+            <cite id="dsq-cite-7971">
+http://mikolajgrzaslewicz.pl/                <span id="dsq-author-user-7971">Mikołaj Grząślewicz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7971" class="dsq-comment-body">
+            <div id="dsq-comment-message-7971" class="dsq-comment-message"><p>U mnie podejście wygląda nieco inaczej, stąd też przedmioty na biurku są inne.<br />
+Stoi zawsze kubek do picia wody i stoper-jajko. Ewentualnie niewidoczna w trakcie pracy książka za laptopem oraz kartki papieru + długopis.<br />
+Wychodzę z założenia żeby mieć mobilne biurko z poziomu laptopa &#8211; czyli wszystko w chmurze, żeby nie uzależniać się ani od miejsca, ani konkretnego komputera na tyle ile to możliwe.<br />
+Rzeczy, o których wspominasz że zapisujesz i są na biurku, trzymam w chmurze.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-7972">
+        <div id="dsq-comment-header-7972" class="dsq-comment-header">
+            <cite id="dsq-cite-7972">
+                <span id="dsq-author-user-7972">alkuzad</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7972" class="dsq-comment-body">
+            <div id="dsq-comment-message-7972" class="dsq-comment-message"><p>Jeśli laptop to tylko z podstawką, no chyba że chcesz mieć garba na starość <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" />  (wystarcza zwykle ksiazki, kartony). A i ja tak samo nie wyobrazam sobie ludzi piszacych cos wiecej na klawiaturze laptopa &#8211; jest ciasna, bez numerycznej <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-7974">
+        <div id="dsq-comment-header-7974" class="dsq-comment-header">
+            <cite id="dsq-cite-7974">
+                <span id="dsq-author-user-7974">wendigo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7974" class="dsq-comment-body">
+            <div id="dsq-comment-message-7974" class="dsq-comment-message"><p>Są laptopy z numeryczną, ja mam takiego (choć wolałbym bez &#8211; za duży <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" />  ).</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7975">
+        <div id="dsq-comment-header-7975" class="dsq-comment-header">
+            <cite id="dsq-cite-7975">
+                <span id="dsq-author-user-7975">wendigo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7975" class="dsq-comment-body">
+            <div id="dsq-comment-message-7975" class="dsq-comment-message"><p>&#8222;nie rozumiem ludzi, którzy myszek nie mają. Co ciekawe, zazwyczaj te same osoby nie posiadają biurka…&#8221; &#8211; ot masz i odpowiedź dlaczego ci ludzie nie mają myszki <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" />  Ja np. teraz lekko sobie leżę, z kompem między kolanami a brzuchem, nie wiem gdzie miałbym trzymać myszkę <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  (no i myszka przeszkadza w częstej zmianie pozycji, a ja z kompem siedzę i leżę różnie). Poza tym uważam, że za pomocą konsoli dotykowej można wszystko zrobić tak samo szybko, tylko trzeba mieć mieć wprawę. Ale ja od 10 lat nie używam myszki, więc&#8230; <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-7986">
+        <div id="dsq-comment-header-7986" class="dsq-comment-header">
+            <cite id="dsq-cite-7986">
+                <span id="dsq-author-user-7986">Ola</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7986" class="dsq-comment-body">
+            <div id="dsq-comment-message-7986" class="dsq-comment-message"><p>Zaktualizuj listę marzeń <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-7987">
+        <div id="dsq-comment-header-7987" class="dsq-comment-header">
+            <cite id="dsq-cite-7987">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7987">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7987" class="dsq-comment-body">
+            <div id="dsq-comment-message-7987" class="dsq-comment-message"><p>Jest zaktualizowana <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  Czegoś nie wykreśliłem?:)</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-3" id="dsq-comment-7988">
+        <div id="dsq-comment-header-7988" class="dsq-comment-header">
+            <cite id="dsq-cite-7988">
+                <span id="dsq-author-user-7988">Ola</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7988" class="dsq-comment-body">
+            <div id="dsq-comment-message-7988" class="dsq-comment-message"><p>&#8222;Szczęśliwie zakochać się&#8221;  <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-4" id="dsq-comment-7989">
+        <div id="dsq-comment-header-7989" class="dsq-comment-header">
+            <cite id="dsq-cite-7989">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-7989">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7989" class="dsq-comment-body">
+            <div id="dsq-comment-message-7989" class="dsq-comment-message"><p>Hehe już się kilka osób na to zwróciło uwagę <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  To marzenie zostanie wykreślone kiedyś tam, w dniu ślubu <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-8005">
+        <div id="dsq-comment-header-8005" class="dsq-comment-header">
+            <cite id="dsq-cite-8005">
+                <span id="dsq-author-user-8005">Grzegorz Dobromiński</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8005" class="dsq-comment-body">
+            <div id="dsq-comment-message-8005" class="dsq-comment-message"><p>Dużo fotek ciekawych miejsc pracy znajdziecie na <a href="http://wherewedowhatwedo.com" rel="nofollow">http://wherewedowhatwedo.com</a>. Kiedyś miałem bzika na tym punkcie i godzinami przeglądałem ten serwis <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-8082">
+        <div id="dsq-comment-header-8082" class="dsq-comment-header">
+            <cite id="dsq-cite-8082">
+http://ministerstwopannype.pl/                <span id="dsq-author-user-8082">Paulina Puchacz</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-8082" class="dsq-comment-body">
+            <div id="dsq-comment-message-8082" class="dsq-comment-message"><p><a href="https://twitter.com/paulapuchacz/status/420185762546868224/photo/1" rel="nofollow">https://twitter.com/paulapuchacz/status/420185762546868224/photo/1</a> party hard. <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.zyciejestpiekne.eu/moje-miejsce-pracy/';
+    var disqus_identifier = '4622 http://www.zyciejestpiekne.eu/?p=4622';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'zyciejestpiekne';
+    var disqus_title = "Moje miejsce pracy";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=4622';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/www.zyciejestpiekne.eu\/moje-miejsce-pracy\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+      </footer>
+  </section>
+  <aside class="sidebar span4 large-3 columns" role="complementary">
+    <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+  </aside><!-- /.sidebar -->
+    
+  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201404'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="http:\/\/connect.facebook.net\/pl_PL\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+<div id="fb-root"></div>  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.584 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-01-25 17:51:29 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div><div>
+ 
+ 
+ 
+ 
+ <p>Są ludzie, którzy potrafią pracować w łóżku. Podziwiam i gratuluję – ja tak nie potrafię. Biurko to miejsce, gdzie spędzam kupę czasu, więc wszystko sobie ładnie zorganizowałem, żeby praca była miła i przyjemna.</p>
+<p><span></span></p>
+<p>Powyżej widzicie moją świątynię. No dobra, z tą szklanką soku przesadziłem – zazwyczaj są tam dwa kubki po kawie i herbacie, ale zawsze trzymam porządek. W momencie gdy na biurku mam chaos, to mam go też w swojej głowie.</p>
+<p><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko.jpg"><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/majowe_biurko.jpg"></a></p>
+<h2>Co znajduje się w moim miejscu pracy?</h2>
+<p>1. Lista obecnych zleceń – zapisuję tam wszystkie projekty, jakimi obecnie się zajmuję. Są to zarówno zlecenia firmowe, jak i zobowiązania dla znajomych lub inne, mniejsze sprawy. Odkąd przesadziłem z ilością pracy i płakałem, że jest mi źle, postanowiłem pilnować, żeby lista ta nie była zbyt długa. Staram się robić wszystko, aby jak najszybciej CAŁKOWICIE wykreślić jakąś pozycję, żeby nie siedziała mi w głowie. Od jakiegoś czasu pilnuję też, żeby nie przybywało tam zbyt dużo pozycji. Obecnie ustaliłem sobie, że nie dopiszę nic nowego tym roku. Chcę uporządkować wszystkie sprawy, a nowe zlecenia idą na nowy rok.</p>
+<p>2. Księga pomysłów – miejsce, gdzie zapisano już lekarstwo na raka, rozwiązanie kryzysu gospodarczego i sposób na zbudowanie autostrad w Polsce. A tak poważnie – zapisuję tam różne pomysły, które przyjdą mi do głowy. Od wpisu na blog, po jakiś nowy biznes. Taki inkubator pomysłów. Z perspektywy czasu widzę, że większość jest beznadziejna, ale co tam – może kiedyś wpadnę na coś wielkiego.</p>
+<p>3. Obecny projekt – jakieś szkice, które dotyczą projektu, nad którym obecnie pracuję. Taka mała przypominajka.</p>
+<p>4. Pieniądze Świata – gdy wróciłem z USA, znalazłem w portfelu jednego dolara. Nie wiedziałem co z nim zrobić, więc wymyśliłem, że przybiję go na tablicy korkowej. Potem wróciłem z <a href="http://www.zyciejestpiekne.eu/mongolski-cyrk/">Mongolii</a> i <a href="http://www.zyciejestpiekne.eu/odkryj-wlasny-mur-chinski/">Chin</a> i zrobiłem to samo. Jakiś czas później przyjechała do mnie kumpela z <a href="http://www.zyciejestpiekne.eu/jak-to-pociagiem-do-chin-sie-wybralem/">Moskwy</a>, popatrzyła, po czym wyjęła 50 rubli i przybiła do tablicy korkowej. Innym razem wpadł do mnie Górecki, popatrzył, popatrzył, po czym pobiegł do kurtki i nie wiadomo skąd wyjął pieniądz koreański. I tak powstała mała kolekcja…</p>
+  To nie tak – ja też codziennie rano wstaję, pracuję, denerwuję się, irytuję i przeklinam. 
+<p>5. Co do pieniędzy… na biurku mam jeszcze 55 tysięcy złotych w gotówce. Niestety, zmielone. Taki prezent od znajomego, który ma działać na wyobraźnię.</p>
+<p>6. Święta, święta… Stroik, który dostałem od mamy : )</p>
+<p>7. Myszka do komputera – wynalazek, który w świecie laptopów został zapomniany. Powiem szczerze, że nie wyobrażam sobie nie mieć myszki do komputera. Uważam, że pracując z myszką zaoszczędzam rocznie kilka dni. Wszystko robi się szybciej i wygodniej i nie rozumiem ludzi, którzy myszek nie mają. Co ciekawe, zazwyczaj te same osoby nie posiadają biurka…</p>
+<p>8. Kalendarz – do zapisywania dziennej listy „to do” i umówionych spotkań. Żeby o niczym nie zapomnieć.</p>
+<p>Na biurku jest jeszcze zawracacz dupy zwany telefonem. W ostatnim czasie staram się trochę od niego odciąć i jak robię coś naprawdę ważnego, wyciszam, chowam i ewentualnie oddzwaniam później.</p>
+<p>Opcjonalnie, od czasu do czasu na biurko wskakuje 21 calowy monitor, który obecnie jest na użytku współlokatora. Akurat teraz go nie potrzebuję, ale czasem lubię popracować na czymś dużym.</p>
+<p>Tyle. Prosta, wygodna organizacja. Postanowiłem, że na blogu zaczną pojawiać się wpisy o mojej pracy, bo dużo osób myśli, że leżę sobie do góry brzuchem, wkręcam wszystkim, że życie jest piękne, a od czasu do czasu spełniam marzenia z listy. To nie tak – ja też codziennie rano wstaję, pracuję, denerwuję się, irytuję i przeklinam. Tylko znalazłem w tym głębszy sens i misje : )</p>
+<h2>A jak wyglądają wasze biurka? Zapodajcie fotki ; )</h2>
+<div><div><h3>MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3></div></div>
+ </div></div>PHafrAWuwrUf7S*UkEp&Moje miejsce pracy - Życie jest piękne!
