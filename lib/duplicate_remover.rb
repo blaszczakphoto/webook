@@ -11,21 +11,20 @@ class DuplicateRemover
 
 	def initialize(website)
 		@duplicate_optimizer = DuplicateOptimizer.new(website)
+		@subpages = website.subpages
 	end
 
-	def remove(subpages)
-		counter_current = 1
+	def remove
+		counter_current = 0
 		duplicates_count = 0
 
-		subpages.each do |subpage|
+		@subpages.each do |subpage|
 			@duplicate_optimizer.add(subpage)
 
 			counter_current += 1
-			counter_total = subpages.count
-			p counter_current.to_s + "/" + counter_total.to_s
-			p subpage.url + " is examined now..."
-
-			if duplicates_count > 10
+			counter_total = @subpages.count
+			
+			if duplicates_count > 5
 				p "optymalizacja w trakcie usuwnia duplikatów.."
 				@duplicate_optimizer.optimize!
 				duplicates_count = 0
@@ -37,8 +36,11 @@ class DuplicateRemover
 				p subpage.valid_page.to_s + " has pattern" + subpage.url
 				next
 			end
+
+			p counter_current.to_s + "/" + counter_total.to_s
+			p subpage.url + " is examined now..."
 			
-			subpages.each do |iterated_subpage|
+			@subpages.each do |iterated_subpage|
 				next if subpage.url == iterated_subpage.url
 				next unless iterated_subpage.valid_page
 
@@ -47,7 +49,8 @@ class DuplicateRemover
 					p " iterated has pattern" + iterated_subpage.url
 				elsif DuplicateRemover.is_duplicate?(subpage.content, iterated_subpage.content)
 					@duplicate_optimizer.add(iterated_subpage)
-					duplicate = most_headers(subpage, iterated_subpage) || most_links(subpage, iterated_subpage) || longer_url(subpage, iterated_subpage)
+					
+					duplicate = most_links(subpage, iterated_subpage) || most_headers(subpage, iterated_subpage) || longer_url(subpage, iterated_subpage)
 					set_duplicate(duplicate)
 					duplicates_count += 1
 					p duplicate.url + " is duplicate"
@@ -56,11 +59,22 @@ class DuplicateRemover
 			p " "
 		end
 
-		return only_valid(subpages)
+		
+		p "valid: "
+		@subpages.each{|s| p s.url + " " + s.links_num.to_s if s.valid_page}
+		p "invalid: "
+		@subpages.each{|s| p s.url + " " + s.links_num.to_s if !s.valid_page}
+
+		p "valid: "
+		@subpages.each{|s| p s.url if s.valid_page}
+		p "invalid: "
+		@subpages.each{|s| p s.url if !s.valid_page}
+
+		return only_valid
 	end
 
-	def only_valid(subpages)
-		return subpages.select {|s| s.valid_page}
+	def only_valid
+		return @subpages.select {|s| s.valid_page}
 	end
 
 	def set_duplicate(subpage)
@@ -120,7 +134,11 @@ class DuplicateRemover
 	end
 
 	def count_headers(html)
-		Nokogiri::HTML(html).search("h1, h2, h3, h4, .title").size
+		# Count a element within div's which have no siblings
+		a_elements = 0
+		Nokogiri::HTML(html).search("div > a").each {|e| a_elements+=1 if e.parent.children.count==1 && e.content.length > 3}
+		headers = Nokogiri::HTML(html).search("h1, h2, h3, h4, .title").size
+		return a_elements + headers
 	end
 
 end
