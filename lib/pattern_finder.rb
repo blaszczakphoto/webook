@@ -14,9 +14,8 @@ class PatternFinder
 		urls = subpages.first.url, subpages.last.url
 		substr = longest_common_substr(remove_base(urls))
 		return false if pattern_blank?(substr)
-		return create_pattern(substr, urls)
+		pattern = create_pattern(substr, urls)
 
-		pattern = find_pattern(urls)
 		return false unless pattern
 	end
 
@@ -42,12 +41,20 @@ class PatternFinder
 	end
 
 	def create_pattern(str, urls)
-		return Regexp.new(@base_url + prepare_str(str)) if pattern_in_begining?(str,urls)
-		return Regexp.new(prepare_str(str) + "$") if pattern_in_end?(str, urls)
+		begin
+			reg = Regexp.new(@base_url + prepare_str(str)) if pattern_in_begining?(str,urls)
+			reg = Regexp.new(prepare_str(str) + "$") if pattern_in_end?(str, urls)
+		rescue
+			reg = false
+		end
+		return reg
 	end
 
 	def prepare_str(str)
-		str.gsub("?", "\\?")
+		str.gsub!("?", "\\?")
+		str.gsub!(")", "\\)")
+		str.gsub!("(", "\\(")
+		str
 	end
 
 	def pattern_in_begining?(str, urls)

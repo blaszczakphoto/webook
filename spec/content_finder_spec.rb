@@ -24,11 +24,21 @@ describe ContentFinder do
 		content.should include("Byłem w Turcji")
 	end
 
+
+
 	it 'should remove all span tags' do
 		html = File.open("spec/files/span_lots").read
-		content = ContentFinder.remove_problematic_content(html)
 		content.should include("Byłem w Turcji")
 	end
+
+	it "should get all headers in hitchwiki" do
+		html = File.open("spec/files/hitchwiki_span/o0").read
+		content = ContentFinder.find(html)
+		content.should include("North towards Mrkonjic-Grad or Banja Luka")	
+		content.should include("Southwest")	
+	end
+
+
 
 
 

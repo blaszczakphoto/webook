@@ -7,6 +7,7 @@ class SubpageCreator
 	def self.create(url)
 		html = PageRetriver.retrive(url)
 		if html
+			html = ContentCleaner.make_images_absolute(html, url)
 			content = ContentFinder.find(html)
 			title = HeaderFinder.find(html, content)
 			subpage = Subpage.new(content: content, title: title)

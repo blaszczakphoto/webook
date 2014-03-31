@@ -53,6 +53,21 @@ module Webook
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    config.action_mailer.default_url_options = {
+        :host => "localhost"
+    }
+
+    config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "localhost",
+      :user_name            => "mariusz.blaszczak",
+      :password             => "Mariusz Mistrz",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+  }
+
+
     # Enable the asset pipeline
     config.assets.enabled = true
 

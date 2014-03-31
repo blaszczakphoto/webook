@@ -1,9 +1,22 @@
 Webook::Application.routes.draw do
 
-  match 'optimize' => 'books#optimize'
-  match 'optimize2' => 'books#optimize2'
-  match 'exploiter' => 'books#exploiter'
+
+  get "convert_blog/new"
+  get "convert_links/new"
+  match "convert_links/create" => 'convert_links#create', via: [:post]
+  match "convert_blog/create" => 'convert_blog#create', via: [:post]
+
+
+
+  match "contact" => 'books#contact'
+  
+  devise_for :users
+
   resources :books
+  resources :book_task
+
+  root :to => "books#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

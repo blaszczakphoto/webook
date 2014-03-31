@@ -10,8 +10,9 @@ class DuplicateRemover
 	attr_reader :duplicate_optimizer
 
 	def initialize(website)
-		@duplicate_optimizer = DuplicateOptimizer.new(website)
-		@subpages = website.subpages
+		@website = website
+		@duplicate_optimizer = DuplicateOptimizer.new(@website)
+		@subpages = @website.subpages
 	end
 
 	def remove
@@ -31,7 +32,7 @@ class DuplicateRemover
 			end
 			next unless subpage.valid_page
 
-			if @duplicate_optimizer.pattern?(subpage.url)
+			if !on_duplicate_list?(subpage.url) || @duplicate_optimizer.pattern?(subpage.url)
 				set_duplicate(subpage)
 				p subpage.valid_page.to_s + " has pattern" + subpage.url
 				next
@@ -44,16 +45,19 @@ class DuplicateRemover
 				next if subpage.url == iterated_subpage.url
 				next unless iterated_subpage.valid_page
 
-				if @duplicate_optimizer.pattern?(iterated_subpage.url)
+				if !on_duplicate_list?(iterated_subpage.url) || @duplicate_optimizer.pattern?(iterated_subpage.url)
 					set_duplicate(iterated_subpage)
 					p " iterated has pattern" + iterated_subpage.url
 				elsif DuplicateRemover.is_duplicate?(subpage.content, iterated_subpage.content)
 					@duplicate_optimizer.add(iterated_subpage)
 					
+
 					duplicate = most_links(subpage, iterated_subpage) || most_headers(subpage, iterated_subpage) || longer_url(subpage, iterated_subpage)
 					set_duplicate(duplicate)
 					duplicates_count += 1
-					p duplicate.url + " is duplicate"
+
+					p duplicate.url + " is duplicate of " + original(duplicate,subpage, iterated_subpage).url
+					break if duplicate == subpage
 				end
 			end
 			p " "
@@ -77,6 +81,17 @@ class DuplicateRemover
 		return @subpages.select {|s| s.valid_page}
 	end
 
+	def on_duplicate_list?(url)
+		list = ["/category/", "/tag/", "/kategoria/", "/page/"]
+		list.each {|item| return false if url.include? item}
+		return true
+	end
+
+	def original(duplicate, subpage, iterated_subpage)
+		return iterated_subpage if subpage == duplicate
+		return subpage if iterated_subpage == duplicate
+	end
+
 	def set_duplicate(subpage)
 		subpage.update_attributes(valid_page: false) if subpage.valid_page
 	end
@@ -96,6 +111,7 @@ class DuplicateRemover
 	end
 
 	def most_links(subpage1, subpage2)
+
 		links1, links2 = count_links(subpage1.html), count_links(subpage2.html)
 		return false if links1 == links2
 		if links1 > links2
@@ -129,14 +145,29 @@ class DuplicateRemover
 		false
 	end
 
+	# Count links within html which are local
+	# 
 	def count_links(html)
-		Nokogiri::HTML(html).search("a").size
+		a_counter = 0
+		Nokogiri::HTML(html).search("a").each do |e|
+			next unless e.attribute("href")
+			if e.attribute("href").content.include?(@website.base_url) || e.attribute("href").content.start_with?("/")
+				a_counter+=1 
+			end
+		end
+		a_counter
 	end
 
 	def count_headers(html)
 		# Count a element within div's which have no siblings
 		a_elements = 0
-		Nokogiri::HTML(html).search("div > a").each {|e| a_elements+=1 if e.parent.children.count==1 && e.content.length > 3}
+		Nokogiri::HTML(html).search("div > a").each do |e| 
+			next if !e.parent || !e.content
+			if e.parent.children.count==1 && e.content.length > 3
+				a_elements+=1 
+			end
+		end
+
 		headers = Nokogiri::HTML(html).search("h1, h2, h3, h4, .title").size
 		return a_elements + headers
 	end

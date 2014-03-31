@@ -1,0 +1,9 @@
+<h2>Convert blog</h2>
+
+
+<%= form_for @book_task, :url => convert_blog_create_path, :html => {:class => "convert"} do |f| %>
+<%= f.text_field :links, :class => "email", :placeholder => "Paste an url of the blog" %>
+<%= f.text_field :title, :class => "email", :placeholder => "Put title of your book" %>
+<%= f.text_field :email, :class => "email", :placeholder => "Put your email…" %>
+<button type="submit" class="btn">Start converting</button>
+<% end %>

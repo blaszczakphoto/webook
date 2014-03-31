@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>TOC</title>
+</head>
+<body>
+	<h1 id="toc">Spis treści</h1>
+	<ul> 
+		<% @subpages.each_with_index do |subpage, index| %>
+		<li><a href="text.html#<%= index %>"><%= subpage.title%></a></li> 
+		<% end %>
+	</ul> 
+
+</body>
+</html>

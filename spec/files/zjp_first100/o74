@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Hakuna Matata - Spotkanie czytelników bloga - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="Hakuna Matata - Spotkanie czytelników bloga" />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/?p=4101" />
+	<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18-150x150.jpg" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/hakuna-matata-spotkanie-czytelnikow-bloga/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.6">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/wp-includes/js/comment-reply.min.js?ver=6553'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '4101';
+	window._wp_rp_num_rel_posts = '3';
+	window._wp_rp_blog_id = '3126203';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'Hakuna+Matata+-+Spotkanie+czytelnik%C3%B3w+bloga';
+	window._wp_rp_post_tags = ['lifestyle', 'mam', 'po', 'si', 'nich', 'al', 'kim', 'weekend', 'stan', 'ja', '10', 'moe', 'bo', 'mi', 'na', 'dla'];
+	window._wp_rp_remote_recommendations = false;
+	window._wp_rp_promoted_content = true;
+	window._wp_rp_traffic_exchange = true;
+</script>
+<script type="text/javascript" src="http://rp.zemanta.com/static/js/pageview.js?version=3.4.2" async></script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script><meta property="og:site_name" content="Życie jest piękne!" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/hakuna-matata-spotkanie-czytelnikow-bloga/" />
+<meta property="og:title" content="Hakuna Matata - Spotkanie czytelników bloga - Życie jest piękne!" />
+<meta property="og:description" content="Co to był za weekend! Z dumą i radością muszę napisać, że mam najlepszych czytelników bloga na Świecie. Są blogi, które może mają więcej wejść, firmy walą do nich z reklamami, piszą więcej, ale społeczność najlepszą mam ja! To były " />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuuuuna-1.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image" content="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-19.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta property="article:published_time" content="2013-07-11T18:25:02+00:00" />
+<meta property="article:modified_time" content="2013-08-11T08:36:07+00:00" />
+<meta property="article:author" content="http://www.zyciejestpiekne.eu/author/admin/" />
+<meta property="article:section" content="LifeStyle" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="single single-post postid-4101 single-format-standard hakuna-matata-spotkanie-czytelnikow-bloga" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_04.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="current-post-ancestor active current-post-parent menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+          <section class="post-4101 post type-post status-publish format-standard hentry category-lifestyle large-9 columns single page">
+      <article class="post">
+        <div class="description">
+                    <h1><a href="/hakuna-matata-spotkanie-czytelnikow-bloga/">Hakuna Matata &#8211; Spotkanie czytelników bloga</a></h1>
+          <div class="meta">
+  <p><time datetime="2013-07-11T19:25:02+00:00" pubdate>Lipiec 11, 2013</time></p>
+  <p><a href="/hakuna-matata-spotkanie-czytelnikow-bloga//#disqus_thread"><span class="dsq-postid" rel="4101 http://www.zyciejestpiekne.eu/?p=4101">30 komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+          <div class="thumbnail">
+            <!-- 168x230 -->
+            <img width="230" height="163" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuuuuna-1-230x163.jpg" class="attachment-post colorbox-4101  wp-post-image" alt="hakuuuuna-1">          </div>
+            
+            <p>Co to był za weekend! Z dumą i radością muszę napisać, że mam najlepszych czytelników bloga na Świecie. Są blogi, które może mają więcej wejść, firmy walą do nich z reklamami, piszą więcej, ale społeczność najlepszą mam ja! To były cudowne dwa dni z czytającymi blog.</p>
+<p><span id="more-4101"></span></p>
+<p>O spotkaniu nie pisałem na blogu, bo pomysł wyszedł na <strong><a title="Grupa facebookowa " href="https://www.facebook.com/groups/445747718854896/">grupie facebookowej „Życie Jest Piękne</a></strong>”. Otworzyliśmy zapisy i po kilkunastu godzinach mieliśmy komplet uczestników. Powiem szczerze, że miałem lekkie obawy, z kim się spotkam. Co to za ludzie zjadą się z całej Polski, by razem „dziać się”? Bardzo miło się zaskoczyłem : ) Było genialnie!</p>
+
+		<div id='gallery-1' class='gallery galleryid-4101 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-1.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-1-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-2.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-2-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-3.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-3-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="hakuna_matata (3)" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-4.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-4-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="hakuna_matata (4)" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-6.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-6-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="hakuna_matata (6)" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-7.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-7-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="hakuna_matata (7)" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-9.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-9-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="hakuna_matata (9)" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-15.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-15-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-16.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-16-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-17.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-17-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl>
+			<br style='clear: both;' />
+		</div>
+
+<p>&nbsp;</p>
+<h2>Integracja, integracja!</h2>
+<p>Początek jak to początek &#8211; wszyscy się zeszli, patrzyli na siebie i nie wiedzieli, co z sobą zrobić. Stan ten trwał jakieś 10 minut, bo później rozpoczęliśmy gry integracyjne. Dla mnie to była jakaś magia &#8211; z minuty na minutę ludzie zaczęli z sobą rozmawiać, dyskutować i snuć wspólne plany. Nie wiem, co o tym powiedzą uczestnicy, ale <strong>dla mnie to była najlepsza rzecz tego weekendu &#8211; nieskrępowane i luźne rozmowy z wszystkimi. Bardzo mi się to podobało, bo na dobrą sprawę, podczas wszystkich tego typu szkoleń przerwy są drętwe, a rozmowy wymuszone, &#8222;bo przecież trzeba budować sieć kontaktów&#8221;. Naturalność się liczy!</strong><br />
+Wieczorem, po wspólnej kolacji, wybraliśmy się jeszcze na w imprezę do jednego z krakowskich klubów. Ja wszedłem w całkowite flow, bo z każdym miałem jakiś temat do rozmowy. Do domu wróciłem koło&#8230;4 rano. A przecież o 6.30 trzeba było wstać na paintball!</p>
+<p style="text-align: center;"><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-5.jpg"><img class="aligncenter  wp-image-4123 colorbox-4101" alt="hakuna_matata (5)" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-5.jpg" width="630" height="420" /></a></p>
+<h2>Wojna!</h2>
+<p>Pot lał się z czoła, a maska utrudniała oddech. Niestety, życie żołnierza nie jest łatwe. Tropikalny klimat dawał się we znaki, a każdy, nawet najmniejszy błąd mógł być wykorzystany przez przeciwnika. Siedziałem w wysokich zaroślach i obserwowałem przestrzeń przed sobą. W armii służyłem już od lat, dlatego moja intuicja podpowiadała mi, że gdzieś tam czai się snajper i tylko czeka na mój błąd. Wiedziałem, że muszę zmienić pozycje&#8230;</p>
+<p>3&#8230;<br />
+2&#8230;<br />
+1&#8230;<br />
+Podniosłem się z ziemi i zacząłem biec bo pobliskiej barykady. Chwila, moment i będę bezpieczny. Nagle strzał! Poczułem lekkie ukucie i mimowolnie upadłem. To była seria po nogach. Zostałem trafiony, a na spodniach pojawiła się plama&#8230;farby.</p>
+
+		<div id='gallery-2' class='gallery galleryid-4101 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-10.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-10-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-11.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-11-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-12.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-12-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-13.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-13-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a class="thumbnail" href='http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-14.jpg'><img width="150" height="150" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-14-150x150.jpg" class="attachment-thumbnail colorbox-4101 " alt="SONY DSC" /></a>
+			</dt></dl>
+			<br style='clear: both;' />
+		</div>
+
+<p>Tak wyglądał ten nasz paintball. Było strasznie gorąco i powiem szczerze, że zmęczyłem się fizycznie. <strong>Bardzo angażuje się w takie zabawy i naprawdę czułem się jak na wojnie. Czołganie, skakanie i polowanie na przeciwnika.</strong></p>
+<h2>Przełamywanie taneczne</h2>
+<p>To nie był koniec atrakcji tego dnia. Po pochłonięciu pizz, całą ekipa poszliśmy na rynek wykonać jedno <strong>zadanie na przełamanie</strong>. Każdy uczestnik podał wcześniej ulubioną piosenkę do tańczenia. Gra była prosta &#8211; każdy po kolei wychodził sam na środek rynku, zakładał słuchawki na uszy i miał tańczyć tak, jakby nikt nie patrzył. Powiem szczerze, że sam miałem obawy, ale jak tylko założyłem słuchafony na uszy to zacząłem skakać jak kangur z Australii.<strong> Pełna moc i energia. W 3 sekundy zapomniałem o otaczającym świecie i zacząłem świetną zabawę.</strong> Wkrótce zobaczycie na blogu film z akcji. Reakcje otoczenia bardzo ciekawe : )</p>
+<p style="text-align: center;"><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18.jpg"><img class="aligncenter  wp-image-4106 colorbox-4101" alt="hakuna_matata (18)" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18.jpg" width="630" height="420" /></a></p>
+<h2>Słowem zakończenia</h2>
+<p>Dla mnie to był wspaniały weekend. <strong>Weekend, który pokazał mi, że było warto. Ponad 4 lata pisałem tego bloga, zaczynałem kompletnie od zera. Teraz powstała wokół niego społeczność ciekawych i aktywnych ludzi, którzy chcą żyć.</strong><br />
+<strong>Dziękuję uczestnikom za przybycie i takie zaangażowanie. O brawach na samym końcu nawet nie wspominam. W życiu nie dostałem takich owacji i stojąc na środku z ekipą organizatorską miałem łzy w oczach. Dziękuję&#8230;</strong></p>
+<p>Podziękowania należą się także <strong>Karolinie, Marcinowi, Andrzejowi i Brysi.</strong> Idealny zespół do organizowania tego typu projektów. Karolinie &#8211; za logistykę jakiej świat nie widział i podstawianie tramwajów MPK, Marcinowi &#8211; za to, że jest ze mną od dwóch lat i angażuje się całkowicie w to, co robi, Andrzejowi &#8211; za motywowanie, gdy mówiłem &#8222;mam to w dupie, nie organizuję tego&#8221; i Brysi &#8211; za położenie kamienia węgielnego do integracji i ciągłe wspieranie.</p>
+<p style="text-align: center;"><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-19.jpg"><img class="aligncenter  wp-image-4107 colorbox-4101" alt="hakuna_matata (19)" src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-19.jpg" width="630" height="420" /></a></p>
+<p>Niemal wszystko grało jak w szwajcarskim zegarku (jedyne, czego brakowało, to podobno sosu do pizzy: &gt;). Gdy już zakończyliśmy cały projekt, zdałem sobie sprawę, jak jestem zmęczony, ale jednocześnie &#8211; jak bardzo szczęśliwy.</p>
+<h2><strong>Spotkanie się skończyło, ale zabawa trwa nadal, bo do spełnienia mamy blisko 30 marzeń i celów. Zobaczymy, jak poradzą sobie wszyscy ze swoimi wyzwaniami.</strong></h2>
+<p><strong></strong>Wkrótce film z tańczenia i video-relacja ze szkolenia. A jesienią&#8230; kolejne spotkanie : )</p>
+<p>Fotki z paintballa, integracji i pizzy zrobione przez Artura Tymańskiego.</p>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.zyciejestpiekne.eu%2Fhakuna-matata-spotkanie-czytelnikow-bloga%2F&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden;  width:450px; height:65px"></iframe>
+
+<div class="wp_rp_wrap  wp_rp_vertical" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3><ul class="related_post wp_rp" style="visibility: visible"><li data-position="0" data-poid="in-2159" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/jak-cieszyc-sie-z-zycia/" class="wp_rp_thumbnail"><img class="colorbox-4101"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/2011/12/indie-150x150.jpg" alt="Jak cieszyć się z życia?" /></a><a href="http://www.zyciejestpiekne.eu/jak-cieszyc-sie-z-zycia/" class="wp_rp_title">Jak cieszyć się z życia?</a></li><li data-position="1" data-poid="in-4658" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/rok-2013-na-moich-zdjeciach/" class="wp_rp_thumbnail"><img class="colorbox-4101"  src="http://www.zyciejestpiekne.eu/wp-content/uploads/003-150x150.jpg" alt="Rok 2013 na moich zdjęciach" /></a><a href="http://www.zyciejestpiekne.eu/rok-2013-na-moich-zdjeciach/" class="wp_rp_title">Rok 2013 na moich zdjęciach</a></li><li data-position="2" data-poid="in-744" data-post-type="none" ><a href="http://www.zyciejestpiekne.eu/jak-motywowac-sie-do-biegania/" class="wp_rp_thumbnail"><img class="colorbox-4101"  src="/plugins/related-posts/static/thumbs/19.jpg" alt="Jak motywować się do biegania?" /></a><a href="http://www.zyciejestpiekne.eu/jak-motywowac-sie-do-biegania/" class="wp_rp_title">Jak motywować się do biegania?</a></li></ul></div></div>
+        </div>
+        <div class="cf"></div>
+      </article>
+      <footer class="row pagg">
+
+        <ul class="large-3 columns directpagg">
+                          </ul>
+        <ul class="large-7 columns pagination">
+                        </ul>
+        <div class="cf"></div>
+                
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-6817">
+        <div id="dsq-comment-header-6817" class="dsq-comment-header">
+            <cite id="dsq-cite-6817">
+                <span id="dsq-author-user-6817">Ela</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6817" class="dsq-comment-body">
+            <div id="dsq-comment-message-6817" class="dsq-comment-message"><p>Czy byłaby taka możliwość zrobienia krótkiego wpisu o Youth in Action? Bardzo chciałaym wyjechać na taki wyjazd, szukam informacji w internecie, ale jest tego tak dużo, przez co mam istny mętlik w głowie i nie wiem za co się zabrać, jak to wszystko zorganizować!<br />
+Myślę, że pomogło by i zainteresowało nie tlyko mnie. (temat byl poruszony w jednym z wpisow o tanim podrozowaniu)</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6824">
+        <div id="dsq-comment-header-6824" class="dsq-comment-header">
+            <cite id="dsq-cite-6824">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6824">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6824" class="dsq-comment-body">
+            <div id="dsq-comment-message-6824" class="dsq-comment-message"><p>Ela &#8211; poszukaj w archiwum &#8211; Już dokładny wpis o youth in action był  i to dość niedawno:)</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-6818">
+        <div id="dsq-comment-header-6818" class="dsq-comment-header">
+            <cite id="dsq-cite-6818">
+                <span id="dsq-author-user-6818">Claudia [Sunny]</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6818" class="dsq-comment-body">
+            <div id="dsq-comment-message-6818" class="dsq-comment-message"><p>Jesienią koniecznie muszę się wybrać! Mam nadzieję, że z otwartymi ramionami przyjmiecie świeżaka <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>Ale szczerze to chyba bym się nie odważyła zatańczyć <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  Jednak tchórz ze mnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6820">
+        <div id="dsq-comment-header-6820" class="dsq-comment-header">
+            <cite id="dsq-cite-6820">
+http://www.jamowie.to/                <span id="dsq-author-user-6820">Andrzej Kozdęba</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6820" class="dsq-comment-body">
+            <div id="dsq-comment-message-6820" class="dsq-comment-message"><p>Claudia, uwierz mi, że byśmy Cię przekonali :). Wiele osób się stresowało, nawet my, jako organizatorzy mieliśmy przerażenie na twarzach, kiedy nadeszła nasza kolej :D. Ale zakładasz słuchawki i jesteś odcięta od świata :).</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-6821">
+        <div id="dsq-comment-header-6821" class="dsq-comment-header">
+            <cite id="dsq-cite-6821">
+                <span id="dsq-author-user-6821">Alina Moskwa</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6821" class="dsq-comment-body">
+            <div id="dsq-comment-message-6821" class="dsq-comment-message"><p>Było absolutnie genialnie i dziękuję Wam to! Nie przesadzę ani odrobinę pisząc, że był to jeden z najlepszych weekendów w moim życiu <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Było intensywnie, kreatywnie, wesoło&#8230; i naprawdę nie chciałam wracać do domu <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Na szczęście pozytywna energia została :)) </p>
+<p>Przed zatańczeniem na rynku miałam niezłego cykora, a teraz? Sądzę, że mogłabym zatańczyć gdziekolwiek, wszędzie &#8211; i aż mnie kusi, żeby to zrobić!</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6825">
+        <div id="dsq-comment-header-6825" class="dsq-comment-header">
+            <cite id="dsq-cite-6825">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6825">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6825" class="dsq-comment-body">
+            <div id="dsq-comment-message-6825" class="dsq-comment-message"><p>Mi energia też się zgromadziła po tym weekendzie z Wami. Kurcze,myślę, że jak bylibyśmy tydzień razem to wrócilibyśmy całkiem innymi ludźmi <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-2" id="dsq-comment-6828">
+        <div id="dsq-comment-header-6828" class="dsq-comment-header">
+            <cite id="dsq-cite-6828">
+                <span id="dsq-author-user-6828">M. Leśniewska</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6828" class="dsq-comment-body">
+            <div id="dsq-comment-message-6828" class="dsq-comment-message"><p>Alina- skoro kusi to się nie krępuj. <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /><br />
+Całej ekipie organizatorów- wielkie dzięki! Wszystko było rewelacyjne przygotowane! A ludzie, którzy się tam pojawili? Wow! Atmosfera taka, że brak mi słów. Ten weekend to było po prostu jakieś mega pozytywne szaleństwo.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-6822">
+        <div id="dsq-comment-header-6822" class="dsq-comment-header">
+            <cite id="dsq-cite-6822">
+http://rybotycki.blogspot.com/                <span id="dsq-author-user-6822">Bartosz &#8222;Ryba&#8221; Rybotycki</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6822" class="dsq-comment-body">
+            <div id="dsq-comment-message-6822" class="dsq-comment-message"><p>No z tym wychodzeniem na środek rynku to odważnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  Najlepiej tańczy się z odkurzaczem ;P</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-6823">
+        <div id="dsq-comment-header-6823" class="dsq-comment-header">
+            <cite id="dsq-cite-6823">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6823">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6823" class="dsq-comment-body">
+            <div id="dsq-comment-message-6823" class="dsq-comment-message"><p>Odważnie, ale wbrew pozorom bardzo łatwo <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt depth-2" id="dsq-comment-6830">
+        <div id="dsq-comment-header-6830" class="dsq-comment-header">
+            <cite id="dsq-cite-6830">
+http://www.jamowie.to/                <span id="dsq-author-user-6830">Andrzej Kozdęba</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6830" class="dsq-comment-body">
+            <div id="dsq-comment-message-6830" class="dsq-comment-message"><p>Tańczy z odkurzaczem, a śpiewa pod prysznicem <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-6833">
+        <div id="dsq-comment-header-6833" class="dsq-comment-header">
+            <cite id="dsq-cite-6833">
+                <span id="dsq-author-user-6833">Karol</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6833" class="dsq-comment-body">
+            <div id="dsq-comment-message-6833" class="dsq-comment-message"><p>Mnie wystarczyły dwa dni aby wrócić do domu zmienionym, do środy z rana siadywałem na łóżku i zastanawiałem się w lekkim zamyśleniu, ossooo&#8230; chodzi i co się ze mną dzieje. </p>
+<p>Spotkani ludzie to silna inspiracja dla mnie. </p>
+<p>Wytknięty sobie cel i zobowiązanie się przed 30 osób, że się czegoś dokona może w pierwszym momencie powalić zupełnie, ale staje się wyzwaniem które determinuje każdy element naszej codzienności a zarazem daje wspaniałą szanse na poszerzenie przestrzeni naszych poglądów i przekonań. </p>
+<p>Kraków który zawsze jest dla mnie miejscem szczególnym i wyjątkowym zarazem. </p>
+<p>Zadania i obserwacja siebie:) w trakcie tych zadań, to wyraźny obraz tego jaki jestem &#8211; co mogę, nad czym warto popracować &#8211; jakich obaw się pozbyć. </p>
+<p>Spotkanie dla mnie było także cichym spełnieniem marzenia o byciu w śród bardzo kreatywnych ludzi, którzy chcą więcej i więcej i więcej, dla siebie i innych. </p>
+<p>Łapczywie chce więcej, bo wiem, że czynne uczestniczenie i działanie na różnych polach, wśród takich ludzi, przyczyni się u mnie do ewolucji własnej osobowości i charakteru. </p>
+<p>Dziękuje, że jesteście <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />  bo co by to było, gdyby Was nie było ?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6834">
+        <div id="dsq-comment-header-6834" class="dsq-comment-header">
+            <cite id="dsq-cite-6834">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6834">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6834" class="dsq-comment-body">
+            <div id="dsq-comment-message-6834" class="dsq-comment-message"><p>Karol &#8211; ciesze si, że byłeś z nami przez te dwa dni, a jeszcze bardziej raduje się z tego, że to spotkanie tyle Ci dało <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Teraz nic, tylko robić swoje. Czekam na dzień, kiedy będę mógł kupić kawę w Twoim sklepie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-6836">
+        <div id="dsq-comment-header-6836" class="dsq-comment-header">
+            <cite id="dsq-cite-6836">
+                <span id="dsq-author-user-6836">Evelina</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6836" class="dsq-comment-body">
+            <div id="dsq-comment-message-6836" class="dsq-comment-message"><p>Jeden z najwspanialszych weekendów w moim życiu!!!! Minął tydzień a ja wciąż czuje niekończące się pokłady energii. Życie wydaje się jakby prostsze! To niesamowite szczęście poznać ludzi, którzy po całonocnej imprezie zrywają się po dwóch, trzech godzinach na równe nogi by z uśmiechem &#8222;dziać się&#8221; kolejny dzień. Zero narzekania, zero fochów, jedynie wszechogarniająca energia i optymizm, który zaraża i powoduje, że masz ochotę na więcej. Coś pięknego!!!!! Dzięki wielkie!!!!</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6847">
+        <div id="dsq-comment-header-6847" class="dsq-comment-header">
+            <cite id="dsq-cite-6847">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6847">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6847" class="dsq-comment-body">
+            <div id="dsq-comment-message-6847" class="dsq-comment-message"><p>Dzięki Ewelina za tak miłe słowa <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Jak się dużo dzieje i jest energia od ludzi to spać nie trzeba. Do zobaczenia podczas następnego spotkania <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-6838">
+        <div id="dsq-comment-header-6838" class="dsq-comment-header">
+            <cite id="dsq-cite-6838">
+                <span id="dsq-author-user-6838">Barbara Chronowska</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6838" class="dsq-comment-body">
+            <div id="dsq-comment-message-6838" class="dsq-comment-message"><p>Będą następne tego typu spotkania? Baaardzo chętnie bym się do takiego dołączyła <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6842">
+        <div id="dsq-comment-header-6842" class="dsq-comment-header">
+            <cite id="dsq-cite-6842">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6842">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6842" class="dsq-comment-body">
+            <div id="dsq-comment-message-6842" class="dsq-comment-message"><p>Będzie w październiku <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-6846">
+        <div id="dsq-comment-header-6846" class="dsq-comment-header">
+            <cite id="dsq-cite-6846">
+                <span id="dsq-author-user-6846">Barbara Chronowska</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6846" class="dsq-comment-body">
+            <div id="dsq-comment-message-6846" class="dsq-comment-message"><p>Rewelacja <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  to muszę Cię obserwować aby nie przegapić <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-6849">
+        <div id="dsq-comment-header-6849" class="dsq-comment-header">
+            <cite id="dsq-cite-6849">
+                <span id="dsq-author-user-6849">Monika</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6849" class="dsq-comment-body">
+            <div id="dsq-comment-message-6849" class="dsq-comment-message"><p>kurcze ale fajnie , szkoda ze nie jestem o 10 lat mlodsza a może bym się zalapala &#8230;keep up  the great work Maju &#8230;.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-6850">
+        <div id="dsq-comment-header-6850" class="dsq-comment-header">
+            <cite id="dsq-cite-6850">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6850">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6850" class="dsq-comment-body">
+            <div id="dsq-comment-message-6850" class="dsq-comment-message"><p>Wiek nie gra roli <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-6851">
+        <div id="dsq-comment-header-6851" class="dsq-comment-header">
+            <cite id="dsq-cite-6851">
+                <span id="dsq-author-user-6851">JoyBoy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6851" class="dsq-comment-body">
+            <div id="dsq-comment-message-6851" class="dsq-comment-message"><p>Fajna sprawa, sam bym się wybrał, ale październik odpada. Poczekam na trzecia edycję.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-6888">
+        <div id="dsq-comment-header-6888" class="dsq-comment-header">
+            <cite id="dsq-cite-6888">
+                <span id="dsq-author-user-6888">everysingleday.pl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6888" class="dsq-comment-body">
+            <div id="dsq-comment-message-6888" class="dsq-comment-message"><p>Świetna akcja, jestem pod mega wrażeniem!! Chętnie przyłączyłabym się do tego grona ludzi, mogę? ;&gt;</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-6895">
+        <div id="dsq-comment-header-6895" class="dsq-comment-header">
+            <cite id="dsq-cite-6895">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6895">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6895" class="dsq-comment-body">
+            <div id="dsq-comment-message-6895" class="dsq-comment-message"><p>Każdy chętny może <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />  W październiku druga edycja <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-6896">
+        <div id="dsq-comment-header-6896" class="dsq-comment-header">
+            <cite id="dsq-cite-6896">
+                <span id="dsq-author-user-6896">everysingleday.pl</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6896" class="dsq-comment-body">
+            <div id="dsq-comment-message-6896" class="dsq-comment-message"><p>super! <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-6914">
+        <div id="dsq-comment-header-6914" class="dsq-comment-header">
+            <cite id="dsq-cite-6914">
+http://sieczkarnia.blogspot.com/                <span id="dsq-author-user-6914">sieczkarnia</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6914" class="dsq-comment-body">
+            <div id="dsq-comment-message-6914" class="dsq-comment-message"><p>Ale mi się to podoba! Śmiałam się do łez jak napisałeś o tańczeniu do ulubionej piosenki, bo dokładnie coś takiego wykonałam ostatnio na imprezie. Podobno cała sala gapiła się z otwartymi ustami jak wywijałam ;D</p>
+<p>Z niecierpliwością czekam na film i na listę Waszych celów, o ile ją upublicznisz.</p>
+<p>Pozdrawiam!</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-6925">
+        <div id="dsq-comment-header-6925" class="dsq-comment-header">
+            <cite id="dsq-cite-6925">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6925">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6925" class="dsq-comment-body">
+            <div id="dsq-comment-message-6925" class="dsq-comment-message"><p>Film będzie już niedługo, a co do listy celów to jest ona na grupie facebookowej <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-6921">
+        <div id="dsq-comment-header-6921" class="dsq-comment-header">
+            <cite id="dsq-cite-6921">
+                <span id="dsq-author-user-6921">Pablo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6921" class="dsq-comment-body">
+            <div id="dsq-comment-message-6921" class="dsq-comment-message"><p>Kurde, fajny pomysł taki zlot <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Chętnie bym wziął w nim udział, jak będzie kolejna edycja, tylko to tańczenie na rynku mnie przeraża (ja i taniec to dwie różne rzeczy) <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_razz.gif" alt=":P" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-2" id="dsq-comment-6924">
+        <div id="dsq-comment-header-6924" class="dsq-comment-header">
+            <cite id="dsq-cite-6924">
+http://zyciejestpiekne.eu/                <span id="dsq-author-user-6924">Michał Maj</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6924" class="dsq-comment-body">
+            <div id="dsq-comment-message-6924" class="dsq-comment-message"><p>Ja też jestem tanecznym beztalenciem. Chodzi oto, żeby tańczyć tak, żeby sprawiało to przyjemność i radość &#8211; bez myślenia o tym jak to wygląda z zewnątrz. Ja np. skakałem jak kangur <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-3" id="dsq-comment-6928">
+        <div id="dsq-comment-header-6928" class="dsq-comment-header">
+            <cite id="dsq-cite-6928">
+                <span id="dsq-author-user-6928">Pablo</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-6928" class="dsq-comment-body">
+            <div id="dsq-comment-message-6928" class="dsq-comment-message"><p>Hmm&#8230; skoro tak? W grupie 50 osób podrygujących w nieuporządkowany sposób raczej niczym bym się nie wyróżniał. A to już takie straszne nie jest;)</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="post pingback">
+        <p>Pingback: <a href='http://designyourlife.pl/misz-masz/hakuna-matata-relacja-z-najbardziej-pozytywnego-spotkania-z-najbardziej-pozytywnymi-ludzmi/' rel='external nofollow' class='url'>Hakuna Matata &#8211; relacja z najbardziej pozytywnego spotkania z najbardziej pozytywnymi ludźmi :) | Design Your Life</a></p>
+    </li>
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-7606">
+        <div id="dsq-comment-header-7606" class="dsq-comment-header">
+            <cite id="dsq-cite-7606">
+                <span id="dsq-author-user-7606">:)</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-7606" class="dsq-comment-body">
+            <div id="dsq-comment-message-7606" class="dsq-comment-message"><p>gdzie ten filmik ? nie wstawiłeś go jeszcze czy gdzieś przegapiłam ? bardzo jestem ciekawa jak to wyglądało, a przede wszystkim reakcji ludzi, musiało być zabawnie <img src="http://www.zyciejestpiekne.eu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.zyciejestpiekne.eu/hakuna-matata-spotkanie-czytelnikow-bloga/';
+    var disqus_identifier = '4101 http://www.zyciejestpiekne.eu/?p=4101';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'zyciejestpiekne';
+    var disqus_title = "Hakuna Matata &#8211; Spotkanie czytelników bloga";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=4101';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+            {
+                'author_name':    "Hakuna Matata &#8211; relacja z najbardziej pozytywnego spotkania z najbardziej pozytywnymi ludźmi :) | Design Your Life",
+                'author_url':    "http:\/\/designyourlife.pl\/misz-masz\/hakuna-matata-relacja-z-najbardziej-pozytywnego-spotkania-z-najbardziej-pozytywnymi-ludzmi\/",
+                'date':            "08\/22\/2013 07:22 AM",
+                'excerpt':        "[&#8230;] Tutaj znajdziecie relację ze spotkania Michała, na jego blogu. [&#8230;] ",
+                'type':            "pingback"            }
+        ],
+        'trackback_url': "http:\/\/www.zyciejestpiekne.eu\/hakuna-matata-spotkanie-czytelnikow-bloga\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+      </footer>
+  </section>
+  <aside class="sidebar span4 large-3 columns" role="complementary">
+    <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+  </aside><!-- /.sidebar -->
+    
+  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201404'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="http:\/\/connect.facebook.net\/pl_PL\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+<div id="fb-root"></div>  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.709 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-01-25 19:50:12 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div><div>
+ 
+ 
+ 
+ 
+ <p>Co to był za weekend! Z dumą i radością muszę napisać, że mam najlepszych czytelników bloga na Świecie. Są blogi, które może mają więcej wejść, firmy walą do nich z reklamami, piszą więcej, ale społeczność najlepszą mam ja! To były cudowne dwa dni z czytającymi blog.</p>
+<p><span></span></p>
+<p>O spotkaniu nie pisałem na blogu, bo pomysł wyszedł na grupie facebookowej „Życie Jest Piękne”. Otworzyliśmy zapisy i po kilkunastu godzinach mieliśmy komplet uczestników. Powiem szczerze, że miałem lekkie obawy, z kim się spotkam. Co to za ludzie zjadą się z całej Polski, by razem „dziać się”? Bardzo miło się zaskoczyłem : ) Było genialnie!</p>
+ 
+<p> </p>
+<h2>Integracja, integracja!</h2>
+<p>Początek jak to początek – wszyscy się zeszli, patrzyli na siebie i nie wiedzieli, co z sobą zrobić. Stan ten trwał jakieś 10 minut, bo później rozpoczęliśmy gry integracyjne. Dla mnie to była jakaś magia – z minuty na minutę ludzie zaczęli z sobą rozmawiać, dyskutować i snuć wspólne plany. Nie wiem, co o tym powiedzą uczestnicy, ale dla mnie to była najlepsza rzecz tego weekendu – nieskrępowane i luźne rozmowy z wszystkimi. Bardzo mi się to podobało, bo na dobrą sprawę, podczas wszystkich tego typu szkoleń przerwy są drętwe, a rozmowy wymuszone, „bo przecież trzeba budować sieć kontaktów”. Naturalność się liczy!<br>
+Wieczorem, po wspólnej kolacji, wybraliśmy się jeszcze na w imprezę do jednego z krakowskich klubów. Ja wszedłem w całkowite flow, bo z każdym miałem jakiś temat do rozmowy. Do domu wróciłem koło…4 rano. A przecież o 6.30 trzeba było wstać na paintball!</p>
+<p><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-5.jpg"><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-5.jpg"></a></p>
+<h2>Wojna!</h2>
+<p>Pot lał się z czoła, a maska utrudniała oddech. Niestety, życie żołnierza nie jest łatwe. Tropikalny klimat dawał się we znaki, a każdy, nawet najmniejszy błąd mógł być wykorzystany przez przeciwnika. Siedziałem w wysokich zaroślach i obserwowałem przestrzeń przed sobą. W armii służyłem już od lat, dlatego moja intuicja podpowiadała mi, że gdzieś tam czai się snajper i tylko czeka na mój błąd. Wiedziałem, że muszę zmienić pozycje…</p>
+<p>3…<br>
+2…<br>
+1…<br>
+Podniosłem się z ziemi i zacząłem biec bo pobliskiej barykady. Chwila, moment i będę bezpieczny. Nagle strzał! Poczułem lekkie ukucie i mimowolnie upadłem. To była seria po nogach. Zostałem trafiony, a na spodniach pojawiła się plama…farby.</p>
+ 
+<p>Tak wyglądał ten nasz paintball. Było strasznie gorąco i powiem szczerze, że zmęczyłem się fizycznie. Bardzo angażuje się w takie zabawy i naprawdę czułem się jak na wojnie. Czołganie, skakanie i polowanie na przeciwnika.</p>
+<h2>Przełamywanie taneczne</h2>
+<p>To nie był koniec atrakcji tego dnia. Po pochłonięciu pizz, całą ekipa poszliśmy na rynek wykonać jedno zadanie na przełamanie. Każdy uczestnik podał wcześniej ulubioną piosenkę do tańczenia. Gra była prosta – każdy po kolei wychodził sam na środek rynku, zakładał słuchawki na uszy i miał tańczyć tak, jakby nikt nie patrzył. Powiem szczerze, że sam miałem obawy, ale jak tylko założyłem słuchafony na uszy to zacząłem skakać jak kangur z Australii. Pełna moc i energia. W 3 sekundy zapomniałem o otaczającym świecie i zacząłem świetną zabawę. Wkrótce zobaczycie na blogu film z akcji. Reakcje otoczenia bardzo ciekawe : )</p>
+<p><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18.jpg"><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-18.jpg"></a></p>
+<h2>Słowem zakończenia</h2>
+<p>Dla mnie to był wspaniały weekend. Weekend, który pokazał mi, że było warto. Ponad 4 lata pisałem tego bloga, zaczynałem kompletnie od zera. Teraz powstała wokół niego społeczność ciekawych i aktywnych ludzi, którzy chcą żyć.<br>Dziękuję uczestnikom za przybycie i takie zaangażowanie. O brawach na samym końcu nawet nie wspominam. W życiu nie dostałem takich owacji i stojąc na środku z ekipą organizatorską miałem łzy w oczach. Dziękuję…</p>
+<p>Podziękowania należą się także Karolinie, Marcinowi, Andrzejowi i Brysi. Idealny zespół do organizowania tego typu projektów. Karolinie – za logistykę jakiej świat nie widział i podstawianie tramwajów MPK, Marcinowi – za to, że jest ze mną od dwóch lat i angażuje się całkowicie w to, co robi, Andrzejowi – za motywowanie, gdy mówiłem „mam to w dupie, nie organizuję tego” i Brysi – za położenie kamienia węgielnego do integracji i ciągłe wspieranie.</p>
+<p><a href="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-19.jpg"><img src="http://www.zyciejestpiekne.eu/wp-content/uploads/hakuna_matata-19.jpg"></a></p>
+<p>Niemal wszystko grało jak w szwajcarskim zegarku (jedyne, czego brakowało, to podobno sosu do pizzy: &gt;). Gdy już zakończyliśmy cały projekt, zdałem sobie sprawę, jak jestem zmęczony, ale jednocześnie – jak bardzo szczęśliwy.</p>
+<h2>Spotkanie się skończyło, ale zabawa trwa nadal, bo do spełnienia mamy blisko 30 marzeń i celów. Zobaczymy, jak poradzą sobie wszyscy ze swoimi wyzwaniami.</h2>
+<p>Wkrótce film z tańczenia i video-relacja ze szkolenia. A jesienią… kolejne spotkanie : )</p>
+<p>Fotki z paintballa, integracji i pizzy zrobione przez Artura Tymańskiego.</p>
+<div><div><h3>MOGĄ ZAINTERESOWAĆ CIĘ TAKŻE :</h3></div></div>
+ </div></div>PHafrAWuwrUf7S*UkEp&Hakuna Matata - Spotkanie czytelników bloga - Życie jest piękne!

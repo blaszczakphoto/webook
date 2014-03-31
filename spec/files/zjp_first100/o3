@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pl-PL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pl-PL"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Archiwum - Życie jest piękne!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta property="og:site_name" content="Życie jest piękne :)"/>
+	<meta property="og:title" content="Archiwum" />
+	<meta property="og:url" content="http://www.zyciejestpiekne.eu/index.php/" />
+	<meta property="og:description" content="Rozwój osobisty, produktywność, kreowanie życia"/>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.zyciejestpiekne.eu/archiwum/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="stylesheet" href="/plugins/jquery-colorbox/themes/theme9/colorbox.css?ver=4.6">
+<link rel="stylesheet" href="/plugins/contact-form-7/includes/css/styles.css?ver=3.6">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/foundation.min.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika:400,600,700,300&#038;subset=latin,latin-ext">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"zamknij","colorboxNext":"nast\u0119pne","colorboxPrevious":"poprzednie","colorboxSlideshowStart":"zacznij pokaz slajd\u00f3w","colorboxSlideshowStop":"zatrzymaj pokaz slajd\u00f3w","colorboxCurrent":"{current} z {total} obraz\u00f3w","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"true","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.3.21'></script>
+<script type='text/javascript' src='/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6'></script>
+<script type='text/javascript' src='/assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript">
+	window._wp_rp_static_base_url = 'http://rp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.zyciejestpiekne.eu/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.4.2';
+	window._wp_rp_post_id = '700';
+	window._wp_rp_num_rel_posts = '3';
+</script>
+<link rel="stylesheet" href="http://rp.zemanta.com/static/wp-rp-css/vertical.css?version=3.4.2" />
+<style type="text/css">
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+margin-right: 45px !important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}</style>
+<script type='text/javascript'>/* <![CDATA[ */ var _wpaudio = {url: 'http://www.zyciejestpiekne.eu/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'18px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#24f',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script><meta property="og:site_name" content="Życie jest piękne!" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:url" content="http://www.zyciejestpiekne.eu/archiwum/" />
+<meta property="og:title" content="Archiwum - Życie jest piękne!" />
+
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Pokaż wszystkie' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Ukryj wszystkie');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Pokaż wszystkie');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="Życie jest piękne! Feed" href="http://www.zyciejestpiekne.eu/feed/">
+  <link rel="shortcut icon" href="http://www.zyciejestpiekne.eu/wp-content/uploads/ey3BtLw.png" type="image/x-icon" />
+</head>
+      <body class="page page-id-700 archiwum" style="background-image:url('http://www.zyciejestpiekne.eu/wp-content/uploads/tlo_01.jpg');">
+
+  <!--[if lt IE 7]><div class="alert">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</div><![endif]-->
+
+    <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=502389366463263";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Top -->
+  <header class="row" id="mainHeader">
+    <div class="large-6 columns" id="headerBg">
+      <a href="http://www.zyciejestpiekne.eu " id="logotypeAdress" title="Strona główna"></a>
+    </div>
+    <div class="">
+      <div class="smallTopNav" >
+        <ul id="menu-menu-na-gorze" class="large-5 small-12 columns"><li class="menu-o-autorze"><a href="/o_autorze/">O autorze</a></li>
+<li class="menu-lista-marzen"><a href="/lista-marzen/">Lista marzeń</a></li>
+<li class="active menu-archiwum"><a href="/archiwum/">Archiwum</a></li>
+<li class="menu-reklama"><a href="/reklama-i-wspolpraca/">Reklama</a></li>
+</ul>      </div>
+      <div class="large-3 small-12 columns end" id="social">
+        <a href="http://www.facebook.com/zyciejestpiekne" id="fb"></a>
+        <a href="http://www.zyciejestpiekne.eu/feed" id="rss"></a>
+        <a href="#" id="search">
+          <form role="search" method="get" id="searchform" class="searchform" action="http://www.zyciejestpiekne.eu/">
+				<div>
+					<label class="screen-reader-text" for="s">Szukaj:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Szukaj" />
+				</div>
+			</form>        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Menu główne -->
+  <div class="row">
+    <div class="large-12 small-12" id="mainNav">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul id="menu-main" class="left"><li class="menu-podroze"><a href="/pozdroze/">Podróże</a></li>
+<li class="menu-sport"><a href="/sport-2/">Sport</a></li>
+<li class="menu-ulepszanie-siebie"><a href="/ulepszaniesiebie/">Ulepszanie siebie</a></li>
+<li class="menu-adrenalina"><a href="/adrenalina/">Adrenalina</a></li>
+<li class="menu-lifestyle"><a href="/lifestyle/">LifeStyle</a></li>
+<li class="menu-misz-masz"><a href="/misz-masz/">Misz Masz</a></li>
+</ul>        </section>
+      </nav>
+    </div>
+  </div>
+  <div class="row" id="content">
+      <!-- <div class="page-header">
+  <h1>
+    Archiwum  </h1>
+</div> --><section class="large-9 columns single page">
+      <article class="post">
+        <div class="description">
+          <h1><a href="/archiwum/">Archiwum</a></h1>
+          <div class="meta">
+  <p><time datetime="2010-10-21T12:06:53+00:00" pubdate>Październik 21, 2010</time></p>
+  <p><a href="/archiwum//#disqus_thread"><span class="dsq-postid" rel="700 http://www.zyciejestpiekne.eu/index.php/">Brak komentarzy</span></a></p>
+  <div class="clear"></div>
+</div>
+          <div class="thumbnail">
+            <!-- 168x230 -->
+            <img src="" alt="" />          </div>
+            <div class="car-container car-collapse">
+<a href="#" class="car-toggler">Pokaż wszystkie</a>
+
+<ul class="car-list">
+	<li><span class="car-yearmonth">Styczeń 2014 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/przygody-czarnobylu-zobacz-zdjecia/">Przygody w Czarnobylu [ZOBACZ ZDJĘCIA!]</a> <span title="Liczba komentarzy">(0)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/7-rzeczy-ktore-musisz-zrobic-studiach/">7 rzeczy, które musisz zrobić na studiach</a> <span title="Liczba komentarzy">(52)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/wczesne-wstawanie-regulujemy-organizm/">Wczesne wstawanie &#8211; regulujemy organizm</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/stambul-miasto-magiczne/">Stambuł &#8211; miasto magiczne [ZOBACZ FILM!]</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/rok-2013-na-moich-zdjeciach/">Rok 2013 na moich zdjęciach</a> <span title="Liczba komentarzy">(38)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/jestesmy-leszczami/">Jesteśmy leszczami</a> <span title="Liczba komentarzy">(62)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2013 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/2014-bedzie-rokiem-mocnych-wrazen/">2014 będzie rokiem mocnych wrażeń</a> <span title="Liczba komentarzy">(24)</span></li>
+			<li>17: <a href="http://www.zyciejestpiekne.eu/moje-miejsce-pracy/">Moje miejsce pracy</a> <span title="Liczba komentarzy">(43)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/trzeba-miec-fantazje/">Trzeba mieć fantazję!</a> <span title="Liczba komentarzy">(16)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/crossfit-nowa-zabawka/">CrossFit – nowa zabawka</a> <span title="Liczba komentarzy">(30)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/gdzie-ruszam-w-2014-roku/">Gdzie ruszam w 2014 roku?</a> <span title="Liczba komentarzy">(41)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/czasem-swiat-musi-poczekac/">Czasem to świat musi poczekać</a> <span title="Liczba komentarzy">(11)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Listopad 2013 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/jak-sie-pakowac-niczego-nie-zapomniec/">Jak się pakować i niczego nie zapomnieć?</a> <span title="Liczba komentarzy">(23)</span></li>
+			<li>18: <a href="http://www.zyciejestpiekne.eu/czas-spojrzec-prawdzie-w-oczy/">Czas spojrzeć prawdzie w oczy</a> <span title="Liczba komentarzy">(44)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/lekcja-biznesu-od-nowojorskiego-taksowkarza/">Lekcja biznesu od nowojorskiego taksówkarza [VIDEO!]</a> <span title="Liczba komentarzy">(25)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/20-powodow-za-ktore-uwielbiam-krakow/">20 powodów, za które uwielbiam Kraków</a> <span title="Liczba komentarzy">(57)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/niedopracowany-swiat/">Niedopracowany świat</a> <span title="Liczba komentarzy">(44)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Październik 2013 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>31: <a href="http://www.zyciejestpiekne.eu/hakuuuuna-matata/">Hakuuuuna Matata</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/autostopowa-chorwacja-zobacz-film/">Autostopowa Chorwacja [ZOBACZ FILM!]</a> <span title="Liczba komentarzy">(18)</span></li>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/lekcja-pokory-ktora-dostalem/">Lekcja pokory, którą dostałem</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/mam-okres/">Mam okres</a> <span title="Liczba komentarzy">(34)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/twoja-prawdziwa-moc-start/">Twoja Prawdziwa Moc &#8211; Start!</a></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/7-rzeczy-ktore-powinienes-przestac-robic-byc-szczesliwym/">7 rzeczy, które powinieneś przestać robić, by być szczęśliwym</a> <span title="Liczba komentarzy">(51)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Wrzesień 2013 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>29: <a href="http://www.zyciejestpiekne.eu/gra-w-ktora-musisz-zagrac/">Gra, w którą musisz zagrać</a> <span title="Liczba komentarzy">(36)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/5-patentow-na-przyjemne-loty/">5 patentów na przyjemne loty</a> <span title="Liczba komentarzy">(28)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/5-denerwujacych-zachowan-pasazerow-samolotow/">5 denerwujących zachowań pasażerów samolotów</a> <span title="Liczba komentarzy">(55)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/twoja-prawdziwa-moc/">Twoja Prawdziwa Moc</a> <span title="Liczba komentarzy">(10)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/szybki-wypad-do-holandii-zdjecia/">Szybki wypad do Holandii [ZDJĘCIA!]</a> <span title="Liczba komentarzy">(22)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Sierpień 2013 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/idz-wreszcie-do-pracy/">Idź wreszcie do pracy</a> <span title="Liczba komentarzy">(105)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/100-km-piekla/">100 km piekła</a> <span title="Liczba komentarzy">(22)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/sprzedawanie-sie/">Sprzedawanie się</a> <span title="Liczba komentarzy">(35)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/cala-prawda-o-woodstocku/">Cała prawda o Woodstocku</a> <span title="Liczba komentarzy">(47)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/autentyczne-autostopowe-historie/">Niesamowite historie autostopowe</a> <span title="Liczba komentarzy">(41)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Lipiec 2013 <span title="Liczba wpisów">(7)</span></span>
+		<ul class='car-monthlisting'>
+			<li>29: <a href="http://www.zyciejestpiekne.eu/jedziemy-na-woodstock/">Jedziemy na Woodstock</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/5-rzeczy-bez-ktorych-nie-wyobrazam-sobie-podrozowania/">5 rzeczy bez których nie wyobrażam sobie podróżowania</a> <span title="Liczba komentarzy">(26)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/swiat-oszustow-i-zlodziei/">Świat oszustów i złodziei</a> <span title="Liczba komentarzy">(53)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/hakuna-matata-spotkanie-czytelnikow-bloga/">Hakuna Matata &#8211; Spotkanie czytelników bloga</a> <span title="Liczba komentarzy">(30)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/gdy-mowia-ci-ze-nie-dasz-rady/">Gdy mówią Ci, że nie dasz rady</a> <span title="Liczba komentarzy">(72)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/szukanie-skarbow/">Szukanie skarbów</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/trekking-droga-licyjska-wideo/">Trekking Drogą Licyjską [WIDEO!]</a> <span title="Liczba komentarzy">(19)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Czerwiec 2013 <span title="Liczba wpisów">(7)</span></span>
+		<ul class='car-monthlisting'>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy-5-zdrowie-podsumowanie-calosci/">Odkurzacz życiowy #5 – Zdrowie + podsumowanie całości</a> <span title="Liczba komentarzy">(23)</span></li>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/skandalicznie-tanie-podrozowanie-mlodziez-w-dzialaniu/">Skandalicznie tanie podróżowanie- Młodzież w działaniu</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>19: <a href="http://www.zyciejestpiekne.eu/mapa-hogwartow/">Mapa Hogwartów</a> <span title="Liczba komentarzy">(41)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy-4-ogarniamy-finanse/">Odkurzacz życiowy #4 &#8211; Ogarniamy finanse</a> <span title="Liczba komentarzy">(51)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/final-akcji-42-do-szczescia/">Finał akcji 42 Do Szczęścia</a> <span title="Liczba komentarzy">(16)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy-3-ogarniamy-relacje-z-ludzmi/">Odkurzacz życiowy #3 &#8211; Ogarniamy relacje z ludźmi</a> <span title="Liczba komentarzy">(27)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/chillout-w-podrozy-rozwiazanie-konkursu/">Chillout w podróży &#8211; rozwiązanie konkursu</a> <span title="Liczba komentarzy">(17)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Maj 2013 <span title="Liczba wpisów">(7)</span></span>
+		<ul class='car-monthlisting'>
+			<li>31: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy-2-ogarniamy-komputer/">Odkurzacz życiowy #2 &#8211; Ogarniamy komputer</a> <span title="Liczba komentarzy">(64)</span></li>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/100-km-kieratowania-film/">100 km kieratowania [ZOBACZ FILM!]</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy-1-ogarniamy-otoczenie/">Odkurzacz życiowy #1 &#8211; Ogarniamy otoczenie</a> <span title="Liczba komentarzy">(45)</span></li>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/odkurzacz-zyciowy/">Odkurzacz życiowy</a> <span title="Liczba komentarzy">(30)</span></li>
+			<li>19: <a href="http://www.zyciejestpiekne.eu/fotokonkurs-pokaz-chillout-i-wygraj-wakacje-w-grecji/">FOTOKONKURS! Pokaż Chillout i wygraj wakacje w Grecji!</a> <span title="Liczba komentarzy">(18)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/poradnik-fotograficzny-maja-jak-robie-zdjecia/">Poradnik fotograficzny Maja &#8211; Jak robię zdjęcia?</a> <span title="Liczba komentarzy">(25)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/jak-to-autostopem-do-chorwacji-sie-wybralem/">Jak to autostopem do Chorwacji się wybrałem!</a> <span title="Liczba komentarzy">(31)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Kwiecień 2013 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>29: <a href="http://www.zyciejestpiekne.eu/dzien-ktory-zapamietamy-do-konca-zycia/">Dzień, który zapamiętamy do końca życia</a> <span title="Liczba komentarzy">(40)</span></li>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/jak-to-do-turcji-sie-wybralem/">Jak to do Turcji się wybrałem!</a> <span title="Liczba komentarzy">(29)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/wywiad-z-jaskiem-mela-i-super-akcja/">Wywiad z Jaśkiem Melą i super akcja!</a> <span title="Liczba komentarzy">(22)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/maju-lec-do-turcji/">Maju leci do Turcji</a> <span title="Liczba komentarzy">(28)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/nowy-wymiar-zycie-jest-piekne/">Nowy wymiar Życie Jest Piękne!</a> <span title="Liczba komentarzy">(55)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Marzec 2013 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/42-do-szczescia-badz-czescia-rewolucji/">42 do szczęścia &#8211; Bądź częścią rewolucji!</a> <span title="Liczba komentarzy">(31)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/24-wnioski-na-24-urodziny/">24 wnioski na 24 urodziny</a> <span title="Liczba komentarzy">(60)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/szczyty-marzen/">Szczyty marzeń</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/czy-mozna-wlozyc-zarowke/">Czy można włożyć żarówkę?</a> <span title="Liczba komentarzy">(30)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Luty 2013 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/co-to-jest-szczescie/">Co to jest szczęście?</a> <span title="Liczba komentarzy">(54)</span></li>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/magiczna-rozdzka-ktora-mozesz-zdobyc-wszystko/">Magiczna różdżka, którą możesz zdobyć wszystko!</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/laury-magellana/">Laury Magellana</a> <span title="Liczba komentarzy">(46)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/jak-znalezc-pasje/">Jak znaleźć pasję?</a> <span title="Liczba komentarzy">(39)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Styczeń 2013 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>29: <a href="http://www.zyciejestpiekne.eu/lizanie-ran/">Lizanie ran</a> <span title="Liczba komentarzy">(59)</span></li>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/rewolucja-dziania-sie/">Rewolucja dziania się</a> <span title="Liczba komentarzy">(53)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/jak-podrozowac-bez-wyjezdzania-z-polski-darmowe-vouchery-na-noclegi-na-calym-swiecie/">Jak podróżować bez wyjeżdżania z Polski? [+ darmowe vouchery na noclegi na całym Świecie]</a> <span title="Liczba komentarzy">(68)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/jak-zostac-hakerem-ludzi-7-sposobow/">Jak zostać hakerem ludzi? [7 sposobów]</a> <span title="Liczba komentarzy">(47)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/ksiazki-ktore-zmienily-moje-myslenie-cz-1/">Książki, które zmieniły moje myślenie cz.1</a> <span title="Liczba komentarzy">(113)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2012 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/to-byl-znowu-cudowny-rok/">To był znowu cudowny rok!</a> <span title="Liczba komentarzy">(140)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/uwierz-w-koniec-swiata/">Uwierz w koniec Świata</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/najlepsze-sa-twoje-wspomnienia-2-0/">Najlepsze są Twoje wspomnienia 2.0</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/fantazja-w-szarej-codziennosci/">Fantazja w szarej codzienności</a> <span title="Liczba komentarzy">(15)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/jak-to-do-wiednia-sie-wybralem-cz-2/">Jak to do Wiednia się wybrałem cz.2!</a> <span title="Liczba komentarzy">(30)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Listopad 2012 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/jak-to-do-wiednia-sie-wybralem/">Jak to do Wiednia się wybrałem!</a> <span title="Liczba komentarzy">(20)</span></li>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/wielkie-biznesy-maja/">Wielkie biznesy Maja</a> <span title="Liczba komentarzy">(36)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/tripowe-slajdowisko-w-krakowie-fotorelacja/">Tripowe slajdowisko w Krakowie [Fotorelacja]</a> <span title="Liczba komentarzy">(18)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/jajecznica-z-amfetamina/">Jajecznica z amfetaminą</a> <span title="Liczba komentarzy">(35)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/jak-przebiec-maraton/">Jak przebiec maraton?</a> <span title="Liczba komentarzy">(44)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Październik 2012 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/ulepsz-swoje-zycie-w-5-minut-16-sposobow/">Ulepsz swoje życie w 5 minut (16 sposobów)</a> <span title="Liczba komentarzy">(38)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/zycie-pisane-pod-klucz/">Życie pisane pod klucz</a> <span title="Liczba komentarzy">(42)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/rozmywanie-rzeczywistosci/">Rozmywanie rzeczywistości</a> <span title="Liczba komentarzy">(45)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/zycie-po-prostu-zycie/">Życie&#8230;po prostu życie ; )</a> <span title="Liczba komentarzy">(20)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/wyniki-spisu-powszechnego/">Wyniki spisu powszechnego</a> <span title="Liczba komentarzy">(16)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Wrzesień 2012 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/filmy-ktore-zmienia-twoje-zycie-cz-3/">Filmy, które zmienią Twoje życie – cz. 3</a> <span title="Liczba komentarzy">(51)</span></li>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/spis-powszechny-czytelnikow-bloga/">Spis powszechny czytelników bloga</a> <span title="Liczba komentarzy">(18)</span></li>
+			<li>19: <a href="http://www.zyciejestpiekne.eu/odkryj-wlasny-mur-chinski/">Odkryj własny mur chiński</a> <span title="Liczba komentarzy">(33)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/mongolski-cyrk/">Mongolski cyrk</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/syberia-syberia/">Syberia, Syberia!</a> <span title="Liczba komentarzy">(18)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Sierpień 2012 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/w-kolei-transsyberyjskiej/">W kolei transsyberyjskiej</a> <span title="Liczba komentarzy">(34)</span></li>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/jak-to-pociagiem-do-chin-sie-wybralem/">Jak to pociągiem do Chin się wybrałem!</a> <span title="Liczba komentarzy">(42)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Lipiec 2012 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/5-dni-do-wyjazdu-czas-na-konkurs/">5 dni do wyjazdu &#8211; CZAS NA KONKURS [Odcinek 2]</a> <span title="Liczba komentarzy">(33)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Czerwiec 2012 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/proste-sposoby-na-lepsze-zycie/">Proste sposoby na lepsze życie</a> <span title="Liczba komentarzy">(30)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/3-kraje-3-marzenia-ruszam-juz-w-lipcu-odcinek-1/">3 kraje – 3 marzenia – ruszam już w Lipcu! [Odcinek 1]</a> <span title="Liczba komentarzy">(33)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Maj 2012 <span title="Liczba wpisów">(3)</span></span>
+		<ul class='car-monthlisting'>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/jak-to-na-alaske-sie-wybralem/">Jak to na Alaskę się wybrałem!</a> <span title="Liczba komentarzy">(33)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/rozpocznij-swoja-prywatna-rewolucje/">Rozpocznij swoją prywatną rewolucję!</a> <span title="Liczba komentarzy">(74)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/docen-to-gdzie-zyjesz/">Doceń to, gdzie żyjesz!</a> <span title="Liczba komentarzy">(58)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Kwiecień 2012 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/dzien-ktory-przejdzie-do-historii/">Dzień, który przejdzie do historii!</a> <span title="Liczba komentarzy">(38)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/miej-jaja/">Miej jaja!</a> <span title="Liczba komentarzy">(55)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Marzec 2012 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/poznaj-rodzine-bez-granic/">Poznaj Rodzinę Bez Granic!</a> <span title="Liczba komentarzy">(23)</span></li>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/wypad-regeneracyjny-do-paryza-spelnione-marzenie/">Wypad regeneracyjny do Paryża + spełnione marzenie</a> <span title="Liczba komentarzy">(31)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Luty 2012 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/masz-prawo-do-bledu/">Masz prawo do błędu!</a> <span title="Liczba komentarzy">(27)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/emocje-spolecznie-modyfikowane/">Emocje społecznie modyfikowane</a> <span title="Liczba komentarzy">(42)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Styczeń 2012 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/czy-hitler-byl-dobrym-czlowiekiem/">Czy Hitler był dobrym człowiekiem?</a> <span title="Liczba komentarzy">(46)</span></li>
+			<li>18: <a href="http://www.zyciejestpiekne.eu/zostan-tworca/">Zostań twórcą!</a> <span title="Liczba komentarzy">(44)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/teraz-to-ja-potrzebuje-twojej-pomocy/">Teraz to ja potrzebuje Twojej pomocy!</a> <span title="Liczba komentarzy">(25)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/znajdz-ten-flow-w-relacjach-z-ludzmi/">Znajdź ten flow w relacjach z ludźmi!</a> <span title="Liczba komentarzy">(57)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2011 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/to-byl-po-prostu-cudowny-rok/">To był po prostu cudowny rok!</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/jak-cieszyc-sie-z-zycia/">Jak cieszyć się z życia?</a> <span title="Liczba komentarzy">(50)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/3-urodziny-bloga-co-zyskalem-dzieki-blogowi/">3 urodziny bloga! Co zyskałem dzięki blogowi?</a> <span title="Liczba komentarzy">(36)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/najlepsze-sa-twoje-wspomnienia/">Najlepsze są Twoje wspomnienia!</a> <span title="Liczba komentarzy">(23)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Listopad 2011 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/7-programow-ktore-usprawnia-twoja-prace/">7 programów, które usprawnią twoją pracę!</a> <span title="Liczba komentarzy">(37)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/czego-nauczyl-mnie-parkour/">Czego nauczył mnie parkour?</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/autostopowy-trip-2011film/">Autostopowy trip 2011[FILM]</a> <span title="Liczba komentarzy">(9)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/facebook-najwieksze-zlo-internetu/">Facebook- największe zło Internetu</a> <span title="Liczba komentarzy">(23)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Październik 2011 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/nasmaruj-swoj-umysl-i-podkrec-trybiki/">Nasmaruj swój umysł i podkręć trybiki!</a> <span title="Liczba komentarzy">(36)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/ucisz-wewnetrzny-glos/">Ucisz wewnętrzny głos</a> <span title="Liczba komentarzy">(36)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Wrzesień 2011 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/niestety-nie-wszystko-wychodzi/">Niestety, nie wszystko wychodzi</a> <span title="Liczba komentarzy">(58)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/kreatywnosc-nie-istnieje/">Kreatywność nie istnieje?</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/pelna-koncentracja-na-realizacji-zadania/">Pełna koncentracja na realizacji zadania</a> <span title="Liczba komentarzy">(17)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/czego-nie-nauczysz-sie-siedzac-w-domu-maroko-cz-3/">Czego nie nauczysz się siedząc w domu? Maroko cz. 3</a> <span title="Liczba komentarzy">(21)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/ramadan-czego-mozemy-sie-z-niego-nauczyc/">Ramadan- Czego możemy się z niego nauczyć?</a> <span title="Liczba komentarzy">(28)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/jak-to-autostopem-do-maroka-sie-wybralem/">Jak to autostopem do Maroka się wybrałem!</a> <span title="Liczba komentarzy">(44)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Sierpień 2011 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/gdzie-wybieram-sie-w-kolejna-podroz/">Gdzie wybieram się w kolejną podróż?</a> <span title="Liczba komentarzy">(18)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/nic-nie-zmieniaj-jest-dobrze/">Nic nie zmieniaj! Jest dobrze!</a> <span title="Liczba komentarzy">(53)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Lipiec 2011 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>31: <a href="http://www.zyciejestpiekne.eu/przepis-na-eliksir-szczescia/">Przepis na eliksir szczęścia</a> <span title="Liczba komentarzy">(14)</span></li>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/jak-cieszyc-sie-z-malych-rzeczy-i-wyciagnac-wiecej-z-wakacji/">Jak cieszyć się z małych rzeczy i wyciągnąć więcej z wakacji?</a> <span title="Liczba komentarzy">(42)</span></li>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/6-prowokujacych-pytan-do-ciebie/">6 prowokujących pytań do Ciebie</a> <span title="Liczba komentarzy">(51)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/grosz-do-grosza-i-bedzie-kokosza/">Grosz do grosza i będzie kokosza?</a> <span title="Liczba komentarzy">(34)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/odbierz-darmowy-e-book-podroze-za-grosze/">Odbierz darmowy e-book &#8222;Podróże za grosze&#8221;</a> <span title="Liczba komentarzy">(14)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/soczysty-jak-cytryna-czerwiec-i-plany-na-lipiec/">Soczysty jak cytryna czerwiec i plany na lipiec :)</a> <span title="Liczba komentarzy">(13)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Czerwiec 2011 <span title="Liczba wpisów">(7)</span></span>
+		<ul class='car-monthlisting'>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/hej-jak-twoje-postanowienia-noworoczne/">Hej, jak twoje postanowienia noworoczne?</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/jak-rozbudowac-siec-kontaktow/">Jak rozbudować sieć kontaktów?</a> <span title="Liczba komentarzy">(14)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/zdradzam-prawdziwy-sekret-jak-zaczac-dzialac/">Zdradzam prawdziwy sekret: Jak zacząć działać?</a> <span title="Liczba komentarzy">(40)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/7-moich-wspomnien-z-podrozy/">7 moich wspomnień z podróży</a> <span title="Liczba komentarzy">(14)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/nowe-zyciejestpiekne-eu/">Nowe zyciejestpiekne.eu</a> <span title="Liczba komentarzy">(24)</span></li>
+			<li>05: <a href="http://www.zyciejestpiekne.eu/jak-jezdzic-autostopem/">Jak jeździć autostopem?</a> <span title="Liczba komentarzy">(44)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/podsumowanie-maja-i-plany-na-czerwiec/">Podsumowanie maja i plany na czerwiec</a> <span title="Liczba komentarzy">(9)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Maj 2011 <span title="Liczba wpisów">(8)</span></span>
+		<ul class='car-monthlisting'>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/genialne-szkolenie-za-genialne-pieniadze/">Genialne szkolenie za genialne pieniądze!</a> <span title="Liczba komentarzy">(0)</span></li>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/norwegia-relacja-i-przemyslenia-z-wyjazdu/">Norwegia- relacja i przemyślenia z wyjazdu</a> <span title="Liczba komentarzy">(31)</span></li>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/czy-jestes-rozwojowym-cpunem-2/">Czy jesteś rozwojowym ćpunem?</a> <span title="Liczba komentarzy">(1)</span></li>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/zlepek-wspomnien-hinduskich/">Zlepek wspomnień hinduskich</a> <span title="Liczba komentarzy">(13)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/nawyki-ktore-odmienily-moje-zycie/">Nawyki, które odmieniły moje życie</a> <span title="Liczba komentarzy">(76)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/dlaczego-warto-miec-liste-marzen/">Dlaczego warto mieć listę marzeń?</a> <span title="Liczba komentarzy">(9)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/tuning-zycia/">Tuning życia</a> <span title="Liczba komentarzy">(15)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/filmy-ktore-zmienia-twoje-myslenie-cz-ii/">Filmy, które zmienią Twoje myślenie cz. II</a> <span title="Liczba komentarzy">(25)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Kwiecień 2011 <span title="Liczba wpisów">(6)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/podrozowanie-za-friko-za-grosze-dla-studentow/">Podróżowanie za friko/ za grosze dla studentów</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/slomiany-zapal-jak-realizowac-zadania-do-konca/">Słomiany zapał- Jak realizować zadania do końca?</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/wesolych-swiat/">Wesołych Świąt!</a> <span title="Liczba komentarzy">(4)</span></li>
+			<li>19: <a href="http://www.zyciejestpiekne.eu/projekt-maraton-zakonczony/">Projekt maraton zakończony! :)</a> <span title="Liczba komentarzy">(20)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/sen-mistrza-w-wersji-audio/">Sen mistrza w wersji audio</a> <span title="Liczba komentarzy">(0)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/i-po-indiach/">I po Indiach</a> <span title="Liczba komentarzy">(18)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Marzec 2011 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>18: <a href="http://www.zyciejestpiekne.eu/zaraz-wracam-spelniam-marzenia-2/">Zaraz wracam, spełniam marzenia :)</a> <span title="Liczba komentarzy">(16)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/jak-to-swoje-zycie-uproscic-chcialem/">Jak to swoje życie uprościć chciałem&#8230;</a> <span title="Liczba komentarzy">(24)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/z-plecakiem-wywiad-z-kuba-fedorowiczem/">Z plecakiem- Wywiad z Kubą Fedorowiczem</a> <span title="Liczba komentarzy">(10)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/personal-development-trip-podsumowanie/">Personal Development Trip- podsumowanie</a> <span title="Liczba komentarzy">(10)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Luty 2011 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/dlaczego-warto-studiowac/">Dlaczego warto studiować</a> <span title="Liczba komentarzy">(38)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/musisz-cos-zrobic-metoda-skoku-na-bungee/">Musisz coś zrobić?- Metoda skoku na bungee</a> <span title="Liczba komentarzy">(21)</span></li>
+			<li>09: <a href="http://www.zyciejestpiekne.eu/odkladanie-zycia-na-pozniej/">Odkładanie życia na później</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/893/">Jedź z nami w góry! Personal development Trip</a> <span title="Liczba komentarzy">(1)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Styczeń 2011 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/sen-mistrza-juz-jest/">Sen mistrza już jest!</a> <span title="Liczba komentarzy">(20)</span></li>
+			<li>21: <a href="http://www.zyciejestpiekne.eu/a-gdy-trzeba-zarwac-noc/">A gdy trzeba zarwać noc&#8230;</a> <span title="Liczba komentarzy">(8)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/badz-offline-zyskaj-stracony-czas/">Bądź offline- zyskaj stracony czas</a> <span title="Liczba komentarzy">(24)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/jak-realizowac-postanowienia-noworoczne/">Jak realizować postanowienia noworoczne?</a> <span title="Liczba komentarzy">(8)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2010 <span title="Liczba wpisów">(3)</span></span>
+		<ul class='car-monthlisting'>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/rok-2010-i-2011/">Rok 2010 i 2011</a> <span title="Liczba komentarzy">(15)</span></li>
+			<li>17: <a href="http://www.zyciejestpiekne.eu/sztuka-pisania-tekstow/">Sztuka pisania tekstów</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>05: <a href="http://www.zyciejestpiekne.eu/a-co-slychac-u-was/">A co słychać u Was?</a> <span title="Liczba komentarzy">(38)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Listopad 2010 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/jak-motywowac-sie-do-biegania/">Jak motywować się do biegania?</a> <span title="Liczba komentarzy">(15)</span></li>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/jak-byc-szczesliwym/">Jak być szczęśliwym?</a> <span title="Liczba komentarzy">(34)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/prawo-przyciagania-spojrzenie-po-dwoch-latach/">Prawo przyciągania- spojrzenie po dwóch latach</a> <span title="Liczba komentarzy">(28)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/projekt-maraton-czesc-i/">Projekt maraton część I</a> <span title="Liczba komentarzy">(3)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Październik 2010 <span title="Liczba wpisów">(3)</span></span>
+		<ul class='car-monthlisting'>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/wstawaj-godzine-wczesniej-bez-bolu-od-niedzieli/">Wstawaj godzinę wcześniej- bez bólu, od niedzieli</a> <span title="Liczba komentarzy">(8)</span></li>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/chcesz-zmienic-swoje-zycie-uporzadkuj-je/">Chcesz zmienić swoje życie? Uporządkuj je</a> <span title="Liczba komentarzy">(13)</span></li>
+			<li>18: <a href="http://www.zyciejestpiekne.eu/projekt-maraton/">Projekt: Maraton</a> <span title="Liczba komentarzy">(10)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Wrzesień 2010 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/jak-tanio-podrozowac/">Jak tanio podróżować?</a> <span title="Liczba komentarzy">(34)</span></li>
+			<li>17: <a href="http://www.zyciejestpiekne.eu/czym-kieruje-sie-w-zyciu/">Czym kierujesz się w życiu?</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>12: <a href="http://www.zyciejestpiekne.eu/zbior-pozytywnych-reklam/">Zbiór pozytywnych reklam</a> <span title="Liczba komentarzy">(22)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/jak-bezbolesnie-zdac-mature/">Jak bezboleśnie zdać mature?</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/jak-tworzyc-niesamowite-prezentacje-multimedialne/">Jak tworzyć niesamowite prezentacje multimedialne?</a> <span title="Liczba komentarzy">(2)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Sierpień 2010 <span title="Liczba wpisów">(7)</span></span>
+		<ul class='car-monthlisting'>
+			<li>29: <a href="http://www.zyciejestpiekne.eu/filmy-ktore-odmienia-twoje-zycie/">Filmy, które odmienią Twoje życie</a> <span title="Liczba komentarzy">(90)</span></li>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/o-spelnionym-marzeniu-i-lekcji-biznesu-w-taksowce/">O spełnionym marzeniu i lekcji biznesu w taksówce</a> <span title="Liczba komentarzy">(15)</span></li>
+			<li>18: <a href="http://www.zyciejestpiekne.eu/jak-zyskac-energie-zyjac-w-zgodzie-z-natura/">Jak zyskać energię żyjąc w zgodzie z naturą?</a> <span title="Liczba komentarzy">(13)</span></li>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/jak-osiagnac-sukces-finansowy/">Jak osiągnąć sukces finansowy?</a> <span title="Liczba komentarzy">(27)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/10-najlepszych-trikow-na-podniesienie-produktywnosci/">10 najlepszych trików na podniesienie produktywności</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/co-odkryles-w-innym-kraju/">Co odkryłeś w innym kraju?</a> <span title="Liczba komentarzy">(16)</span></li>
+			<li>04: <a href="http://www.zyciejestpiekne.eu/zyciejestpiekne-wraca-jak-inspirowac-ludzi/">Zyciejestpiekne wraca! Jak inspirować ludzi?</a> <span title="Liczba komentarzy">(8)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Czerwiec 2010 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>14: <a href="http://www.zyciejestpiekne.eu/wakacje-kolejne-marzenia/">Wakacje- kolejne marzenia</a> <span title="Liczba komentarzy">(10)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Kwiecień 2010 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/zyciejestpiekne-zostaje-zawieszone/">Życiejestpiękne zostaje zawieszone</a> <span title="Liczba komentarzy">(20)</span></li>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/swiateczna-lekcja/">Świąteczna lekcja</a> <span title="Liczba komentarzy">(12)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Marzec 2010 <span title="Liczba wpisów">(10)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/potrzebuje-twojej-pomocy/">Potrzebuje Twojej pomocy</a> <span title="Liczba komentarzy">(4)</span></li>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/jak-znalezc-czas-na-czytanie-ksiazek/">Jak znaleźć czas na czytanie książek?</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/prawo-parkinsona-sekret-efektywnosci/">Prawo Parkinsona- Sekret efektywności!</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>23: <a href="http://www.zyciejestpiekne.eu/rownowaga-zyciowa/">Równowaga życiowa</a> <span title="Liczba komentarzy">(10)</span></li>
+			<li>16: <a href="http://www.zyciejestpiekne.eu/jak-byc-systematycznym/">Jak być systematycznym?</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/akcja-zapytaj-walka-ze-stresem/">Akcja zapytaj: walka ze stresem!</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/akcja-zapytaj-jak-wstawac-wczesniej/">Akcja zapytaj: &#8222;Jak wstawać wcześniej?&#8221;</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>08: <a href="http://www.zyciejestpiekne.eu/czas-na-twoje-pytania/">Czas na twoje pytania!</a> <span title="Liczba komentarzy">(1)</span></li>
+			<li>07: <a href="http://www.zyciejestpiekne.eu/naucz-sie-uczyc-ciekawe-szkolenia/">Naucz się uczyć- ciekawe szkolenia</a> <span title="Liczba komentarzy">(1)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/wyprzedz-wiosne-ruszmy-sie-razem/">Wyprzedź wiosnę!- Ruszmy się razem</a> <span title="Liczba komentarzy">(5)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Luty 2010 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>20: <a href="http://www.zyciejestpiekne.eu/jak-wyjsc-po-za-strefe-komfortu/">Jak wyjść poza strefę komfortu?</a> <span title="Liczba komentarzy">(11)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Styczeń 2010 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/szybkie-czytanie-w-5-minut/">Szybkie czytanie w 5 minut</a> <span title="Liczba komentarzy">(12)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2009 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/wplyw-mediow-na-nasze-zycie/">Wpływ mediów na nasze życie</a> <span title="Liczba komentarzy">(10)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Listopad 2009 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>03: <a href="http://www.zyciejestpiekne.eu/lets-get-better-czyli-darmowe-szkolenia/">Let&#8217;s get better, czyli darmowe szkolenia!</a> <span title="Liczba komentarzy">(1)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Październik 2009 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>31: <a href="http://www.zyciejestpiekne.eu/proba-30-dni-czyli-wprowadzamy-nowe-nawyki/">Próba 30 dni czyli nowe nawyki</a> <span title="Liczba komentarzy">(19)</span></li>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/sunscreen/">Sunscreen</a> <span title="Liczba komentarzy">(1)</span></li>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/proste-sposoby-na-zdrowy-sen/">Proste sposoby na zdrowy sen</a> <span title="Liczba komentarzy">(7)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/wakacyjne-marzenia/">Wakacyjne marzenia</a> <span title="Liczba komentarzy">(13)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Czerwiec 2009 <span title="Liczba wpisów">(1)</span></span>
+		<ul class='car-monthlisting'>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/zaraz-wracam-spelniam-marzenia/">Zaraz wracam: spełniam marzenia</a> <span title="Liczba komentarzy">(3)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Kwiecień 2009 <span title="Liczba wpisów">(3)</span></span>
+		<ul class='car-monthlisting'>
+			<li>28: <a href="http://www.zyciejestpiekne.eu/magiczne-aplikacje-ulatwiajace-zarzadzanie-czasem/">Magiczne aplikacje ułatwiające zarządzanie czasem</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/the-bucket-list-20/">The bucket list 2.0</a> <span title="Liczba komentarzy">(13)</span></li>
+			<li>06: <a href="http://www.zyciejestpiekne.eu/motywacja-od-innych-osob/">Motywacja od innych osób</a> <span title="Liczba komentarzy">(13)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Marzec 2009 <span title="Liczba wpisów">(4)</span></span>
+		<ul class='car-monthlisting'>
+			<li>27: <a href="http://www.zyciejestpiekne.eu/20-lat-mojego-zycia/">20 lat mojego życia</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>25: <a href="http://www.zyciejestpiekne.eu/kocham-cie-zycie/">Kocham cię życie&#8230;</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>13: <a href="http://www.zyciejestpiekne.eu/badz-ciekawy-swiata/">Bądź ciekawy świata</a> <span title="Liczba komentarzy">(3)</span></li>
+			<li>01: <a href="http://www.zyciejestpiekne.eu/zachwycaj-sie/">Zachwycaj się</a> <span title="Liczba komentarzy">(9)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Luty 2009 <span title="Liczba wpisów">(2)</span></span>
+		<ul class='car-monthlisting'>
+			<li>24: <a href="http://www.zyciejestpiekne.eu/where-the-hell-is-matt/">Where the hell is Matt?</a> <span title="Liczba komentarzy">(13)</span></li>
+			<li>10: <a href="http://www.zyciejestpiekne.eu/uwielbiam-poniedzialki/">Uwielbiam poniedziałki!</a> <span title="Liczba komentarzy">(2)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Styczeń 2009 <span title="Liczba wpisów">(3)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/nie-boj-sie-porazek/">Nie bój się porażek</a> <span title="Liczba komentarzy">(10)</span></li>
+			<li>15: <a href="http://www.zyciejestpiekne.eu/szukaj-w-ludziach-dobra/">Szukaj w ludziach dobra</a> <span title="Liczba komentarzy">(5)</span></li>
+			<li>11: <a href="http://www.zyciejestpiekne.eu/napoj-lepszy-od-kawy/">Napój lepszy od kawy</a> <span title="Liczba komentarzy">(13)</span></li>
+		</ul>
+	</li>
+	<li><span class="car-yearmonth">Grudzień 2008 <span title="Liczba wpisów">(5)</span></span>
+		<ul class='car-monthlisting'>
+			<li>30: <a href="http://www.zyciejestpiekne.eu/hakuna-matata-sposob-na-zmartwienia/">Hakuna matata- sposób na zmartwienia</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>26: <a href="http://www.zyciejestpiekne.eu/nasze-marzenia/">Nasze marzenia</a> <span title="Liczba komentarzy">(7)</span></li>
+			<li>22: <a href="http://www.zyciejestpiekne.eu/kontakty-z-innymi-ludzmi-napraw-to/">Kontakty z innymi ludźmi. Napraw to!</a> <span title="Liczba komentarzy">(9)</span></li>
+			<li>17: <a href="http://www.zyciejestpiekne.eu/jak-poprawic-szybko-nastroj/">Jak poprawić szybko nastrój?</a> <span title="Liczba komentarzy">(6)</span></li>
+			<li>02: <a href="http://www.zyciejestpiekne.eu/hello-world/">Hello world!</a> <span title="Liczba komentarzy">(5)</span></li>
+		</ul>
+	</li>
+</ul>
+</div>
+
+        </div>
+        <div class="cf"></div>
+      </article>
+      <footer class="row pagg">
+
+        <ul class="large-3 columns directpagg">
+                          </ul>
+        <ul class="large-7 columns pagination">
+                        </ul>
+        <div class="cf"></div>
+        
+
+      </footer>
+</section>
+<aside class="sidebar span4 large-3 columns" role="complementary">
+  <div class="widget widget-omnie row">
+  <h2><a href="http://www.zyciejestpiekne.eu/o-stronie/">O Autorze</a></h2>
+  <p><p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył <strong><a title="Lista marzeń" href="http://www.zyciejestpiekne.eu/lista-marzen/">listę marzeń</a></strong>, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p></p>
+  <div class="boxFace">
+    <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg" alt="" />
+    <p class="">Michał Maj</p>
+  </div>
+</div>
+<div class="widget facebook row">
+  <div class="fb-like-box" data-href="http://www.facebook.com/zyciejestpiekne" data-width="200" data-height="315" data-show-faces="true" data-stream="false" data-border-color="#ffffff" data-header="false"></div>  
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+<div class="widget row bez">
+  <a href=""><img src="" alt="" /></a>
+</div>
+</aside><!-- /.sidebar -->  </div>
+    <footer id="footer">
+    <a href="#mainHeader" id="toTop"></a>
+    <div class="row">
+      <div class="large-12 small-12 columns">
+        <p>(c) 2011-2013 Życiejest Piękne - Michał Maj <img src="/assets/img/mainNavBorder.png" alt="separator" /> Strona oparta na systemie <a href="http://wordpress.org">WORDPRESS</a></p>
+        <p>Zakodzili <a href="http://melonstudio.eu">Melonstudio.eu</a> <img src="/assets/img/smallTopNav.png" alt="separator" /> Zaprojektował: <a href="http://owsian.net">Owsian.net</a></p>
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-17873176-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<script type='text/javascript' src='/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1'></script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.zyciejestpiekne.eu\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Trwa wysy\u0142anie...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/plugins/contact-form-7/includes/js/scripts.js?ver=3.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201404'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="http:\/\/connect.facebook.net\/pl_PL\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<script type='text/javascript' src='/assets/js/plugins.js'></script>
+<script type='text/javascript' src='/assets/js/main.js'></script>
+<script type='text/javascript' src='/assets/js/foundation.min.js'></script>
+<script type='text/javascript' src='/assets/js/script.js'></script>
+<div id="fb-root"></div>  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.637 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-01-25 17:41:36 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->PHafrAWuwrUf7S*UkEp&<div><div>
+ 
+ <p></p>
+<p>Człowiek, mający niepohamowany apetyt na ciekawe życie, determinację i chęci.  Kilka lat temu stworzył listę marzeń, którą skutecznie realizuje, a efekty opisuje na tym blogu. </p>
+ <div>
+ <img src="http://www.zyciejestpiekne.eu/wp-content/uploads/michal_maj1.jpg"><p>Michał Maj</p>
+ </div>
+</div></div>PHafrAWuwrUf7S*UkEp&Archiwum - Życie jest piękne!

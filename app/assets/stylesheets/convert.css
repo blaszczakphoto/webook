@@ -1,0 +1,5 @@
+.convert {width: 450px; text-align:center;margin: 0 auto;}
+.convert textarea {width: 450px; text-align:left;margin: 0 auto;height: 200px;color: black;}
+.convert .email {display:block;width: 452px;height: 35px;margin: 10px 0;}
+.convert button[type=submit] {display:block;}
+.convert .field_with_errors input, .convert .field_with_errors textarea {color: red; border: 1px solid red;}

@@ -268,10 +268,10 @@ describe DuplicateRemover do
   end
 
   it "should find correct duplicates in jazon" do
-@urls_o = [
-"http://dokturjazon.blox.pl/html/1310721,262146,14,15.html?4,2010",
-"http://dokturjazon.blox.pl/2010/05/Niedziela.html",
-]
+    @urls_o = [
+      "http://dokturjazon.blox.pl/html/1310721,262146,14,15.html?4,2010",
+      "http://dokturjazon.blox.pl/2010/05/Niedziela.html",
+    ]
 
     subpages = []
     subpages += create_subpages(@urls_o, "spec/files/jazon_duplicate/o", {valid_page: true, links_num: 3})
@@ -283,6 +283,47 @@ describe DuplicateRemover do
     expect(@subpages.count).to eq(1)
     expect(@subpages.map{|x| x.url}).to include("http://dokturjazon.blox.pl/2010/05/Niedziela.html")
     expect(@subpages.map{|x| x.url}).should_not include("http://dokturjazon.blox.pl/html/1310721,262146,14,15.html?4,2010")
+  end
+
+
+  it "should remove proper duplicate from zjp" do
+    @urls_o = [
+      "http://www.zyciejestpiekne.eu/7-rzeczy-ktore-musisz-zrobic-studiach/",
+      "http://www.zyciejestpiekne.eu/ulepszaniesiebie/",
+
+    ]
+
+    subpages = []
+    subpages += create_subpages(@urls_o, "spec/files/zjp_duplicate1/o", {valid_page: true, links_num: 3})
+    @website = create_website(base_url: "http://www.zyciejestpiekne.eu/", subpages: subpages)
+    @duplicate_remover = DuplicateRemover.new(@website)
+    @subpages = @duplicate_remover.remove
+
+    p " "
+    expect(@subpages.count).to eq(1)
+    expect(@subpages.map{|x| x.url}).to include("http://www.zyciejestpiekne.eu/7-rzeczy-ktore-musisz-zrobic-studiach/")
+    expect(@subpages.map{|x| x.url}).should_not include("http://www.zyciejestpiekne.eu/ulepszaniesiebie/")
+
+  end
+
+  it "should remove proper duplicate from zjp" do
+    @urls_o = [
+      "http://spacerywirtualne.wordpress.com/2012/03/19/krpano/",
+      "http://spacerywirtualne.wordpress.com/tag/krpano/", 
+    ]
+
+
+    subpages = []
+    subpages += create_subpages(@urls_o, "spec/files/spacerywirtualne_duplicate/o", {valid_page: true, links_num: 3})
+    @website = create_website(base_url: "http://spacerywirtualne.wordpress.com/", subpages: subpages)
+    @duplicate_remover = DuplicateRemover.new(@website)
+    @subpages = @duplicate_remover.remove
+
+    p " "
+    expect(@subpages.count).to eq(1)
+    expect(@subpages.map{|x| x.url}).to include("http://spacerywirtualne.wordpress.com/2012/03/19/krpano/")
+    expect(@subpages.map{|x| x.url}).should_not include("http://spacerywirtualne.wordpress.com/tag/krpano/")
+
   end
 
 end

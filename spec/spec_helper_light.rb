@@ -6,8 +6,8 @@ module HelpersLight
 	
 	def create_website(attrs)
 		website = double("website")
-    attrs.each {|key, item| website.stub(key) {item}}
-    website
+		attrs.each {|key, item| website.stub(key) {item}}
+		website
 	end
 
 	def create_subpage(attrs)
@@ -26,22 +26,45 @@ module HelpersLight
 	def create_subpages(urls, dir, attrs)
 		subpages = []
 		urls.each_with_index do |url, index| 
-      file = File.open("#{dir}#{index}", "r").read
+			file = File.open("#{dir}#{index}", "r").read
 
-      data = file.encode('utf-8', 'binary', :invalid => :replace, :undef => :replace).split("PHafrAWuwrUf7S*UkEp&")
-      obj_attrs = attrs.clone
-      obj_attrs[:html] = data[0]
-      obj_attrs[:content] = data[1]
-      obj_attrs[:title] = data[2]
-      obj_attrs[:url] = url
+			data = file.encode('utf-8', :invalid => :replace, :undef => :replace).split("PHafrAWuwrUf7S*UkEp&")
+			obj_attrs = attrs.clone
+			obj_attrs[:html] = data[0]
+			obj_attrs[:content] = data[1]
+			obj_attrs[:title] = data[2]
+			obj_attrs[:url] = url
       obj_attrs[:valid_page] = false if data[1].length < 3 #if content empty valid page false
       subpages.push(create_subpage(obj_attrs))
     end
     subpages
+  end
+
+  def find_by_url(subpages, url)
+		#TODO: 
 	end
 
-	def find_by_url(subpages, url)
-		#TODO: 
+
+	def create_book_task_from_file(file)
+		file = File.open(file, "r").read
+		data = file.encode('utf-8', 'binary', :invalid => :replace, :undef => :replace).split("PHafrAWuwrUf7S*UkEp&")
+		
+		subpage = double("book_task")
+		attrs.each {|key, item| subpage.stub(key) {item}}
+		subpage
+	end
+
+	def open_file(file_name)
+		file = File.open(file_name, "r").read
+		file.encode('utf-8', 'binary', :invalid => :replace, :undef => :replace)
+	end
+
+	# jestem tu: CRAETE METHOD TOT CREATE MOCKS WITH TASKS. TEST CREATING MOBI, THEN EMAILS ..
+
+	class Rails
+		def self.root
+			"/home/mariusz/Projects/webook"
+		end
 	end
 
 end

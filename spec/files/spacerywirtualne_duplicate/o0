@@ -1,0 +1,1006 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lte IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" class="lteIE7">
+<![endif]-->
+<!--[if (gt IE 7) | (!IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<!--<![endif]-->
+
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>KRPano | Panoramy sferyczne...</title>
+	<link rel="pingback" href="http://spacerywirtualne.wordpress.com/xmlrpc.php" />
+
+	<meta name="google-site-verification" content="fn5q--XHLfGq9M8gZkLaoe0_o-ZAMDiXr6viuyYvDDg" />
+<link rel="alternate" type="application/rss+xml" title="Panoramy sferyczne... &raquo; Kanał z wpisami" href="http://spacerywirtualne.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Panoramy sferyczne... &raquo; Kanał z komentarzami" href="http://spacerywirtualne.wordpress.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Panoramy sferyczne... &raquo; KRPano Kanał z komentarzami" href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/_static/??-eJx9UNsKwjAM/SFrUMfEB/FbujVm1XQpvVD8e7spOBjuKSdpzqWB4lUvY8IxgcvKcyY7RmD7xAgPTF73TzV3+z7GHSzWOxb6EYQIjeSk7sIsBYo1hGlFWng439ax8zrNcKhOa5M0oKtJfO6gZFXQQkwvxi3dgFOyCgnq1qLdInmJNTprGyAOOkzkb91iEY4YbH1Ywn9/GBoglk7zluLnbHFOTiImoDaz4s1dD6fL6XJsjuf28QZgIKQH' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-0' href='http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1387483371g' type='text/css' media='print' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s1.wp.com/_static/??-eJyFkNEKwjAMRX/IrohzsAfxW7YuK6ltU5vWMr/eDiYoCntKSA453MgShCKfwCdpWDoa0YLIDHHQdSbQz9QYPsjKoVc2T8AraO4Z4rKVXUA41HFI0Dj0b/jDGoiTA+aq/LP9VqF/IJRdzEAKg7qJCIzPn6ujJS2CzRo9y9prmCgnMZO1VGTBSUP6F0qRc+tXIgS7bGGu7nI89W3X9l17Ni+otH2K'></script>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://spacerywirtualne.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://spacerywirtualne.wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Spacery wirtualne' href='http://spacerywirtualne.wordpress.com/2012/03/18/spacery-wirtualne/' />
+<link rel='next' title='Moduły w spacerach wirtualnych' href='http://spacerywirtualne.wordpress.com/2012/03/22/moduly-w-spacerach-wirtualnych/' />
+<meta name="generator" content="WordPress.com" />
+<link rel='canonical' href='http://spacerywirtualne.wordpress.com/2012/03/19/krpano/' />
+<link rel='shortlink' href='http://wp.me/s2h9cF-krpano' />
+<link rel="alternate" type="application/json+oembed" href="http://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Fspacerywirtualne.wordpress.com%2F2012%2F03%2F19%2Fkrpano%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="http://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Fspacerywirtualne.wordpress.com%2F2012%2F03%2F19%2Fkrpano%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="KRPano" />
+<meta property="og:url" content="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/" />
+<meta property="og:description" content="KRPano, to potężne narzędzie do tworzenia spacerów wirtualnych, które przy podstawowej wiedzy programistycznej i dokupieniu kilu pluginów może okazać się najlepszym wyborem spośród podobnych progra..." />
+<meta property="article:published_time" content="2012-03-19T10:44:47+00:00" />
+<meta property="article:modified_time" content="2012-03-21T19:13:31+00:00" />
+<meta property="article:author" content="http://spacerywirtualne.wordpress.com/author/spacerywirtualne/" />
+<meta property="og:site_name" content="Panoramy sferyczne..." />
+<meta property="og:image" content="http://1.gravatar.com/blavatar/30ed5e6eb701cd3ef69d735f0f79ceb3?s=200" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image" content="http://1.gravatar.com/blavatar/30ed5e6eb701cd3ef69d735f0f79ceb3?s=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="fb:app_id" content="249643311490" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="http://0.gravatar.com/blavatar/c3553db688ad91cc070017a5e44e60db?s=16" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://0.gravatar.com/blavatar/c3553db688ad91cc070017a5e44e60db?s=16" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="http://1.gravatar.com/blavatar/30ed5e6eb701cd3ef69d735f0f79ceb3?s=114" />
+<link rel='openid.server' href='http://spacerywirtualne.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://spacerywirtualne.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://spacerywirtualne.wordpress.com/osd.xml" title="Panoramy sferyczne..." />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Panoramy sferyczne..." /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="...spacery i wycieczki wirtualne" /><meta name="msapplication-task" content="name=Zapisy;action-uri=http://spacerywirtualne.wordpress.com/feed/;icon-uri=http://0.gravatar.com/blavatar/c3553db688ad91cc070017a5e44e60db?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Wsparcie WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Fora WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="KRPano | Panoramy sferyczne... on WordPress.com" />
+<meta name="description" content="KRPano, to potężne narzędzie do tworzenia spacerów wirtualnych, które przy podstawowej wiedzy programistycznej i dokupieniu kilu pluginów może okazać się najlepszym wyborem spośród podobnych programów. Możliwości tego programu są tak wielkie, że trudno byłoby opisać wszystko. Producent na swojej stronie krpano.com dosyć dokładnie opisuje wszystkie moduły i ich wykorzystanie. Kupując pakiet KRPano dostajemy również narzędzie&hellip;" />
+<style type="text/css">
+#header img {
+	margin: 2em 0 0 0;
+}
+.blog-name a:link, .blog-name a:visited, .description {
+	color: #D1D9DC}
+</style>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+if ( typeof GS_googleAddAdSenseService == 'function' ) { GS_googleAddAdSenseService("ca-pub-3443918307802676"); }
+if ( typeof GS_googleEnableAllServices == 'function' ) { GS_googleEnableAllServices() };
+</script>
+<script type="text/javascript" src="http://c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+<script type="text/javascript">
+try { amznads.getAds("3033","300x250"); } catch(e) { /* ignore */ }
+</script>
+<script type="text/javascript">
+var amznKeys = amznads.getKeys();
+if (typeof amznKeys != "undefined" && amznKeys != "") { for (var i =0; i < amznKeys.length; i++) { var key = amznKeys[i]; GA_googleAddAttr("amzn", key);} }
+document.close();
+</script>
+<script type='text/javascript'>
+if ( typeof GA_googleAddSlot == 'function' ) { GA_googleAddSlot("ca-pub-3443918307802676", "wpcom_below_post"); }
+</script>
+<script type='text/javascript'>
+if ( typeof GA_googleFetchAds == 'function' ) { GA_googleFetchAds(); }
+</script>
+
+<script type="text/javascript">
+var wpcom_ads = { bid: 33639629, pt: 'permalink', wa: 0, as: 0, domain: 'spacerywirtualne.wordpress.com', url: 'http://spacerywirtualne.wordpress.com/2012/03/19/krpano/', gid: '', };
+</script>
+<style id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+</head>
+
+<body id="top" class="single single-post postid-107 single-format-standard mp6 highlander-enabled highlander-light">
+
+	<div class="full-column">
+
+		<div class="center-column">
+
+			<div class="menu menu-main"><ul><li ><a href="http://spacerywirtualne.wordpress.com/">Strona główna</a></li><li class="page_item page-item-6"><a href="http://spacerywirtualne.wordpress.com/info/">Kontakt</a></li><li class="page_item page-item-31"><a href="http://spacerywirtualne.wordpress.com/linki/">Linki</a></li><li class="page_item page-item-29"><a href="http://spacerywirtualne.wordpress.com/portfolio/">Portfolio</a></li><li class="page_item page-item-25"><a href="http://spacerywirtualne.wordpress.com/slownik-panoramisty/">Słownik panoramisty</a></li></ul></div>
+
+			<div class="clearboth"><!-- --></div>
+
+		</div>
+
+	</div>
+
+<div class="center-column">
+
+	<div id="header">
+
+		<div class="blog-name"><a href="http://spacerywirtualne.wordpress.com/">Panoramy sferyczne&#8230;</a></div>
+		<div class="description">&#8230;spacery i wycieczki wirtualne</div>
+
+				<a href="http://spacerywirtualne.wordpress.com/"><img src="http://spacerywirtualne.files.wordpress.com/2012/03/krakow.jpg" width="700" height="144" alt="" /></a>
+		
+	</div>
+	<div class="navigation">
+		<div class="alignleft">&laquo; <a href="http://spacerywirtualne.wordpress.com/2012/03/18/spacery-wirtualne/" rel="prev">Spacery wirtualne</a></div>
+		<div class="alignright"><a href="http://spacerywirtualne.wordpress.com/2012/03/22/moduly-w-spacerach-wirtualnych/" rel="next">Moduły w spacerach wirtualnych</a> &raquo;</div>
+		<div class="clearboth"><!-- --></div>
+	</div>
+
+	
+		
+<div class="post-107 post type-post status-publish format-standard hentry category-panoramy-sferyczne-2 category-spacery_wirtualne tag-krpano tag-oprogramowanie-do-panoram tag-oprogramowanie-do-spacerow tag-spacery-wirtualne tag-wycieczki-wirtualne" id="post-107">
+
+	<div class="post-info">
+
+		<h1><a href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/" rel="bookmark">KRPano</a></h1>
+				<div class="timestamp"><a href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/" rel="bookmark" title="Bezpośredni odnośnik do KRPano">Marzec 19, 2012</a> //</div> <div class="comment-bubble"><a href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/#respond" title="Skomentuj &#8222;KRPano&#8221;">0</a></a></div>		<div class="clearboth"><!-- --></div>
+
+		
+	</div>
+
+	<div class="post-content">
+		<p><strong>KRPano</strong>, to potężne narzędzie do tworzenia<strong> spacerów wirtualnych</strong>, które przy podstawowej wiedzy programistycznej i dokupieniu kilu pluginów może okazać się najlepszym wyborem spośród podobnych programów. Możliwości tego programu są tak wielkie, że trudno byłoby opisać wszystko. Producent na swojej stronie <strong><a title="KRPano" href="http://krpano.com">krpano.com</a></strong> dosyć dokładnie opisuje wszystkie moduły i ich wykorzystanie. Kupując pakiet <strong>KRPano</strong> dostajemy również narzędzie do konwersji <strong>panoram</strong> ze <strong>sferycznych</strong> na kubiczne i z kubicznych na <strong>sferyczne</strong> oraz wiele innych pomocnych narzędzi. Oprogramowanie nie posiada interfejsu graficznego przez co operacje odbywają się za pomocą dropletów, a programowanie wewnątrz <strong>spaceru</strong> przy pomocy modyfikacji pliku xml (w edytorze html, bądź z pomocą dołączonego pluginu editor &#8211; tylko niektóre operacje). Poza tym na stronie <strong>KRPano</strong> dostępne jest obszerne <a title="KRPano Forum" href="http://krpano.com/forum/wbb/index.php?l=2"><strong>forum</strong></a>, na którym możemy uzyskać odpowiedzi na dręczące nas problemy, lub dowiedzieć się jak zaprogramować indywidualnie poszczególne moduły. Praca z programem bywa trudna, za to jej efekt jest zazwyczaj co najmniej satysfakcjonujący. Na silniku <strong>KRPano</strong> opiera się program <a title="Pano Tour" href="http://www.kolor.com/panotour-software-virtual-tours-360-home.html"><strong>Pano Tour</strong></a> i<strong> Pano Tour Pro</strong> , które mają interfejs graficzny, jednak liczba możliwych do użycia modułów jest ograniczona w zależności od wersji.</p>
+<p>&nbsp;</p>
+
+<div class="wpa" style="position: relative; width:300px; text-align: center; padding: 0; margin: 10px auto; overflow: hidden; clear: both;">
+<a style="position: absolute; text-align: left; display: block; font: 9px/1 sans-serif; text-decoration: underline;" href="http://en.wordpress.com/about-these-ads/" rel="nofollow">About these ads</a>
+<script type="text/javascript">
+		var wpcom_adclk_hovering = false;
+		var wpcom_adclk_recorded = false;
+		var wpcom_adclk_theme = "Wu Wei";
+		var wpcom_adclk_slot = "wpcom_below_post";
+		var wpcom_adclk_network = ( typeof wpcom_adclk_network === "undefined" ) ? "" : wpcom_adclk_network ;
+
+		jQuery(document).ready( function() {
+			function wpcom_adclk_hover_yes() { wpcom_adclk_hovering = true; }
+			function wpcom_adclk_hover_no() { wpcom_adclk_hovering = false; }
+			jQuery(".wpa").click(wpcom_adclk_click);
+			jQuery(".wpa iframe").hover( wpcom_adclk_hover_yes, wpcom_adclk_hover_no );
+			jQuery(".wpa object").hover( wpcom_adclk_hover_yes, wpcom_adclk_hover_no );
+
+			jQuery(window).blur( function() {
+				if ( wpcom_adclk_hovering ) { wpcom_adclk_click(); }
+			});
+		});
+
+		function wpcom_adclk_impression() {
+			var stat_gif = document.location.protocol + "//stats.wordpress.com/g.gif?v=wpcom-no-pv";
+			stat_gif += "&x_ads_imp_theme=" + wpcom_adclk_theme;
+			stat_gif += "&x_ads_imp_placement="+wpcom_adclk_slot;
+			stat_gif += "&x_ads_imp_network=" + wpcom_adclk_network;
+			stat_gif += "&x_ads_imp_theme_network="+wpcom_adclk_theme+"_"+wpcom_adclk_network;
+			new Image().src = stat_gif + "&baba=" + Math.random();
+			return true;
+		}
+
+		function wpcom_adclk_click() {
+			if (wpcom_adclk_recorded) { return true; } // no double counting
+			var stat_gif = document.location.protocol + "//stats.wordpress.com/g.gif?v=wpcom-no-pv";
+			stat_gif += "&x_ads_click_theme=" + wpcom_adclk_theme;
+			stat_gif += "&x_ads_click_placement="+wpcom_adclk_slot;
+			stat_gif += "&x_ads_click_network=" + wpcom_adclk_network;
+			stat_gif += "&x_ads_click_theme_network="+wpcom_adclk_theme+"_"+wpcom_adclk_network;
+
+			new Image().src = stat_gif + "&baba=" + Math.random();
+			wpcom_adclk_recorded = true;
+			var now=new Date(); var end=now.getTime()+250;
+			while(true){now=new Date();if(now.getTime()>end){break;}}
+			return true;
+		}
+	
+if ( typeof GA_googleAddAttr == 'function' ) {
+GA_googleAddAttr("AdOpt", "1");
+GA_googleAddAttr("Origin", "other");
+GA_googleAddAttr("LangId", "58");
+GA_googleAddAttr("Domain", "spacerywirtualne.wordpress.com");
+GA_googleAddAttr("BlogId", "33639629");
+GA_googleAddAttr("PageURL", "http://spacerywirtualne.wordpress.com/2012/03/19/krpano/");
+GA_googleAddAttr("Tag", "panoramy-sferyczne-2");
+GA_googleAddAttr("Tag", "spacery_wirtualne");
+GA_googleAddAttr("Tag", "krpano");
+GA_googleAddAttr("Tag", "oprogramowanie-do-panoram");
+GA_googleAddAttr("Tag", "oprogramowanie-do-spacerow");
+GA_googleAddAttr("Tag", "spacery-wirtualne");
+GA_googleAddAttr("Tag", "wycieczki-wirtualne");
+GA_googleAddAttr("theme_bg", "ffffff");
+GA_googleAddAttr("theme_border", "d1d9dc");
+GA_googleAddAttr("theme_text", "516064");
+GA_googleAddAttr("theme_link", "ff8a00");
+GA_googleAddAttr("theme_url", "feb925");
+GA_googleAddAdSensePageAttr("google_page_url", "http://spacerywirtualne.wordpress.com/2012/03/19/krpano/");
+GA_googleFillSlot("wpcom_below_post");
+}
+</script>
+</div>
+<style type="text/css">
+div.wpa>div { margin-top: 1em; } #google_ads_div_wpcom_below_post_adsafe_ad_container { display: block !important; }
+</style>
+<script type="text/javascript">
+jQuery( window ).load( function() {
+    if ( jQuery(".wpa script[src*='virool.com']").length > 0 || jQuery(".wpa script[src*='shareth.ru']").length > 0 || jQuery(".wpa iframe[src*='boomvideo.tv']").length > 0 || jQuery(".wpa iframe[src*='viewablemedia.net']").length > 0 || jQuery(".wpa .sharethrough-placement").length > 0 ) {
+        jQuery( '.wpa' ).css( 'width', '400px' );
+    }
+setTimeout(function(){if(typeof GS_googleAddAdSenseService !== 'function'){new Image().src=document.location.protocol+"//stats.wordpress.com/g.gif?v=wpcom-no-pv&x_noads=adblock&baba="+Math.random()}},100);
+} );
+</script>
+<div id="jp-post-flair" class="sharedaddy sd-rating-enabled sd-like-enabled sd-sharing-enabled"><div class="sd-block sd-rating"><h3 class="sd-title">Oceń ten wpis:</h3><div class="pd-rating" id="pd_rating_holder_5622297_post_107"></div></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/?share=twitter" title="Udostępnij na Twitterze" id="sharing-twitter-107"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/?share=facebook" title="Share on Facebook" id="sharing-facebook-107"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-107"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-33639629-107-53230053566fb' data-src='//widgets.wp.com/likes/#blog_id=33639629&amp;post_id=107&amp;origin=spacerywirtualne.wordpress.com&amp;obj_id=33639629-107-53230053566fb' data-name='like-post-frame-33639629-107-53230053566fb'><h3 class='sd-title'>Dodaj do ulubionych:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height:55px'><span class='button'><span>Lubię</span></span> <span class="loading">Wczytywanie...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>
+			</div>
+
+	<div class="clearboth"><!-- --></div>
+
+	<div class="post-meta-data">Tagi <span><a href="http://spacerywirtualne.wordpress.com/tag/krpano/" rel="tag">KRPano</a>, <a href="http://spacerywirtualne.wordpress.com/tag/oprogramowanie-do-panoram/" rel="tag">oprogramowanie do panoram</a>, <a href="http://spacerywirtualne.wordpress.com/tag/oprogramowanie-do-spacerow/" rel="tag">oprogramowanie do spacerów</a>, <a href="http://spacerywirtualne.wordpress.com/tag/spacery-wirtualne/" rel="tag">spacery wirtualne</a>, <a href="http://spacerywirtualne.wordpress.com/tag/wycieczki-wirtualne/" rel="tag">wycieczki wirtualne</a></span></div>
+	<div class="post-meta-data">Kategorie <span><a href="http://spacerywirtualne.wordpress.com/category/panoramy-sferyczne-2/" title="Zobacz wszystkie wpisy z kategorii &#8222;Panoramy sferyczne&#8221;" rel="category tag">Panoramy sferyczne</a>, <a href="http://spacerywirtualne.wordpress.com/category/spacery_wirtualne/" title="Zobacz wszystkie wpisy z kategorii &#8222;Spacery wirtualne&#8221;" rel="category tag">Spacery wirtualne</a></span></div>
+
+</div><!-- #post-107 -->
+	
+<!-- You can start editing here. -->
+
+<div id="comment-wrapper">
+
+	<h3 id="comments">
+		<span class="comment-number">0 Comments</span>
+		<span class="comment-message">
+			<a href="#respond">Post your own</a> or leave a trackback: <a href="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/trackback/">Trackback URL</a>		</span>
+	</h3>
+
+	
+
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Dodaj komentarz <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/03/19/krpano/#respond" style="display:none;">Anuluj pisanie odpowiedzi</a></small></h3>
+									<form action="http://spacerywirtualne.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																										
+
+
+												<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="1140fdf1dc" /><input type="hidden" name="_wp_http_referer" value="/2012/03/19/krpano/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Wprowadź swój komentarz do tego pola...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Wprowadź swój komentarz do tego pola..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Wprowadź swoje dane lub kliknij jedną z tych ikon, aby się zalogować:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=http%3A%2F%2Fspacerywirtualne.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">E-mail <span class="required">(wymagane)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Podpis <span class="required">(wymagane)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Witryna internetowa</label>
+					<div class="comment-form-input"><input id="url" name="url" type="text" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="http://s2.wp.com/wp-content/mu-plugins/highlander-comments/images/wplogo.png?m=1391188133g" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> Komentujesz korzystając z konta WordPress.com. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Zmień</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> Komentujesz korzystając z konta Twitter. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Zmień</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> Komentujesz korzystając z konta Facebook. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Zmień</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> Komentujesz korzystając z konta Google+. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Zmień</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Anuluj</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+	
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" tabindex="6"/> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Powiadom mnie o nowych komentarzach poprzez e-mail.</label></p></div>
+
+												<p class="form-submit">
+							<input name="submit" type="submit" id="comment-submit" value="Opublikuj komentarz" />
+							<input type='hidden' name='comment_post_ID' value='107' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						
+<input type="hidden" name="genseq" value="1394802771" />
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c93cf30e8c" /></p><script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/akismet-2.5/form.js?m=1308783962g'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="173"/></p>					</form>
+							</div><!-- #respond -->
+			<div style="clear: both"></div>
+
+</div> <!-- end of comment-wrapper -->
+	<!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/"
+    dc:identifier="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/"
+    dc:title="KRPano"
+    trackback:ping="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/trackback/" />
+</rdf:RDF> -->
+
+	
+<div>
+
+<div class="center-column-sidebar">
+
+<div id="footer-widgets">
+		<ul id="footer-left" class="widget-area">
+		<li id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud"><h2 class="widgettitle"></h2>
+<div style="overflow:hidden"><a href='http://spacerywirtualne.wordpress.com/tag/bezzalogowe-statki-latajace/' class='tag-link-85118992' title='1 temat' style='font-size: 8pt;'>bezzałogowe statki latające</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/doklejanie-nadiru/' class='tag-link-82674926' title='1 temat' style='font-size: 8pt;'>doklejanie nadiru</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/drony/' class='tag-link-14133012' title='1 temat' style='font-size: 8pt;'>drony</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/dzwiek/' class='tag-link-1813734' title='1 temat' style='font-size: 8pt;'>dźwięk</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/dzwiek-przestrzenny/' class='tag-link-17421790' title='1 temat' style='font-size: 8pt;'>dźwięk przestrzenny</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/fotografia-panoramiczna/' class='tag-link-33725636' title='1 temat' style='font-size: 8pt;'>fotografia panoramiczna</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/galerie-zdjec/' class='tag-link-1425403' title='1 temat' style='font-size: 8pt;'>galerie zdjęć</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/gigapano/' class='tag-link-70616028' title='1 temat' style='font-size: 8pt;'>gigapano</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/gigapanorama/' class='tag-link-30526754' title='1 temat' style='font-size: 8pt;'>gigapanorama</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/gigapanoramy/' class='tag-link-30525906' title='1 temat' style='font-size: 8pt;'>gigapanoramy</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/glowica-do-panoram/' class='tag-link-120185364' title='1 temat' style='font-size: 8pt;'>głowica do panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/glowica-panoramiczna/' class='tag-link-82086892' title='1 temat' style='font-size: 8pt;'>głowica panoramiczna</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/glowica-panoraqmiczna/' class='tag-link-120185360' title='1 temat' style='font-size: 8pt;'>głowica panoraqmiczna</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/indywidualny-interfejs-graficzny/' class='tag-link-107522524' title='1 temat' style='font-size: 8pt;'>indywidualny interfejs graficzny</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/jak-zrobic-mala-planetke/' class='tag-link-92942773' title='1 temat' style='font-size: 8pt;'>jak zrobić małą planetkę</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/krpano/' class='tag-link-21436299' title='1 temat' style='font-size: 8pt;'>KRPano</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/mala-planetka/' class='tag-link-92942770' title='1 temat' style='font-size: 8pt;'>mała planetka</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/moduly-w-spacerach/' class='tag-link-83866851' title='1 temat' style='font-size: 8pt;'>moduły w spacerach</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/nodal-ninja-5/' class='tag-link-47360917' title='1 temat' style='font-size: 8pt;'>nodal ninja 5</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/nodal-point/' class='tag-link-9317714' title='1 temat' style='font-size: 8pt;'>Nodal point</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/npp/' class='tag-link-921925' title='1 temat' style='font-size: 8pt;'>NPP</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/obiektyw-szerokokatny/' class='tag-link-82086894' title='1 temat' style='font-size: 8pt;'>obiektyw szerokokątny</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/odtwarzacze-panoram/' class='tag-link-82932881' title='1 temat' style='font-size: 8pt;'>odtwarzacze panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/oprogramowanie-do-panoram/' class='tag-link-82640714' title='2 tematy' style='font-size: 11.111111111111pt;'>oprogramowanie do panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/oprogramowanie-do-spacerow/' class='tag-link-83278383' title='2 tematy' style='font-size: 11.111111111111pt;'>oprogramowanie do spacerów</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramiczna-kartka-z-zyczeniami/' class='tag-link-107550818' title='1 temat' style='font-size: 8pt;'>panoramiczna kartka z życzeniami</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-360/' class='tag-link-22810380' title='3 tematy' style='font-size: 13.185185185185pt;'>panoramy 360</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-czesciowe/' class='tag-link-92646678' title='1 temat' style='font-size: 8pt;'>panoramy częściowe</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-gorskie/' class='tag-link-84725481' title='1 temat' style='font-size: 8pt;'>panoramy górskie</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-hdr/' class='tag-link-88069784' title='1 temat' style='font-size: 8pt;'>Panoramy HDR</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-niepelne/' class='tag-link-92646679' title='1 temat' style='font-size: 8pt;'>panoramy niepełne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-sferyczne/' class='tag-link-10509895' title='11 tematów' style='font-size: 21.481481481481pt;'>panoramy sferyczne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-wirtualne/' class='tag-link-36020718' title='6 tematów' style='font-size: 17.506172839506pt;'>panoramy wirtualne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-zastosowanie/' class='tag-link-107551632' title='1 temat' style='font-size: 8pt;'>panoramy zastosowanie</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-z-lotu-ptaka/' class='tag-link-85118989' title='1 temat' style='font-size: 8pt;'>panoramy z lotu ptaka</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-z-wysokosci/' class='tag-link-85118990' title='1 temat' style='font-size: 8pt;'>panoramy z wysokości</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/panoramy-z-wysokosci-6m/' class='tag-link-85118991' title='1 temat' style='font-size: 8pt;'>panoramy z wysokości 6m</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/playery-panoram/' class='tag-link-82932880' title='1 temat' style='font-size: 8pt;'>playery panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/punkt-nodalny/' class='tag-link-82205583' title='2 tematy' style='font-size: 11.111111111111pt;'>punkt nodalny</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/reklama/' class='tag-link-37482' title='1 temat' style='font-size: 8pt;'>Reklama</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/sklejanie-panoram/' class='tag-link-82640716' title='2 tematy' style='font-size: 11.111111111111pt;'>sklejanie panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/sklejanie-zdjec/' class='tag-link-82640715' title='1 temat' style='font-size: 8pt;'>sklejanie zdjęć</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/spacery-wirtualne/' class='tag-link-82062746' title='12 tematów' style='font-size: 22pt;'>spacery wirtualne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/sprzet-do-panoram/' class='tag-link-82086893' title='1 temat' style='font-size: 8pt;'>sprzęt do panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/test-glowicy-nn5/' class='tag-link-120185367' title='1 temat' style='font-size: 8pt;'>test głowicy NN5</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/tworzenie-malych-planetek/' class='tag-link-92942772' title='1 temat' style='font-size: 8pt;'>tworzenie małych planetek</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/tworzenie-panoram-sferycznych/' class='tag-link-82414384' title='1 temat' style='font-size: 8pt;'>tworzenie panoram sferycznych</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/tworzenie-spacerow-wirtualnych/' class='tag-link-82414386' title='2 tematy' style='font-size: 11.111111111111pt;'>tworzenie spacerów wirtualnych</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/ustawianie-punktu-nodalnego/' class='tag-link-82205585' title='2 tematy' style='font-size: 11.111111111111pt;'>ustawianie punktu nodalnego</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wielkanoc/' class='tag-link-851008' title='1 temat' style='font-size: 8pt;'>wielkanoc</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wirtualne-wycieczki/' class='tag-link-32103491' title='1 temat' style='font-size: 8pt;'>wirtualne wycieczki</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wycieczki-wirtualne/' class='tag-link-51680147' title='3 tematy' style='font-size: 13.185185185185pt;'>wycieczki wirtualne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wyspa-wielkanocna/' class='tag-link-1906221' title='1 temat' style='font-size: 8pt;'>wyspa wielkanocna</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wyswietlanie-filmikow/' class='tag-link-107522518' title='1 temat' style='font-size: 8pt;'>wyświetlanie filmików</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/wyswietlanie-zdjec/' class='tag-link-107522515' title='1 temat' style='font-size: 8pt;'>wyświetlanie zdjęć</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/zautomatyzowana-glowica-do-panoram/' class='tag-link-109461185' title='1 temat' style='font-size: 8pt;'>zautomatyzowana głowica do panoram</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/zdjecia-do-panoram-sferycznych/' class='tag-link-82414385' title='1 temat' style='font-size: 8pt;'>zdjęcia do panoram sferycznych</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/zdjecia-panoramiczne/' class='tag-link-15735655' title='1 temat' style='font-size: 8pt;'>zdjęcia panoramiczne</a>
+<a href='http://spacerywirtualne.wordpress.com/tag/laczenie-zdjec/' class='tag-link-82640713' title='1 temat' style='font-size: 8pt;'>łączenie zdjęć</a></div></li>
+	</ul>
+	
+		<ul id="footer-middle" class="widget-area">
+		<li id="search-3" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://spacerywirtualne.wordpress.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></li>
+<li id="linkcat-1356" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.facebook.com/pages/Zwiedzanie-wirtualne/134523419967338" title="Nasze konto na facebooku">Facebook</a></li>
+<li><a href="http://www.zwiedzaniewirtualne.pl" title="Nasza autorska strona">zwiedzaniewirtualne.pl</a></li>
+
+	</ul>
+</li>
+
+		<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Najnowsze wpisy</h2>
+		<ul>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/10/24/nodal-ninja-5/">Nodal Ninja 5</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/09/01/gigapanoramy/">Gigapanoramy</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/08/21/panoramiczna-kartka-z-zyczeniami/">Panoramiczna kartka z życzeniami</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/05/23/mala-planetka/">Mała planetka</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/05/21/panoramy-czesciowe-partial-panoramas/">Panoramy częściowe (partial panoramas)</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/04/20/panoramy-hdr/">Panoramy HDR</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/04/07/wyspa-wielkanocna/">Wyspa wielkanocna</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/03/31/panoramy-z-lotu-ptaka/">Panoramy z lotu ptaka</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/03/28/reklama-czy-hobby/">Reklama czy hobby?</a>
+						</li>
+					<li>
+				<a href="http://spacerywirtualne.wordpress.com/2012/03/22/moduly-w-spacerach-wirtualnych/">Moduły w spacerach wirtualnych</a>
+						</li>
+				</ul>
+		</li>
+	</ul>
+	
+		<ul id="footer-right" class="widget-area">
+		<li id="facebook-likebox-2" class="widget widget_facebook_likebox"><h2 class="widgettitle"><a href="http://www.facebook.com/pages/Zwiedzanie-wirtualne/134523419967338">Zwiedzanie wirtualne</a></h2>
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FZwiedzanie-wirtualne%2F134523419967338&#038;width=200&#038;height=110&#038;colorscheme=light&#038;show_faces=false&#038;stream=false&#038;show_border=true&#038;header=false&#038;force_wall=false&#038;locale=pl_PL" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 200px;  height: 110px; background: #fff"></iframe></li>
+<li id="meta-3" class="widget widget_meta"><h2 class="widgettitle">Meta</h2>
+			<ul>
+			<li><a href="http://wordpress.com/signup/?ref=wplogin">Zarejestruj się</a></li>			<li><a href="http://spacerywirtualne.wordpress.com/wp-login.php">Zaloguj się</a></li>
+			<li><a href="http://spacerywirtualne.wordpress.com/feed/" title="Subskrybuj tę witrynę poprzez RSS 2.0">Kanał <abbr title="Really Simple Syndication">RSS</abbr> z wpisami</a></li>
+			<li><a href="http://spacerywirtualne.wordpress.com/comments/feed/" title="Najnowsze komentarze do wszystkich wpisów dostępne poprzez kanał RSS">Kanał <abbr title="Really Simple Syndication">RSS</abbr> z komentarzami</a></li>
+			<li><a href="http://wordpress.com/" title="Ta strona jest oparta na WordPressie &mdash; nowoczesnej, semantycznej, osobistej platformie publikacyjnej.">WordPress.com</a></li>						</ul>
+</li>
+	</ul>
+	</div>
+	<div class="clearboth"><!-- --></div>
+
+	<div id="footer">
+			<div class="credits">
+				<a href="http://pl.wordpress.com/?ref=footer">Blog na WordPress.com</a>.
+				<span class="sep"> | </span>
+				<a href="http://theme.wordpress.com/themes/wu-wei/" title="Learn more about this theme">The Wu Wei Theme</a> Autor motywu: <a href="http://equivocality.com" rel="designer">Jeff Ngan</a>.			</div>
+
+			<div class="bottom-link"><a href="#top">Back to the top</a></div>
+
+			<div class="clearboth"><!-- --></div>
+
+	</div>
+
+</div>
+
+<!-- Designed by Jeff Ngan - http://equivocality.com/wu-wei/ -->
+
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201411x'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Opublikuj komentarz","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Wyloguj si\u0119","loginText":"Zaloguj si\u0119","connectURL":"http:\/\/spacerywirtualne.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"http:\/\/spacerywirtualne.wordpress.com\/wp-login.php?action=logout&_wpnonce=a5ffb5be47","homeURL":"http:\/\/spacerywirtualne.wordpress.com\/","postID":"107","gravDefault":"identicon","enterACommentError":"Prosimy wprowadzi\u0107 komentarz","enterEmailError":"Please enter your email address here","invalidEmailError":"Nieprawid\u0142owy adres elektr.","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Zmie\u0144","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1393954584j'></script>
+
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;Panoramy sferyczne...&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Otrzymuj każdy nowy wpis na swoją skrzynkę e-mail.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+			
+			<p><input type="email" name="email" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="33639629"/>
+			<input type="hidden" name="source" value="http://spacerywirtualne.wordpress.com/2012/03/19/krpano/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="8baaf74903" /><input type="hidden" name="_wp_http_referer" value="/2012/03/19/krpano/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="http://wordpress.com/signup/?ref=lof">Silnik: WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "spacerywirtualne.wordpress.com";
+	</script>
+	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type='text/javascript' charset='UTF-8' id='polldaddyRatings'><!--//--><![CDATA[//><!--
+PDRTJS_settings_5622297_post_107={"id":5622297,"unique_id":"wp-post-107","title":"KRPano","permalink":"http:\/\/spacerywirtualne.wordpress.com\/2012\/03\/19\/krpano\/","item_id":"_post_107"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_5622297_post_107 == 'undefined' ){PDRTJS_5622297_post_107 = new PDRTJS_RATING( PDRTJS_settings_5622297_post_107 );}}
+//--><!]]></script><script type='text/javascript' charset='UTF-8' src='http://i0.poll.fm/js/rating/rating.js'></script>
+	<script type="text/javascript">
+		WPCOM_sharing_counts = {"http:\/\/spacerywirtualne.wordpress.com\/2012\/03\/19\/krpano\/":107}	</script>
+		<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+				<iframe src='http://widgets.wp.com/likes/master.html?ver=20140227#ver=20140227&amp;lang=pl&amp;mp6=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script type="text/javascript">
+		//<![CDATA[
+			var jetpackLikesWidgetQueue = [];
+			var jetpackLikesWidgetBatch = [];
+			var jetpackLikesMasterReady = false;
+
+			function JetpackLikespostMessage( message, target ) {
+				if ( "string" === typeof message ){
+					try{
+						message = JSON.parse( message );
+					}
+					catch(e) {
+						return;
+					}
+				}
+
+				pm( {
+					target: target,
+					type: 'likesMessage',
+					data: message,
+					origin: '*'
+				} );
+			}
+
+			function JetpackLikesBatchHandler() {
+				var requests = [];
+				jQuery( 'div.jetpack-likes-widget-unloaded' ).each( function( i ) {
+					if ( jetpackLikesWidgetBatch.indexOf( this.id ) > -1 )
+						return;
+					jetpackLikesWidgetBatch.push( this.id );
+					var regex = /like-(post|comment)-wrapper-(\d+)-(\d+)-(\w+)/;
+					var match = regex.exec( this.id );
+					if ( ! match || match.length != 5 )
+						return;
+
+					var info = {
+						blog_id: match[2],
+						width:   this.width
+					};
+
+					if ( 'post' == match[1] ) {
+						info.post_id = match[3];
+					} else if ( 'comment' == match[1] ) {
+						info.comment_id = match[3];
+					}
+
+					info.obj_id = match[4];
+
+					requests.push( info );
+				});
+
+				if ( requests.length > 0 ) {
+					JetpackLikespostMessage( { event: 'initialBatch', requests: requests }, window.frames['likes-master'] );
+				}
+			}
+
+			function JetpackLikesMessageListener( event ) {
+				if ( "undefined" == typeof event.event )
+					return;
+
+				if ( 'masterReady' == event.event ) {
+					jQuery( document ).ready( function() {
+						jetpackLikesMasterReady = true;
+
+						var stylesData = {
+								event: 'injectStyles'
+						};
+
+						if ( jQuery( 'iframe.admin-bar-likes-widget' ).length > 0 ) {
+							JetpackLikespostMessage( { event: 'adminBarEnabled' }, window.frames[ 'likes-master' ] );
+
+							stylesData.adminBarStyles = {
+								background: jQuery( '#wpadminbar .quicklinks li#wp-admin-bar-wpl-like > a' ).css( 'background' ),
+								isRtl: ( 'rtl' == jQuery( '#wpadminbar' ).css( 'direction' ) )
+							};
+						}
+
+						if ( !window.addEventListener )
+							jQuery( '#wp-admin-bar-admin-bar-likes-widget' ).hide();
+
+						stylesData.textStyles = {
+							color: jQuery( '.sd-text-color').css( 'color' ),
+							fontFamily: jQuery( '.sd-text-color' ).css( 'font-family' ),
+							fontSize: jQuery( '.sd-text-color' ).css( 'font-size' ),
+							direction: jQuery( '.sd-text-color' ).css( 'direction' ),
+							fontWeight: jQuery( '.sd-text-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-text-color' ).css( 'font-style' ),
+							textDecoration: jQuery( '.sd-text-color' ).css('text-decoration')
+						};
+
+						stylesData.linkStyles = {
+							color: jQuery( '.sd-link-color' ).css('color'),
+							fontFamily: jQuery( '.sd-link-color' ).css('font-family'),
+							fontSize: jQuery( '.sd-link-color' ).css('font-size'),
+							textDecoration: jQuery( '.sd-link-color' ).css('text-decoration'),
+							fontWeight: jQuery( '.sd-link-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-link-color' ).css( 'font-style' )
+						};
+
+						JetpackLikespostMessage( stylesData, window.frames[ 'likes-master' ] );
+
+						JetpackLikesBatchHandler();
+
+						jQuery( document ).on( 'inview', 'div.jetpack-likes-widget-unloaded', function() {
+							jetpackLikesWidgetQueue.push( this.id );
+						});
+					});
+				}
+
+				if ( 'showLikeWidget' == event.event ) {
+					jQuery( '#' + event.id + ' .post-likes-widget-placeholder'  ).fadeOut( 'fast', function() {
+						jQuery( '#' + event.id + ' .post-likes-widget' ).fadeIn( 'fast', function() {
+							JetpackLikespostMessage( { event: 'likeWidgetDisplayed', blog_id: event.blog_id, post_id: event.post_id, obj_id: event.obj_id }, window.frames['likes-master'] );
+						});
+					});
+				}
+
+				if ( 'clickReblogFlair' == event.event ) {
+					wpcom_reblog.toggle_reblog_box_flair( event.obj_id );
+				}
+
+				if ( 'showOtherGravatars' == event.event ) {
+					var $container = jQuery( '#likes-other-gravatars' );
+					var $list = $container.find( 'ul' );
+
+					$container.hide();
+					$list.html( '' );
+
+					$container.find( '.likes-text span' ).text( event.total );
+
+					jQuery.each( event.likers, function( i, liker ) {
+						$list.append( '<li class="' + liker.css_class + '"><a href="' + liker.profile_URL + '" class="wpl-liker" rel="nofollow" target="_parent"><img src="' + liker.avatar_URL + '" alt="' + liker.name + '" width="30" height="30" style="padding-right: 3px;" /></a></li>');
+					} );
+
+					var offset = jQuery( "[name='" + event.parent + "']" ).offset();
+
+					$container.css( 'left', offset.left + event.position.left - 10 + 'px' );
+					$container.css( 'top', offset.top + event.position.top - 33 + 'px' );
+
+					var rowLength = Math.floor( event.width / 37 );
+					var height = ( Math.ceil( event.likers.length / rowLength ) * 37 ) + 13;
+					if ( height > 204 ) {
+						height = 204;
+					}
+
+					$container.css( 'height', height + 'px' );
+					$container.css( 'width', rowLength * 37 - 7 + 'px' );
+
+					$list.css( 'width', rowLength * 37 + 'px' );
+
+					$container.fadeIn( 'slow' );
+
+					var scrollbarWidth = $list[0].offsetWidth - $list[0].clientWidth;
+					if ( scrollbarWidth > 0 ) {
+						$container.width( $container.width() + scrollbarWidth );
+						$list.width( $list.width() + scrollbarWidth );
+					}
+				}
+			}
+
+			pm.bind( 'likesMessage', function(e) { JetpackLikesMessageListener(e); } );
+
+			jQuery( document ).click( function( e ) {
+				var $container = jQuery( '#likes-other-gravatars' );
+
+				if ( $container.has( e.target ).length === 0 ) {
+					$container.fadeOut( 'slow' );
+				}
+			});
+
+			function JetpackLikesWidgetQueueHandler() {
+				var wrapperID;
+				if ( ! jetpackLikesMasterReady ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+					return;
+				}
+
+				if ( jetpackLikesWidgetQueue.length > 0 ) {
+					// We may have a widget that needs creating now
+					var found = false;
+					while( jetpackLikesWidgetQueue.length > 0 ) {
+						// Grab the first member of the queue that isn't already loading.
+						wrapperID = jetpackLikesWidgetQueue.splice( 0, 1 )[0];
+						if ( jQuery( '#' + wrapperID ).hasClass( 'jetpack-likes-widget-unloaded' ) ) {
+							found = true;
+							break;
+						}
+					}
+					if ( ! found ) {
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				} else if ( jQuery( 'div.jetpack-likes-widget-unloaded' ).length > 0 ) {
+					// Grab any unloaded widgets for a batch request
+					JetpackLikesBatchHandler();
+
+					// Get the next unloaded widget
+					wrapperID = jQuery( 'div.jetpack-likes-widget-unloaded' ).first()[0].id;
+					if ( ! wrapperID ) {
+						// Everything is currently loaded
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				}
+
+				if ( 'undefined' === typeof wrapperID ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+					return;
+				}
+
+				var $wrapper = jQuery( '#' + wrapperID );
+				$wrapper.find( 'iframe' ).remove();
+
+				if ( $wrapper.hasClass( 'slim-likes-widget' ) ) {
+					$wrapper.find( '.post-likes-widget-placeholder' ).after( "<iframe class='post-likes-widget jetpack-likes-widget' name='" + $wrapper.data( 'name' ) + "' height='22px' width='68px' frameBorder='0' scrolling='no' src='" + $wrapper.data( 'src' ) + "'></iframe>" );
+				} else {
+					$wrapper.find( '.post-likes-widget-placeholder' ).after( "<iframe class='post-likes-widget jetpack-likes-widget' name='" + $wrapper.data( 'name' ) + "' height='55px' width='100%' frameBorder='0' src='" + $wrapper.data( 'src' ) + "'></iframe>" );
+				}
+
+				$wrapper.removeClass( 'jetpack-likes-widget-unloaded' ).addClass( 'jetpack-likes-widget-loading' );
+
+				$wrapper.find( 'iframe' ).load( function( e ) {
+					var $iframe = jQuery( e.target );
+					$wrapper.removeClass( 'jetpack-likes-widget-loading' ).addClass( 'jetpack-likes-widget-loaded' );
+
+					JetpackLikespostMessage( { event: 'loadLikeWidget', name: $iframe.attr( 'name' ), width: $iframe.width() }, window.frames[ 'likes-master' ] );
+
+					if ( $wrapper.hasClass( 'slim-likes-widget' ) ) {
+						$wrapper.find( 'iframe' ).Jetpack( 'resizeable' );
+					}
+				});
+				setTimeout( JetpackLikesWidgetQueueHandler, 250 );
+			}
+			JetpackLikesWidgetQueueHandler();
+		//]]>
+		</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var recaptcha_options = {"lang":"en"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/_static/??/wp-content/js/devicepx.js,/wp-content/mu-plugins/post-flair/sharing/sharing.js?m=1394096990j'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="http://s.stats.wordpress.com/w.js?21" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'33639629','v':'wpcom','tz':'0','user_id':'0','post':'107','subd':'spacerywirtualne'});
+ex_go({'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRaTZjdDZZSHpITlNfL1NHM1dDa1FoWjJ5ODFLTHRtZCZTLlpmQ3xqZmE4P3NrUlYxUVE9K1ZKMXc2bDNqd0pXSXxnZEZDZkp5VzYvOXpBeUEsQjNmbk9INU0xVEFKP0VoenZRLmdifDUrSSxGNjhVOE9hX1JqQkImQkNpdVFkRUdFOHx2TEVNY3NrVTVCLG1PbTVNfnVPLjhISC01LlZLWEp3SC5vMUNzY2pvajNmMU1VfmhpL09DWjY0bGNhY21GVWh0aFVFVVlXYU1GTFhfTXBHSXJSLlMzb35meUFTQXZjOFB8PS9OREVjQ1slbnlxJTc5UGRlLVgmV2x8aTMuOGV4NEsuRy4/fD0yX258K1k4WGNOUURBfEc='});
+addLoadEvent(function(){linktracker_init('33639629',107);});
+	</script>
+<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
+PHafrAWuwrUf7S*UkEp&<div><div>
+ 
+ <div>
+ <p>KRPano, to potężne narzędzie do tworzenia spacerów wirtualnych, które przy podstawowej wiedzy programistycznej i dokupieniu kilu pluginów może okazać się najlepszym wyborem spośród podobnych programów. Możliwości tego programu są tak wielkie, że trudno byłoby opisać wszystko. Producent na swojej stronie krpano.com dosyć dokładnie opisuje wszystkie moduły i ich wykorzystanie. Kupując pakiet KRPano dostajemy również narzędzie do konwersji panoram ze sferycznych na kubiczne i z kubicznych na sferyczne oraz wiele innych pomocnych narzędzi. Oprogramowanie nie posiada interfejsu graficznego przez co operacje odbywają się za pomocą dropletów, a programowanie wewnątrz spaceru przy pomocy modyfikacji pliku xml (w edytorze html, bądź z pomocą dołączonego pluginu editor – tylko niektóre operacje). Poza tym na stronie KRPano dostępne jest obszerne <a href="http://krpano.com/forum/wbb/index.php?l=2">forum</a>, na którym możemy uzyskać odpowiedzi na dręczące nas problemy, lub dowiedzieć się jak zaprogramować indywidualnie poszczególne moduły. Praca z programem bywa trudna, za to jej efekt jest zazwyczaj co najmniej satysfakcjonujący. Na silniku KRPano opiera się program <a href="http://www.kolor.com/panotour-software-virtual-tours-360-home.html">Pano Tour</a> i Pano Tour Pro , które mają interfejs graficzny, jednak liczba możliwych do użycia modułów jest ograniczona w zależności od wersji.</p>
+<p> </p>
+<div><div>
+<h3>Dodaj do ulubionych:</h3>
+<p><span><span>Lubię</span></span> <span>Wczytywanie...</span></p>
+<span></span><a></a>
+</div></div>
+ </div>
+ <p></p>
+ 
+ 
+</div></div>PHafrAWuwrUf7S*UkEp&KRPano | Panoramy sferyczne...

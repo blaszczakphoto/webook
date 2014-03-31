@@ -1,0 +1,17 @@
+<!doctype html>  
+<head>
+	<meta charset="UTF-8">
+	<title>Some title</title>
+</head>
+<body>
+<% @subpages.each_with_index do |subpage, index| %>
+<h2 id="<%= index %>"><%= subpage.title%></h2>
+<h4><%= subpage.url%></h4>
+<%= raw subpage.content%>
+</br></br>
+<% end %>
+
+
+
+</body>
+</html>

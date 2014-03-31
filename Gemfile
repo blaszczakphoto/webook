@@ -12,7 +12,9 @@ gem "ruby-readability", :require => 'readability'
 gem "ruby-filemagic"
 
 gem 'sanitize'
+gem 'kindlegen'
 
+gem 'devise'
 
 #gem 'rack-cache', :require => 'rack/cache'
 #gem 'dragonfly', '~>0.9.15'
@@ -20,6 +22,9 @@ gem 'sanitize'
 #gem 'jquery-ui-rails'
 # gem 'jquery-rails'
 #gem "twitter-bootstrap-rails", :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+# gem "therubyracer"
+# gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 
 
 group :production do

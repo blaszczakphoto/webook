@@ -13,7 +13,8 @@ class PageRetriver
 			return false
 		else
 			if proper_response?
-				@content = ContentCleaner.force_utf(@response.read)
+				@content = @response.read
+				@content = ContentCleaner.force_utf(@content)
 				return @content if proper_content?
 			else
 				return false

@@ -1,0 +1,9 @@
+<h2>Convert links</h2>
+
+
+<%= form_for @book_task, :url => convert_links_create_path, :html => {:class => "convert"} do |f| %>
+<%= f.text_area :links, :placeholder => "Paste your links..."  %>
+<%= f.text_field :title, :class => "email", :placeholder => "Put title of your book" %>
+<%= f.text_field :email, :class => "email", :placeholder => "Put your email…" %>
+<button type="submit" class="btn">Start converting</button>
+<% end %>

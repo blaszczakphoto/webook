@@ -9,15 +9,15 @@ require 'fileutils'
 
 
 
-
 @urls_o = [
-"http://dokturjazon.blox.pl/html/1310721,262146,14,15.html?4,2010",
-"http://dokturjazon.blox.pl/2010/05/Niedziela.html",
+  "http://www.opoka.org.pl/biblioteka/T/TB/lukasz_zamyslenia04.html",
+  "http://dokturjazon.blox.pl/2011/03/Problemy-z-czasoprzestrzenia.html"
 ]
 
 
 
-dir = File.expand_path("spec/files/jazon_duplicate/", Rails.root)
+
+dir = File.expand_path("spec/files/opoka_znaki", Rails.root)
 FileUtils.rm_rf(dir) if File.directory?(dir)
 FileUtils.mkdir_p(dir)
 
@@ -48,7 +48,7 @@ end
 desc "I am short, but comprehensive description for my cool task"
 
 task download_page: [:environment] do
-  create_object_files(@urls_o, "o", dir)
+  create_files(@urls_o, "o", dir)
   # create_object_files(@urls_d, "d", dir)
 end
 
