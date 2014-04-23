@@ -9,7 +9,8 @@ class BookTaskController < ApplicationController
 				website = WebsiteCreator.create(task.links_as_array)
 				subpages = website.subpages
 			elsif task.name == "blog"
-				exploiter = PageExploiter.new(url)
+				website = Website.new(base_url: task.links)
+				exploiter = PageExploiter.new(website.base_url)
 				subpages = exploiter.exploit!
 			end
 
@@ -20,6 +21,8 @@ class BookTaskController < ApplicationController
 
 			# Send link to ebook via email
 			NotificationsMailer.new_message(task).deliver
+
+			task.delete
 		end
 		redirect_to "/"
 	end

@@ -1,5 +1,5 @@
 # coding: utf-8
-require "parser_helper"
+
 require "debugger"
 require "nokogiri"
 require "content_cleaner"
