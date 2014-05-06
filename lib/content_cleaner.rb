@@ -17,7 +17,7 @@ class ContentCleaner
 	def self.make_images_absolute(html, url)
 		@doc = Nokogiri::HTML(html)
 		@doc.search("img").each do |img| 
-			if !img.attribute("src").value.include?("http") || !img.attribute("src").value.include?("www")
+			if !img.attribute("src").value.include?("http") && !img.attribute("src").value.include?("www")
 				img.attribute("src").value = "%s/%s" % [base_url(url), img.attribute("src").value]
 			end
 		end
